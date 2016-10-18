@@ -27,8 +27,6 @@ Everything you need to start creating apps and bots using Cisco Spark.
 
 ## Creating a Spark App 
 
-## Creating a Spark Bot
-
 ...
 
 ## Using Spark with Swift (iOS) 
@@ -43,8 +41,14 @@ Everything you need to start creating apps and bots using Cisco Spark.
 
 ...
 
+## Creating a Spark Bot
+
+...
+
 ## Using Spark with Javascript (NodeJS)
 [Cisco Spark Bot SDK for Node JS](https://github.com/nmarus/flint)
+
+...
 
 ###Examples
 ####Getting data
