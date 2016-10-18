@@ -38,6 +38,7 @@ Everything you need to start creating apps and bots using Cisco Spark.
 ...
 
 ###Javascript - NodeJS
+[Cisco Spark Bot SDK for Node JS](https://github.com/nmarus/flint)
 ####Getting data
 ####Routing messages
 ####Posting data
