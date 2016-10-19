@@ -10,25 +10,28 @@ Everything you need to start creating apps and bots using Cisco Spark.
 
 ## Preresiquites
 
-...
-
+- To create apps using Spark APIs, first [sign up] (https://web.ciscospark.com/#/signin) for a Cisco Spark developer account
+- To start building bots, [create an account](https://www.gupshup.io/developer/home#) on Gupshup 
 
 ## Overview
 
-In Spark, conversations take place in virtual meeting rooms. Spark allows conversations to flow seamlessly between messages, video calls and real-time whiteboarding sessions. No other solution brings together so many facets of collaboration into a single unified platform.
+In Spark, conversations take place in virtual meeting rooms. Spark allows conversations to flow seamlessly between messages, video calls and real-time whiteboarding sessions. No other solution brings together so many facets of collaboration into a single unified platform.  [Download the Cisco Spark client app](https://www.ciscospark.com/downloads.html) for any device.
 
-Visit `developer.ciscospark.com` to [get started developing with Spark](https://developer.ciscospark.com/getting-started.html).
+Alternatively, view the [Quick Reference](https://developer.ciscospark.com/quick-reference.html) page to learn more about what is possible using Spark APIs.
 
+...
 
-And then, there are bots!
+###### But wait, there's more!
+Spark also provides the ability to create Spark Bots that can automate routine tasks and inject contextual content into meetings and group conversations.
+
 [What are Bots?](https://developer.ciscospark.com/bots.html)
 
 ... video/screenshots of sample bot app
 
-... downloading/using spark app
-
 
 ## Creating a Spark Bot
+
+Once you have created an account on developer.ciscospark.com:
 
 - Go to [My Apps](https://developer.ciscospark.com/apps.html) on the Spark developer portal
 - Click on the plus sign in the upper right
