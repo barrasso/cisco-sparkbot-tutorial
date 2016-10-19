@@ -15,15 +15,26 @@ Everything you need to start creating apps and bots using Cisco Spark.
 
 ...
 
-## Installation
 
-### Git Setup
+## Overview
 
-### NPM Setup
+... downloading/using spark app
+... video/screenshots of sample bot app
+
+## Creating a Spark Bot
 
 ...
 
-## Overview
+## Using Spark with Javascript (NodeJS)
+[Cisco Spark Bot SDK for Node JS](https://github.com/nmarus/flint)
+[Build & Deploy Bot on Cisco Spark](https://www.gupshup.io/developer/docs/bot-platform/guide/build-deploy-bot-on-cisco-spark)
+...
+
+###Examples
+####Getting data
+####Routing messages
+####Posting data
+####Webhooks
 
 ## Creating a Spark App 
 
@@ -41,29 +52,14 @@ Everything you need to start creating apps and bots using Cisco Spark.
 
 ...
 
-## Creating a Spark Bot
-
-...
-
-## Using Spark with Javascript (NodeJS)
-[Cisco Spark Bot SDK for Node JS](https://github.com/nmarus/flint)
-
-...
-
-###Examples
-####Getting data
-####Routing messages
-####Posting data
-####Webhooks
-
-## Using Python to Analyze Data
-### Machine learning
 
 ##Use Case Examples
 #### 1. Med Reminder Bot
+#### 2. Using Python to Analyze Data
 ...
 
 ## Design Tools and Resources
+...
 
 ## Links & References
 ...
