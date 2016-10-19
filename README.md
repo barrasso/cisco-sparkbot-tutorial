@@ -1,4 +1,4 @@
-# Cisco Spark Developer Kit
+# Cisco Spark Developer Guide
 Everything you need to start creating apps and bots using Cisco Spark. 
 
 <img src="https://boulder.startupweek.co/wp-content/uploads/sites/23/2016/05/Spark-Logo-bsw.png" alt="Cisco Spark" width=" 333px"/>
