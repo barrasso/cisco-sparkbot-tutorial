@@ -31,13 +31,13 @@ Spark also provides the ability to create Spark Bots that can automate routine t
 
 ## Creating a Spark Bot
 
-Once you have created an account on developer.ciscospark.com:
+Once you have created an account on [developer.ciscospark.com](developer.ciscospark.com):
 
-- Go to [My Apps](https://developer.ciscospark.com/apps.html) on the Spark developer portal
+- Navigate to [My Apps](https://developer.ciscospark.com/apps.html) on the Spark developer portal
 - Click on the plus sign in the upper right
-- Choose `Create a Bot`
+- Select `Create a Bot`
 - Enter in the basic information: e.g. the bot's display name, Spark username, and icon url
-- Once ready, choose `Add Bot`
+- Once ready, select `Add Bot`
 
 **Note:**
 
