@@ -17,7 +17,7 @@ Everything you need to start creating apps and bots using Cisco Spark.
 
 In Spark, conversations take place in virtual meeting rooms. Spark allows conversations to flow seamlessly between messages, video calls and real-time whiteboarding sessions. No other solution brings together so many facets of collaboration into a single unified platform.  [You can download the Cisco Spark client app here](https://www.ciscospark.com/downloads.html) for any device.
 
-Alternatively, view the [Quick Reference](https://developer.ciscospark.com/quick-reference.html) page to learn more about what is possible using Spark APIs.
+Alternatively, visit the [Quick Reference](https://developer.ciscospark.com/quick-reference.html) page to learn more about what is possible using Spark APIs.
 
 <screen shot of reference guide/>
 
@@ -59,6 +59,7 @@ Next, go to your [Gupshup Dashboard](https://www.gupshup.io/developer/dashboard)
 < add gupshup js IDE screenshots>
 
 <show communicating with spark bot after saving IDE code>
+
 ...
 
 ## Using Spark with Javascript (NodeJS)
