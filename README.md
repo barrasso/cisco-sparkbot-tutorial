@@ -55,9 +55,7 @@ After creating your bot, scroll down the page and you will be able to see the bo
 
 **Remember to copy the `Access Token` because you'll need it for later.**
 
-**Note:**
-
-`After creating a new bot, the bot's Access Token will only be displayed once.`
+`Note: After creating a new bot, the bot's Access Token will only be displayed once.`
 `Make sure to scroll down on the confirmation page, copy the token and keep it somewhere safe` 
 `If you misplace it, you can always generate a new one by finding the bot in My Apps and selecting "Regenerate Access Token" from the edit page.`
 
