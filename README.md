@@ -155,9 +155,13 @@ It listens for commits & comments on a particular repo and posts the details int
 
 ## Links & References
 
+- [Cisco Spark Developer Portal](https://developer.ciscospark.com/)
+- [Gupshup Developer Portal](https://www.gupshup.io/developer/home)
 - [Cisco Spark GitHub](https://github.com/ciscospark)
--
--
+- [Cisco Spark - iOS SDK](https://github.com/ciscospark/spark-ios-sdk)
+- [Cisco Spark - Java SDK](https://github.com/ciscospark/spark-java-sdk)
+- [Cisco Spark - Javascript SDK](https://github.com/ciscospark/spark-js-sdk)
+- [Cisco Spark Support](https://developer.ciscospark.com/support.html)
 
 ## License
 
