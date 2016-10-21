@@ -100,9 +100,9 @@ This will bring up the Gupshup IDE:
 
 ...
 
-[Cisco Spark Bot SDK for Node JS](https://github.com/nmarus/flint)
+Here is another tutorial with more code examples from Gupshup on how to [build & deploy your bot on Cisco Spark](https://www.gupshup.io/developer/docs/bot-platform/guide/build-deploy-bot-on-cisco-spark)
 
-[Build & Deploy Bot on Cisco Spark](https://www.gupshup.io/developer/docs/bot-platform/guide/build-deploy-bot-on-cisco-spark)
+Alternatively, you can create your own custom bot using the comprehensive [Cisco Spark Bot SDK for NodeJS](https://github.com/nmarus/flint) created by [@nmarus](https://github.com/nmarus).
 
 ## Creating a Spark App (Integration)
 
@@ -117,6 +117,8 @@ This process is very similar to creating a bot with Cisco Spark. Integrations ar
 - Enter a `Redirect URI` (This is used for [OAuth2](https://oauth.net/2/) authentication)
 - Next, select your required persmissions from the list of available `Scope` options
 - Once ready, select `Add Integration`
+
+
 ...
 
 ## Using Spark with Swift (iOS) 
@@ -131,13 +133,31 @@ This process is very similar to creating a bot with Cisco Spark. Integrations ar
 
 ...
 
-##Other Use Case Examples
+##Use Case Examples
+
 #### 1. Med Reminder Bot
-#### 2. Using Python to Analyze Data
+
+<brief description/>
+<gif of med reminder bot prototype flow/>
+
+#### 2. Doctor Telepresence App using Swift
+
+<brief description>
+<gif/video of telepresence app>
+
+#### 3. GitHub Bot using Python
+
+It listens for commits & comments on a particular repo and posts the details into a Spark room
+
+[](https://github.com/ciscospark/Spark-API-Demos/blob/master/SparkGitHubBot/github-bot.py)
+
 ...
 
 ## Links & References
-...
+
+- [Cisco Spark GitHub](https://github.com/ciscospark)
+-
+-
 
 ## License
 
