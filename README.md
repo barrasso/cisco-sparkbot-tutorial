@@ -10,31 +10,38 @@ Everything you need to start creating apps and bots using Cisco Spark.
 
 ## Preresiquites
 
-- First, [sign up] (https://web.ciscospark.com/#/signin) for a Cisco Spark developer account
-- To start building bots, [create an account](https://www.gupshup.io/developer/home#) on Gupshup 
+- First, [sign up](https://web.ciscospark.com/#/signin) for a Cisco Spark developer account
+- Second, [create an account](https://www.gupshup.io/developer/home#) on Gupshup 
 
 ## Overview
 
 In Spark, conversations take place in virtual meeting rooms. Spark allows conversations to flow seamlessly between messages, video calls and real-time whiteboarding sessions. No other solution brings together so many facets of collaboration into a single unified platform.  [You can download the Cisco Spark client app here](https://www.ciscospark.com/downloads.html) for any device.
+
+<img src="https://s25.postimg.org/e0hyo16qn/spark_app_cloud_1.png" alt="Cisco Spark API"/>
 
 Alternatively, visit the [Quick Reference](https://developer.ciscospark.com/quick-reference.html) page to learn more about what is possible using Spark APIs.
 
 <screen shot of reference guide/>
 
 
-###### But wait, there's more!
+#### But wait, there's more!
 Spark also provides the ability to create Spark Bots that can automate routine tasks and inject contextual content into meetings and group conversations.
+
+
+<img src="https://s25.postimg.org/g6c9ija73/bots_new_platform.png" alt="Spark Bots" height="333px"/>
 
 
 <insert img/gif of sample bots/>
 
 
-More on [What are Bots?](https://developer.ciscospark.com/bots.html)
+Alternatively, you can learn more details about what bots can do [here](https://developer.ciscospark.com/bots.html).
 
 
 ## Creating a Spark Bot
 
 Once you have created an account on [developer.ciscospark.com](developer.ciscospark.com):
+
+<img src="https://s25.postimg.org/s0t77nn8f/Screen_Shot_2016_10_21_at_11_14_40_AM.png"/>
 
 - Navigate to [My Apps](https://developer.ciscospark.com/apps.html) on the Spark developer portal
 - Click on the plus sign in the upper right corner
@@ -94,9 +101,6 @@ Next, go to your [Gupshup Dashboard](https://www.gupshup.io/developer/dashboard)
 ##Other Use Case Examples
 #### 1. Med Reminder Bot
 #### 2. Using Python to Analyze Data
-...
-
-## Design Tools and Resources
 ...
 
 ## Links & References
