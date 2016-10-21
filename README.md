@@ -56,20 +56,23 @@ After creating your bot, scroll down the page and you will be able to see the bo
 **Remember to copy the `Access Token` because you'll need it for later.**
 
 `Note: After creating a new bot, the bot's Access Token will only be displayed once.`
-`Make sure to scroll down on the confirmation page, copy the token and keep it somewhere safe` 
+`Make sure to scroll down on the confirmation page, copy the token and keep it somewhere safe.` 
 `If you misplace it, you can always generate a new one by finding the bot in My Apps and selecting "Regenerate Access Token" from the edit page.`
 
-#####Next, go to your [Gupshup Dashboard](https://www.gupshup.io/developer/dashboard) and click the plus sign in the upper right corner:
+#####Next, open up your [Gupshup Dashboard](https://www.gupshup.io/developer/dashboard), and click the plus sign in the upper right corner:
 
 <img src="https://s25.postimg.org/ivg901ufz/Screen_Shot_2016_10_20_at_4_26_17_PM.png"/>
 
 Then, create a bot using the popup wizard in Gupshup:
+
 <img src="https://s25.postimg.org/l7jnjwhnj/Screen_Shot_2016_10_20_at_4_20_20_PM.png"/>
 
 Fill out the basic bot information:
+
 <img src="https://s25.postimg.org/sc1gsxowv/Screen_Shot_2016_10_20_at_4_23_24_PM.png"/>
 
 Make sure the `Code Your Own Bot` option is checked and select `Create Bot`:
+
 <img src="https://s25.postimg.org/aoo98h4db/Screen_Shot_2016_10_20_at_4_25_55_PM.png"/>
 
 Now, go back to your Gupshup dashboard and select the `Channels` link underneath the `Publish` column:
