@@ -138,12 +138,12 @@ This process is very similar to creating a bot with Cisco Spark. Integrations ar
 
 ##Use Case Examples
 
-#### 1. Med Reminder Bot
+#### 1. Medicine Reminder Bot
 
 <brief description/>
 <gif of med reminder bot prototype flow/>
 
-#### 2. Doctor Telepresence App using Swift
+#### 2. Doctor Telepresence App
 
 <brief description>
 <gif/video of telepresence app>
