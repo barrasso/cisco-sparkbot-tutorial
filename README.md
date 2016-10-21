@@ -21,7 +21,7 @@ In Spark, conversations take place in virtual meeting rooms. Spark allows conver
 
 Alternatively, visit the [Quick Reference](https://developer.ciscospark.com/quick-reference.html) page to learn more about what is possible using Spark APIs.
 
-<screen shot of reference guide/>
+*screen shot of reference guide*
 
 
 #### But wait, there's more!
@@ -31,7 +31,7 @@ Spark also provides the ability to create [bots](https://en.wikipedia.org/wiki/I
 <img src="https://s25.postimg.org/g6c9ija73/bots_new_platform.png" alt="Spark Bots" height="333px"/>
 
 
-<insert img/gif of sample bots/>
+*insert img/gif of sample bots*
 
 
 Alternatively, you can learn more about what bots can do [here](https://developer.ciscospark.com/bots.html).
@@ -94,11 +94,11 @@ This will bring up the Gupshup IDE:
 
 <img src="https://s25.postimg.org/5aph0xen3/Screen_Shot_2016_10_20_at_4_38_23_PM.png"/>
 
-<add quick explanation of how it works, nodeJS, and how to use IDE>
+*add quick explanation of how it works, nodeJS, and how to use IDE*
 
-<add example code to show specific example works>
+*add example code to show specific example works*
 
-<show communicating with spark bot after saving IDE code>
+*show communicating with spark bot after saving IDE code*
 
 
 ...
@@ -140,13 +140,13 @@ This process is very similar to creating a bot with Cisco Spark. Integrations ar
 
 #### 1. Medicine Reminder Bot
 
-<brief description/>
-<gif of med reminder bot prototype flow/>
+*include brief description*
+*gif of med reminder bot prototype flow*
 
 #### 2. Doctor Telepresence App
 
-<brief description>
-<gif/video of telepresence app>
+*include brief description*
+*gif/video of telepresence app*
 
 #### 3. GitHub Bot using Python
 
@@ -154,7 +154,11 @@ It listens for commits & comments on a particular repo and posts the details int
 
 [](https://github.com/ciscospark/Spark-API-Demos/blob/master/SparkGitHubBot/github-bot.py)
 
+
+#### 4. Data Analytics Timeline Bot
+
 ...
+
 
 ## Links & References
 
