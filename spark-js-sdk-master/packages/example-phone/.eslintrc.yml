@@ -1,0 +1,13 @@
+extends:
+  - "../../.eslintrc-es6.yml"
+  - "../../.eslintrc-react.yml"
+rules:
+  # FIXME temporarily disable TODO warnings
+  no-warning-comments:
+    - 0
+  no-shadow:
+    - 0
+  react/jsx-no-bind:
+    - 0
+  react/require-optimization:
+    - 0
