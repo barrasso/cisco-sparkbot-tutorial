@@ -21,7 +21,7 @@ In Spark, conversations take place in virtual meeting rooms. Spark allows conver
 
 Alternatively, visit the [Quick Reference](https://developer.ciscospark.com/quick-reference.html) page to learn more about what is possible using Spark APIs.
 
-<screen shot of reference guide/>
+*screen shot of reference guide*
 
 
 #### But wait, there's more!
@@ -31,7 +31,7 @@ Spark also provides the ability to create [bots](https://en.wikipedia.org/wiki/I
 <img src="https://s25.postimg.org/g6c9ija73/bots_new_platform.png" alt="Spark Bots" height="333px"/>
 
 
-<insert img/gif of sample bots/>
+*insert img/gif of sample bots*
 
 
 Alternatively, you can learn more about what bots can do [here](https://developer.ciscospark.com/bots.html).
@@ -56,20 +56,23 @@ After creating your bot, scroll down the page and you will be able to see the bo
 **Remember to copy the `Access Token` because you'll need it for later.**
 
 `Note: After creating a new bot, the bot's Access Token will only be displayed once.`
-`Make sure to scroll down on the confirmation page, copy the token and keep it somewhere safe` 
+`Make sure to scroll down on the confirmation page, copy the token and keep it somewhere safe.` 
 `If you misplace it, you can always generate a new one by finding the bot in My Apps and selecting "Regenerate Access Token" from the edit page.`
 
-#####Next, go to your [Gupshup Dashboard](https://www.gupshup.io/developer/dashboard) and click the plus sign in the upper right corner:
+#####Next, open up your [Gupshup Dashboard](https://www.gupshup.io/developer/dashboard), and click the plus sign in the upper right corner:
 
 <img src="https://s25.postimg.org/ivg901ufz/Screen_Shot_2016_10_20_at_4_26_17_PM.png"/>
 
 Then, create a bot using the popup wizard in Gupshup:
+
 <img src="https://s25.postimg.org/l7jnjwhnj/Screen_Shot_2016_10_20_at_4_20_20_PM.png"/>
 
 Fill out the basic bot information:
+
 <img src="https://s25.postimg.org/sc1gsxowv/Screen_Shot_2016_10_20_at_4_23_24_PM.png"/>
 
 Make sure the `Code Your Own Bot` option is checked and select `Create Bot`:
+
 <img src="https://s25.postimg.org/aoo98h4db/Screen_Shot_2016_10_20_at_4_25_55_PM.png"/>
 
 Now, go back to your Gupshup dashboard and select the `Channels` link underneath the `Publish` column:
@@ -91,16 +94,20 @@ This will bring up the Gupshup IDE:
 
 <img src="https://s25.postimg.org/5aph0xen3/Screen_Shot_2016_10_20_at_4_38_23_PM.png"/>
 
-<add quick explanation of how it works, nodeJS, and how to use IDE>
+*add quick explanation of how it works, nodeJS, and how to use IDE*
 
-<add example code to show specific example works>
+*add example code to show specific example works*
 
-<show communicating with spark bot after saving IDE code>
+*show communicating with spark bot after saving IDE code*
+
+Here is another tutorial with more code examples from Gupshup on how to [build & deploy your bot on Cisco Spark](https://www.gupshup.io/developer/docs/bot-platform/guide/build-deploy-bot-on-cisco-spark)
+
+#### Coding Your Bot Locally
+
+##### Connecting to Local Postgres DB
 
 
 ...
-
-Here is another tutorial with more code examples from Gupshup on how to [build & deploy your bot on Cisco Spark](https://www.gupshup.io/developer/docs/bot-platform/guide/build-deploy-bot-on-cisco-spark)
 
 Alternatively, you can create your own custom bot using the comprehensive [Cisco Spark Bot SDK for NodeJS](https://github.com/nmarus/flint) created by [@nmarus](https://github.com/nmarus).
 
@@ -135,15 +142,15 @@ This process is very similar to creating a bot with Cisco Spark. Integrations ar
 
 ##Use Case Examples
 
-#### 1. Med Reminder Bot
+#### 1. Medicine Reminder Bot
 
-<brief description/>
-<gif of med reminder bot prototype flow/>
+*include brief description*
+*gif of med reminder bot prototype flow*
 
-#### 2. Doctor Telepresence App using Swift
+#### 2. Doctor Telepresence App
 
-<brief description>
-<gif/video of telepresence app>
+*include brief description*
+*gif/video of telepresence app*
 
 #### 3. GitHub Bot using Python
 
@@ -151,7 +158,11 @@ It listens for commits & comments on a particular repo and posts the details int
 
 [](https://github.com/ciscospark/Spark-API-Demos/blob/master/SparkGitHubBot/github-bot.py)
 
+
+#### 4. Data Analytics Timeline Bot
+
 ...
+
 
 ## Links & References
 
