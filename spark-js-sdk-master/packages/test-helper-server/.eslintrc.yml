@@ -1,6 +1,0 @@
-extends: "../../.eslintrc-es5.yml"
-rules:
-  func-names:
-    - 0
-  no-sync:
-    - 0
