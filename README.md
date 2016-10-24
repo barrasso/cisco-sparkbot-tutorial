@@ -100,10 +100,14 @@ This will bring up the Gupshup IDE:
 
 *show communicating with spark bot after saving IDE code*
 
+Here is another tutorial with more code examples from Gupshup on how to [build & deploy your bot on Cisco Spark](https://www.gupshup.io/developer/docs/bot-platform/guide/build-deploy-bot-on-cisco-spark)
+
+#### Coding Your Bot Locally
+
+##### Connecting to Local Postgres DB
+
 
 ...
-
-Here is another tutorial with more code examples from Gupshup on how to [build & deploy your bot on Cisco Spark](https://www.gupshup.io/developer/docs/bot-platform/guide/build-deploy-bot-on-cisco-spark)
 
 Alternatively, you can create your own custom bot using the comprehensive [Cisco Spark Bot SDK for NodeJS](https://github.com/nmarus/flint) created by [@nmarus](https://github.com/nmarus).
 
