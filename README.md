@@ -106,8 +106,6 @@ Here is another tutorial with more code examples from Gupshup on how to [build &
 
 ##### Connecting to Local Postgres DB
 
-##### Natural Language Processing with Spacy
-
 ...
 
 Alternatively, you can create your own custom bot using the comprehensive [Cisco Spark Bot SDK for NodeJS](https://github.com/nmarus/flint) created by [@nmarus](https://github.com/nmarus).
@@ -161,6 +159,8 @@ It listens for commits & comments on a particular repo and posts the details int
 
 
 #### 4. Data Analytics Timeline Bot
+
+##### Natural Language Processing with Spacy
 
 ...
 
