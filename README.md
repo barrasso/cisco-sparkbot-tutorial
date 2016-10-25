@@ -146,6 +146,9 @@ This process is very similar to creating a bot with Cisco Spark. Integrations ar
 *include brief description*
 *gif of med reminder bot prototype flow*
 
+<img src ="https://s25.postimg.org/6ft6h5wtb/bot_sample_iphone_1.png" width="200px"/>
+<img src="https://s25.postimg.org/d7jlk0lsv/bot_sample_iphone_2.png" width="200px"/>
+
 #### 2. Doctor Telepresence App
 
 *include brief description*
