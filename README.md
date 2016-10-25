@@ -127,21 +127,9 @@ This process is very similar to creating a bot with Cisco Spark. Integrations ar
 
 ...
 
-## Using Spark with Swift (iOS) 
-
-### Setup Project
-
-### Add API Keys
-
-### OAuth2 Authentication
-
-### Handling Spark API Calls
-
-...
-
 ##Use Case Examples
 
-#### 1. Medicine Reminder Bot
+#### 1. Virtual Medical Assistant Bot (NodeJS)
 
 *include brief description*
 *gif of med reminder bot prototype flow*
@@ -149,19 +137,30 @@ This process is very similar to creating a bot with Cisco Spark. Integrations ar
 <img src ="https://s25.postimg.org/6ft6h5wtb/bot_sample_iphone_1.png" width="200px"/>
 <img src="https://s25.postimg.org/d7jlk0lsv/bot_sample_iphone_2.png" width="200px"/>
 
-#### 2. Doctor Telepresence App
+#### 2. Doctor Telepresence Example App (Swift)
 
 *include brief description*
 *gif/video of telepresence app*
 
-#### 3. GitHub Bot using Python
+#### Setup Project
+
+#### Add API Keys
+
+#### OAuth2 Authentication
+
+#### Handling Spark API Calls
+
+...
+
+
+#### 3. GitHub Commit Bot (Python)
 
 It listens for commits & comments on a particular repo and posts the details into a Spark room
 
 [](https://github.com/ciscospark/Spark-API-Demos/blob/master/SparkGitHubBot/github-bot.py)
 
 
-#### 4. Data Analytics Timeline Bot
+#### 4. Data Analytics Timeline Bot (Python)
 
 ##### Natural Language Processing with Spacy
 
@@ -173,10 +172,12 @@ It listens for commits & comments on a particular repo and posts the details int
 - [Cisco Spark Developer Portal](https://developer.ciscospark.com/)
 - [Gupshup Developer Portal](https://www.gupshup.io/developer/home)
 - [Cisco Spark GitHub](https://github.com/ciscospark)
+- [Cisco Spark Support](https://developer.ciscospark.com/support.html)
+
+#### Spark SDKs
 - [Cisco Spark - iOS SDK](https://github.com/ciscospark/spark-ios-sdk)
 - [Cisco Spark - Java SDK](https://github.com/ciscospark/spark-java-sdk)
 - [Cisco Spark - Javascript SDK](https://github.com/ciscospark/spark-js-sdk)
-- [Cisco Spark Support](https://developer.ciscospark.com/support.html)
 
 ## License
 
