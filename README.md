@@ -6,7 +6,18 @@ Everything you need to start creating apps and bots using Cisco Spark.
 
 ## Contents 
 
-...
+- [Preresiquites](#preresiquites)
+- [Overview](#overview)
+- [Creating a Spark Bot](#creating-a-spark-bot)
+  - [Using Gupshup's IDE to Code Your Bot](#using-gupshups-ide-to-code-your-bot)
+- [Creating a Spark App](#creating-a-spark-app-integration)
+  - [Getting Started with iOS](#getting-started-with-ios)
+  - [Authorizing Your App Integration](#authorizing-your-app-integration)
+  - [Handling Access Tokens](#handling-access-tokens)
+  - [Invoking the APIs](#invoking-the-apis)
+- [Use Case Examples](#use-case-examples) 
+- [License](#license)
+
 
 ## Preresiquites
 
@@ -100,7 +111,7 @@ Here is another tutorial with more code examples from Gupshup on how to [build &
 
 Alternatively, you can also create your own custom bot using the comprehensive [Cisco Spark Bot SDK for NodeJS](https://github.com/nmarus/flint) created by [@nmarus](https://github.com/nmarus).
 
-## Creating a Spark App (Integration)
+## Creating a Spark App Integration
 
 This process is very similar to creating a bot with Cisco Spark. Integrations are a way for your apps to request permission to invoke the Spark APIs on behalf of other Spark users. The process used to request permission is called an OAuth Grant Flow, and is documented in the [Spark Integrations guide](https://developer.ciscospark.com/authentication.html).
 
@@ -280,33 +291,48 @@ class IncomingCallViewController: UIViewController, PhoneObserver {
 
 Also, be sure to check out the alternative [Spark iOS SDK examples](https://github.com/ciscospark/spark-ios-sdk-example)!
 
-...
 
 ##Use Case Examples
 
 #### 1. Virtual Medical Assistant Bot (NodeJS)
 
-*include brief description*
-*gif of med reminder bot prototype flow*
+You can create bots who act as virtual assistants to help users with tasks such as reminding them to take their medicine or scheduling and cancelling appointments.
 
 <img src="https://i.imgur.com/FC82Gc5.png" width="200px"/>
 <img src="https://imgur.com/m8obtqx.png" width="200px"/>
 
-#### 2. Doctor Telepresence Example App (Swift)
+To help you test your applications, [Epic](https://open.epic.com/) provides both an online testing harness, for playing sample calls, and a full-fledged instance of Epic, configured according to our recommendations, that you can POST and GET data from.
 
-...
+##### Invoking Open EPIC Sandbox API
+
+Perform GET calls with the following header: 
+```
+Accept: application/json
+```
+or else it will return the data in XML format.
+
+Sample patient data URL:
+```
+https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB 
+```
+
+Sample medicine data URL:
+```
+https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/MedicationOrder?patient=Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB
+```
+
+##### Natural Language Processing with Bots
 
 
-#### 3. GitHub Commit Bot (Python)
+insert spacy.io
+
+
+#### 2. GitHub Commit Bot (Python)
 
 It listens for commits & comments on a particular repo and posts the details into a Spark room
 
-[](https://github.com/ciscospark/Spark-API-Demos/blob/master/SparkGitHubBot/github-bot.py)
 
-
-#### 4. Data Analytics Timeline Bot (Python)
-
-##### Natural Language Processing with Spacy
+#### 3. Healthcare History Bot
 
 ...
 
