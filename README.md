@@ -17,7 +17,7 @@ Everything you need to start creating apps and bots using Cisco Spark.
 
 In Spark, conversations take place in virtual meeting rooms. Spark allows conversations to flow seamlessly between messages, video calls and real-time whiteboarding sessions. No other solution brings together so many facets of collaboration into a single unified platform.  [You can download the Cisco Spark client app here](https://www.ciscospark.com/downloads.html) for any device.
 
-![Cisco Spark API](http://i.imgur.com/HE7jb4K.png)
+![Cisco Spark API](https://i.imgur.com/HE7jb4K.png)
 
 Alternatively, visit the [Quick Reference](https://developer.ciscospark.com/quick-reference.html) page to learn more about what is possible using Spark APIs.
 
@@ -28,10 +28,8 @@ Alternatively, visit the [Quick Reference](https://developer.ciscospark.com/quic
 Spark also provides the ability to create [bots](https://en.wikipedia.org/wiki/Internet_bot) that can automate routine tasks and inject contextual content into meetings and group conversations.
 
 
-<img src="https://s25.postimg.org/g6c9ija73/bots_new_platform.png" alt="Spark Bots" height="333px"/>
+<img src="https://i.imgur.com/NgwaScg.png" alt="Spark Bots" height="333px"/>
 
-
-*insert img/gif of sample bots*
 
 
 Alternatively, you can learn more about what bots can do [here](https://developer.ciscospark.com/bots.html).
@@ -47,11 +45,11 @@ Alternatively, you can learn more about what bots can do [here](https://develope
 - Enter in the basic information: e.g. the bot's display name, Spark username, and icon url
 - Once ready, select `Add Bot`
 
-<img src="https://s25.postimg.org/s0t77nn8f/Screen_Shot_2016_10_21_at_11_14_40_AM.png"/>
+<img src="https://imgur.com/bh0AVpQ.png"/>
 
 After creating your bot, scroll down the page and you will be able to see the bot's `Access Token`.
 
-<img src="https://s25.postimg.org/ffo4qhx7j/Screen_Shot_2016_10_20_at_4_35_56_PM.png"/>
+<img src="https://imgur.com/JjSKo2b.png"/>
 
 **Remember to copy the `Access Token` because you'll need it for later.**
 
@@ -61,28 +59,28 @@ After creating your bot, scroll down the page and you will be able to see the bo
 
 #####Next, open up your [Gupshup Dashboard](https://www.gupshup.io/developer/dashboard), and click the plus sign in the upper right corner:
 
-<img src="https://s25.postimg.org/ivg901ufz/Screen_Shot_2016_10_20_at_4_26_17_PM.png"/>
+<img src="https://imgur.com/a/hf7Ab.png"/>
 
 Then, create a bot using the popup wizard in Gupshup:
 
-<img src="https://s25.postimg.org/l7jnjwhnj/Screen_Shot_2016_10_20_at_4_20_20_PM.png"/>
+<img src="https://imgur.com/a/X3XY1.png"/>
 
 Fill out the basic bot information:
 
-<img src="https://s25.postimg.org/sc1gsxowv/Screen_Shot_2016_10_20_at_4_23_24_PM.png"/>
+<img src="https://imgur.com/a/mW0CJ.png"/>
 
 Make sure the `Code Your Own Bot` option is checked and select `Create Bot`:
 
-<img src="https://s25.postimg.org/aoo98h4db/Screen_Shot_2016_10_20_at_4_25_55_PM.png"/>
+<img src="https://imgur.com/a/9E0OU.png"/>
 
 Now, go back to your Gupshup dashboard and select the `Channels` link underneath the `Publish` column:
 
-<img src="https://s25.postimg.org/w0vr65obj/Screen_Shot_2016_10_20_at_4_27_09_PM.png"/>
+<img src="https://imgur.com/a/894U9.png"/>
 
 Scroll down to the `Cisco Spark` row and click the `Publish` button.
 This will present a popup which prompts you to enter your `Access Token` copied from Spark:
 
-<img src="https://s25.postimg.org/u057lbs67/Screen_Shot_2016_10_20_at_4_37_26_PM.png"/>
+<img src="https://imgur.com/a/EMSgr.png"/>
 
 After submitting and publishing the `Access Token` to Gupshup, you have connected with your Cisco Spark Bot and can begin coding!
 
@@ -92,19 +90,11 @@ Go to your Gupshup Dashboard, and click on the `IDE` link underneath the `Develo
 
 This will bring up the Gupshup IDE:
 
-<img src="https://s25.postimg.org/5aph0xen3/Screen_Shot_2016_10_20_at_4_38_23_PM.png"/>
+<img src="https://imgur.com/a/5qRfq.png"/>
 
-*add quick explanation of how it works, nodeJS, and how to use IDE*
-
-*add example code to show specific example works*
-
-*show communicating with spark bot after saving IDE code*
+*add quick explanation of how it works, nodeJS, and how to use IDE, and deploy*
 
 Here is another tutorial with more code examples from Gupshup on how to [build & deploy your bot on Cisco Spark](https://www.gupshup.io/developer/docs/bot-platform/guide/build-deploy-bot-on-cisco-spark)
-
-#### Coding Your Bot Locally
-
-##### Connecting to Local Postgres DB
 
 ...
 
@@ -134,8 +124,8 @@ This process is very similar to creating a bot with Cisco Spark. Integrations ar
 *include brief description*
 *gif of med reminder bot prototype flow*
 
-<img src ="https://s25.postimg.org/6ft6h5wtb/bot_sample_iphone_1.png" width="200px"/>
-<img src="https://s25.postimg.org/d7jlk0lsv/bot_sample_iphone_2.png" width="200px"/>
+<img src="https://imgur.com/a/iWbOv.png" width="200px"/>
+<img src="https://imgur.com/a/xMV86.png" width="200px"/>
 
 #### 2. Doctor Telepresence Example App (Swift)
 
