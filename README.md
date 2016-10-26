@@ -280,7 +280,6 @@ class IncomingCallViewController: UIViewController, PhoneObserver {
 
 Also, be sure to check out the alternative [Spark iOS SDK examples](https://github.com/ciscospark/spark-ios-sdk-example)!
 
-...
 
 ##Use Case Examples
 
