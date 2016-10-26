@@ -310,22 +310,18 @@ Sample medicine data URL:
 https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/MedicationOrder?patient=Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB
 ```
 
-
-#### 2. Doctor Telepresence Example App (Swift)
-
-...
+##### Natural Language Processing with Bots
 
 
-#### 3. GitHub Commit Bot (Python)
+insert spacy.io
+
+
+#### 2. GitHub Commit Bot (Python)
 
 It listens for commits & comments on a particular repo and posts the details into a Spark room
 
-[](https://github.com/ciscospark/Spark-API-Demos/blob/master/SparkGitHubBot/github-bot.py)
 
-
-#### 4. Data Analytics Timeline Bot (Python)
-
-##### Natural Language Processing with Spacy
+#### 3. Healthcare History Bot
 
 ...
 
