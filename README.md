@@ -92,13 +92,13 @@ This will bring up the Gupshup IDE:
 
 <img src="https://imgur.com/YEmoCJh.png"/>
 
-*add quick explanation of how it works, nodeJS, and how to use IDE, and deploy*
+Now, you are all setup and ready to start coding your own bot!
 
-Here is another tutorial with more code examples from Gupshup on how to [build & deploy your bot on Cisco Spark](https://www.gupshup.io/developer/docs/bot-platform/guide/build-deploy-bot-on-cisco-spark)
+When you are ready to test, click the `Deploy` button to publish your code and update your bot.
 
-...
+Here is another tutorial with more code examples from Gupshup on how to [build & deploy your bot on Cisco Spark](https://www.gupshup.io/developer/docs/bot-platform/guide/build-deploy-bot-on-cisco-spark).
 
-Alternatively, you can create your own custom bot using the comprehensive [Cisco Spark Bot SDK for NodeJS](https://github.com/nmarus/flint) created by [@nmarus](https://github.com/nmarus).
+Alternatively, you can also create your own custom bot using the comprehensive [Cisco Spark Bot SDK for NodeJS](https://github.com/nmarus/flint) created by [@nmarus](https://github.com/nmarus).
 
 ## Creating a Spark App (Integration)
 
