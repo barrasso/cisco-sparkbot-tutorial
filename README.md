@@ -59,28 +59,28 @@ After creating your bot, scroll down the page and you will be able to see the bo
 
 #####Next, open up your [Gupshup Dashboard](https://www.gupshup.io/developer/dashboard), and click the plus sign in the upper right corner:
 
-<img src="https://imgur.com/a/hf7Ab.png"/>
+<img src="https://imgur.com/S8N0boh.png"/>
 
 Then, create a bot using the popup wizard in Gupshup:
 
-<img src="https://imgur.com/a/X3XY1.png"/>
+<img src="https://imgur.com/RBEboPx.png"/>
 
 Fill out the basic bot information:
 
-<img src="https://imgur.com/a/mW0CJ.png"/>
+<img src="https://imgur.com/gvu0gaW.png"/>
 
 Make sure the `Code Your Own Bot` option is checked and select `Create Bot`:
 
-<img src="https://imgur.com/a/9E0OU.png"/>
+<img src="https://imgur.com/8jmotCe.png"/>
 
 Now, go back to your Gupshup dashboard and select the `Channels` link underneath the `Publish` column:
 
-<img src="https://imgur.com/a/894U9.png"/>
+<img src="https://imgur.com/Rw4nD2r.png"/>
 
 Scroll down to the `Cisco Spark` row and click the `Publish` button.
 This will present a popup which prompts you to enter your `Access Token` copied from Spark:
 
-<img src="https://imgur.com/a/EMSgr.png"/>
+<img src="https://imgur.com/O155fZZ.png"/>
 
 After submitting and publishing the `Access Token` to Gupshup, you have connected with your Cisco Spark Bot and can begin coding!
 
@@ -90,7 +90,7 @@ Go to your Gupshup Dashboard, and click on the `IDE` link underneath the `Develo
 
 This will bring up the Gupshup IDE:
 
-<img src="https://imgur.com/a/5qRfq.png"/>
+<img src="https://imgur.com/YEmoCJh.png"/>
 
 *add quick explanation of how it works, nodeJS, and how to use IDE, and deploy*
 
@@ -124,8 +124,8 @@ This process is very similar to creating a bot with Cisco Spark. Integrations ar
 *include brief description*
 *gif of med reminder bot prototype flow*
 
-<img src="https://imgur.com/a/iWbOv.png" width="200px"/>
-<img src="https://imgur.com/a/xMV86.png" width="200px"/>
+<img src="https://i.imgur.com/FC82Gc5.png" width="200px"/>
+<img src="https://imgur.com/m8obtqx.png" width="200px"/>
 
 #### 2. Doctor Telepresence Example App (Swift)
 
