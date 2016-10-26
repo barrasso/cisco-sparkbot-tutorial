@@ -285,11 +285,31 @@ Also, be sure to check out the alternative [Spark iOS SDK examples](https://gith
 
 #### 1. Virtual Medical Assistant Bot (NodeJS)
 
-*include brief description*
-*gif of med reminder bot prototype flow*
+You can create bots who act as virtual assistants to help users with tasks such as reminding them to take their medicine or scheduling and cancelling appointments.
 
 <img src="https://i.imgur.com/FC82Gc5.png" width="200px"/>
 <img src="https://imgur.com/m8obtqx.png" width="200px"/>
+
+To help you test your applications, [Epic](https://open.epic.com/) provides both an online testing harness, for playing sample calls, and a full-fledged instance of Epic, configured according to our recommendations, that you can POST and GET data from.
+
+##### Invoking Open EPIC Sandbox API
+
+Perform GET calls with the following header: 
+```
+Accept: application/json
+```
+or else it will return the data in XML format.
+
+Sample patient data URL:
+```
+https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB 
+```
+
+Sample medicine data URL:
+```
+https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/MedicationOrder?patient=Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB
+```
+
 
 #### 2. Doctor Telepresence Example App (Swift)
 
