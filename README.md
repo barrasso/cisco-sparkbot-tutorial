@@ -21,8 +21,6 @@ In Spark, conversations take place in virtual meeting rooms. Spark allows conver
 
 Alternatively, visit the [Quick Reference](https://developer.ciscospark.com/quick-reference.html) page to learn more about what is possible using Spark APIs.
 
-*screen shot of reference guide*
-
 
 #### But wait, there's more!
 Spark also provides the ability to create [bots](https://en.wikipedia.org/wiki/Internet_bot) that can automate routine tasks and inject contextual content into meetings and group conversations.
@@ -113,6 +111,9 @@ This process is very similar to creating a bot with Cisco Spark. Integrations ar
 - Enter a `Redirect URI` (This is used for [OAuth2](https://oauth.net/2/) authentication)
 - Next, select your required persmissions from the list of available `Scope` options
 - Once ready, select `Add Integration`
+
+### Getting Started with iOS
+
 
 
 ...
