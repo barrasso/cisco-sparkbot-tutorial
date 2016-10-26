@@ -10,7 +10,14 @@ Everything you need to start creating apps and bots using Cisco Spark.
 - [Overview](#overview)
 - [Creating a Spark Bot](#creating-a-spark-bot)
   - [Using Gupshup's IDE to Code Your Bot](#using-gupshups-ide-to-code-your-bot)
-- [Creating a Spark Bot](#creating-a-spark-bot)
+- [Creating a Spark App](#creating-a-spark-app-integration)
+  - [Getting Started with iOS](#getting-started-with-ios)
+  - [Authorizing Your App Integration](#authorizing-your-app-integration)
+  - [Handling Access Tokens](#handling-access-tokens)
+  - [Invoking the APIs](#invoking-the-apis)
+- [Use Case Examples](#use-case-examples) 
+- [License](#license)
+
 
 ## Preresiquites
 
@@ -104,7 +111,7 @@ Here is another tutorial with more code examples from Gupshup on how to [build &
 
 Alternatively, you can also create your own custom bot using the comprehensive [Cisco Spark Bot SDK for NodeJS](https://github.com/nmarus/flint) created by [@nmarus](https://github.com/nmarus).
 
-## Creating a Spark App (Integration)
+## Creating a Spark App Integration
 
 This process is very similar to creating a bot with Cisco Spark. Integrations are a way for your apps to request permission to invoke the Spark APIs on behalf of other Spark users. The process used to request permission is called an OAuth Grant Flow, and is documented in the [Spark Integrations guide](https://developer.ciscospark.com/authentication.html).
 
