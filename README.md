@@ -17,7 +17,7 @@ Everything you need to start creating apps and bots using Cisco Spark.
 
 In Spark, conversations take place in virtual meeting rooms. Spark allows conversations to flow seamlessly between messages, video calls and real-time whiteboarding sessions. No other solution brings together so many facets of collaboration into a single unified platform.  [You can download the Cisco Spark client app here](https://www.ciscospark.com/downloads.html) for any device.
 
-<img src="https://s25.postimg.org/e0hyo16qn/spark_app_cloud_1.png" alt="Cisco Spark API"/>
+![Cisco Spark API](https://s25.postimg.org/e0hyo16qn/spark_app_cloud_1.png)
 
 Alternatively, visit the [Quick Reference](https://developer.ciscospark.com/quick-reference.html) page to learn more about what is possible using Spark APIs.
 
