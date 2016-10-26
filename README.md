@@ -294,7 +294,7 @@ Also, be sure to check out the alternative [Spark iOS SDK examples](https://gith
 
 ##Use Case Examples
 
-#### 1. Virtual Medical Assistant Bot (NodeJS)
+#### 1. Virtual Medical Assistant Bot
 
 You can create bots who act as virtual assistants to help users with tasks such as reminding them to take their medicine or scheduling and cancelling appointments.
 
@@ -332,7 +332,12 @@ insert spacy.io
 It listens for commits & comments on a particular repo and posts the details into a Spark room
 
 
-#### 3. Healthcare History Bot
+#### 3. Spark Room to SMS Bot (Python)
+
+...
+
+
+#### 4. Healthcare History Bot
 
 ...
 
