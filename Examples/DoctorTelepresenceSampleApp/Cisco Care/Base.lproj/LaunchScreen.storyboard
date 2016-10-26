@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Brand_Gradient" translatesAutoresizingMaskIntoConstraints="NO" id="oxY-Ph-XP6">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cisco_Logo_White" translatesAutoresizingMaskIntoConstraints="NO" id="8W0-3k-05J">
+                                <rect key="frame" x="75" y="74" width="451" height="451"/>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="8W0-3k-05J" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="54" id="CiH-ji-WOj"/>
+                            <constraint firstItem="8W0-3k-05J" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Cmz-rv-9r4"/>
+                            <constraint firstItem="oxY-Ph-XP6" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="DVS-oY-UPz"/>
+                            <constraint firstItem="8W0-3k-05J" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="55" id="Ezn-aS-Pgo"/>
+                            <constraint firstItem="oxY-Ph-XP6" firstAttribute="centerY" secondItem="8W0-3k-05J" secondAttribute="centerY" id="Fv5-JP-dNs"/>
+                            <constraint firstItem="oxY-Ph-XP6" firstAttribute="centerX" secondItem="8W0-3k-05J" secondAttribute="centerX" id="QCl-pm-9Aw"/>
+                            <constraint firstItem="oxY-Ph-XP6" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="a9U-Xc-HlH"/>
+                            <constraint firstItem="8W0-3k-05J" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="n8F-DS-p6b"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Brand_Gradient" width="750" height="1334"/>
+        <image name="Cisco_Logo_White" width="612" height="792"/>
+    </resources>
+</document>

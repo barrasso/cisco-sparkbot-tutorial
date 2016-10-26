@@ -1,0 +1,6 @@
+framework module Pods_Cisco_Care {
+  umbrella header "Pods-Cisco Care-umbrella.h"
+
+  export *
+  module * { export * }
+}

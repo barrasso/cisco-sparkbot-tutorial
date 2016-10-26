@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="L1V-5T-AOb">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Booking View Controller-->
+        <scene sceneID="lyq-IP-iJx">
+            <objects>
+                <tableViewController id="L1V-5T-AOb" customClass="CHCBookingViewController" customModule="Cisco_Care" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="adj-Mf-ycN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BookingCell" id="p2g-4q-xwG">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="p2g-4q-xwG" id="khz-qa-vPq">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="L1V-5T-AOb" id="9qI-sY-KcI"/>
+                            <outlet property="delegate" destination="L1V-5T-AOb" id="Xfi-v2-Iod"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <segue destination="op3-Mb-BDN" kind="show" identifier="showMapView" id="3Qa-xw-j0I"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Heq-kH-pU4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="383" y="-487"/>
+        </scene>
+        <!--Calendar Selector View Controller-->
+        <scene sceneID="U9H-ye-JGx">
+            <objects>
+                <viewController id="7JG-NL-FII" customClass="CHCCalendarSelectorViewController" customModule="Cisco_Care" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IgY-MO-GzT"/>
+                        <viewControllerLayoutGuide type="bottom" id="Yvr-pR-E1u"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="R3s-ep-Koe">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appointments" translatesAutoresizingMaskIntoConstraints="NO" id="TdW-Oz-kin">
+                                <rect key="frame" x="213" y="56" width="175" height="167"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="175" id="TXU-6I-l1d"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose your desired appointment time and date" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nd0-Q0-cHR">
+                                <rect key="frame" x="55" y="231" width="490" height="94"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="94" id="Gj5-hR-Lqg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SqR-fp-dsN">
+                                <rect key="frame" x="55" y="381" width="490" height="52"/>
+                                <color key="backgroundColor" red="0.12941176469999999" green="0.58823529409999997" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="nIg-5R-RDy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                <state key="normal" title="Schedule ASAP">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="scheduleASAPTouchUpInside:" destination="7JG-NL-FII" eventType="touchUpInside" id="DpN-HR-BBr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHV-4B-otK">
+                                <rect key="frame" x="55" y="481" width="490" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="Kxv-kl-P58"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <state key="normal" title="Select another time">
+                                    <color key="titleColor" red="0.12941176469999999" green="0.58823529409999997" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="openCalendarTouchUpInside:" destination="7JG-NL-FII" eventType="touchUpInside" id="rnu-um-XDP"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v45-m2-DGe">
+                                <rect key="frame" x="55" y="449" width="490" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="txZ-Ac-Dvu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SqR-fp-dsN" firstAttribute="leading" secondItem="v45-m2-DGe" secondAttribute="leading" id="BsY-nd-qgL"/>
+                            <constraint firstItem="nd0-Q0-cHR" firstAttribute="trailing" secondItem="SqR-fp-dsN" secondAttribute="trailing" id="H9P-0n-L30"/>
+                            <constraint firstItem="v45-m2-DGe" firstAttribute="trailing" secondItem="XHV-4B-otK" secondAttribute="trailing" id="UHN-7p-kXW"/>
+                            <constraint firstItem="TdW-Oz-kin" firstAttribute="centerX" secondItem="R3s-ep-Koe" secondAttribute="centerX" id="VCN-Yr-64F"/>
+                            <constraint firstItem="nd0-Q0-cHR" firstAttribute="top" secondItem="TdW-Oz-kin" secondAttribute="bottom" constant="8" symbolic="YES" id="VMX-QU-igZ"/>
+                            <constraint firstItem="SqR-fp-dsN" firstAttribute="top" secondItem="nd0-Q0-cHR" secondAttribute="bottom" constant="56" id="Y1v-A4-0OZ"/>
+                            <constraint firstItem="v45-m2-DGe" firstAttribute="top" secondItem="SqR-fp-dsN" secondAttribute="bottom" constant="16" id="aER-fK-s43"/>
+                            <constraint firstItem="XHV-4B-otK" firstAttribute="top" secondItem="v45-m2-DGe" secondAttribute="bottom" constant="12" id="bJA-W7-uQp"/>
+                            <constraint firstItem="v45-m2-DGe" firstAttribute="leading" secondItem="XHV-4B-otK" secondAttribute="leading" id="bim-Tf-mUm"/>
+                            <constraint firstItem="nd0-Q0-cHR" firstAttribute="leading" secondItem="SqR-fp-dsN" secondAttribute="leading" id="gIT-2j-5x6"/>
+                            <constraint firstItem="TdW-Oz-kin" firstAttribute="centerX" secondItem="nd0-Q0-cHR" secondAttribute="centerX" id="hnd-N1-tLe"/>
+                            <constraint firstItem="nd0-Q0-cHR" firstAttribute="leading" secondItem="R3s-ep-Koe" secondAttribute="leadingMargin" constant="35" id="iZk-ck-4FN"/>
+                            <constraint firstItem="SqR-fp-dsN" firstAttribute="trailing" secondItem="v45-m2-DGe" secondAttribute="trailing" id="j9G-yD-SFf"/>
+                            <constraint firstItem="Yvr-pR-E1u" firstAttribute="top" secondItem="XHV-4B-otK" secondAttribute="bottom" constant="86" id="rRC-AI-tau"/>
+                            <constraint firstItem="TdW-Oz-kin" firstAttribute="top" secondItem="IgY-MO-GzT" secondAttribute="bottom" constant="36" id="z5o-io-H95"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="openCalendarButton" destination="XHV-4B-otK" id="uzX-GW-8p3"/>
+                        <outlet property="scheduleASAPButton" destination="SqR-fp-dsN" id="yEf-0N-N3j"/>
+                        <segue destination="AQu-mp-ld5" kind="show" identifier="showPaymentForm" id="uAA-b0-jih"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="no7-jH-qLm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1743" y="-487"/>
+        </scene>
+        <!--Booking Payment Form View Controller-->
+        <scene sceneID="uPT-9K-96f">
+            <objects>
+                <tableViewController id="AQu-mp-ld5" customClass="CHCBookingPaymentFormViewController" customModule="Cisco_Care" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="vCZ-VZ-H6h">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PaymentFormCell" id="h8J-3u-7SH">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="h8J-3u-7SH" id="EXQ-vh-bHI">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="AQu-mp-ld5" id="3Ne-nc-JcA"/>
+                            <outlet property="delegate" destination="AQu-mp-ld5" id="Gkn-cw-CsY"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yym-7J-k5V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2512" y="-487"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="vA9-hc-XjL">
+            <objects>
+                <viewController id="op3-Mb-BDN" customClass="CHCMapViewController" customModule="Cisco_Care" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="asB-hH-SlU"/>
+                        <viewControllerLayoutGuide type="bottom" id="TOd-wv-wl2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bFU-bj-mwU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ue0-Qp-DVo">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="374"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="374" id="YXl-Wx-9qC"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="op3-Mb-BDN" id="Xsu-sy-g1A"/>
+                                </connections>
+                            </mapView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tpa-R9-RXB">
+                                <rect key="frame" x="0.0" y="376" width="600" height="183"/>
+                                <subviews>
+                                    <pickerView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hjp-aU-JRk">
+                                        <rect key="frame" x="0.0" y="82" width="600" height="101"/>
+                                    </pickerView>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selected Pharmacy: " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lbx-Hn-T2Z">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="74"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="74" id="P96-gA-FXj"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="Hjp-aU-JRk" firstAttribute="leading" secondItem="Tpa-R9-RXB" secondAttribute="leading" id="4LF-7N-J0u"/>
+                                    <constraint firstItem="Lbx-Hn-T2Z" firstAttribute="top" secondItem="Tpa-R9-RXB" secondAttribute="top" id="4kd-5X-X0V"/>
+                                    <constraint firstItem="Hjp-aU-JRk" firstAttribute="top" secondItem="Lbx-Hn-T2Z" secondAttribute="bottom" constant="8" id="cwq-18-ODH"/>
+                                    <constraint firstAttribute="trailing" secondItem="Hjp-aU-JRk" secondAttribute="trailing" id="iK3-vj-WKj"/>
+                                    <constraint firstItem="Lbx-Hn-T2Z" firstAttribute="leading" secondItem="Hjp-aU-JRk" secondAttribute="leading" id="m5f-xF-mb6"/>
+                                    <constraint firstItem="Lbx-Hn-T2Z" firstAttribute="trailing" secondItem="Hjp-aU-JRk" secondAttribute="trailing" id="pbj-1R-BQZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="Hjp-aU-JRk" secondAttribute="bottom" id="tyq-yi-4Gz"/>
+                                </constraints>
+                            </view>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F0F-R6-CEw">
+                                <rect key="frame" x="277" y="561" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="UXv-Xf-yJu"/>
+                                    <constraint firstAttribute="height" constant="30" id="Xfa-NI-Tlh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                <state key="normal" title="skip">
+                                    <color key="titleColor" red="0.12941176469999999" green="0.58823529409999997" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ue0-Qp-DVo" firstAttribute="leading" secondItem="bFU-bj-mwU" secondAttribute="leading" id="C5T-w6-UHp"/>
+                            <constraint firstItem="Tpa-R9-RXB" firstAttribute="trailing" secondItem="Ue0-Qp-DVo" secondAttribute="trailing" id="EPg-2W-gXM"/>
+                            <constraint firstItem="F0F-R6-CEw" firstAttribute="top" secondItem="Tpa-R9-RXB" secondAttribute="bottom" constant="2" id="IH0-iT-96e"/>
+                            <constraint firstItem="Tpa-R9-RXB" firstAttribute="leading" secondItem="Ue0-Qp-DVo" secondAttribute="leading" id="KNL-fV-NZe"/>
+                            <constraint firstItem="Tpa-R9-RXB" firstAttribute="top" secondItem="Ue0-Qp-DVo" secondAttribute="bottom" constant="2" id="MMN-Ka-gYJ"/>
+                            <constraint firstAttribute="trailing" secondItem="Ue0-Qp-DVo" secondAttribute="trailing" id="U2L-5T-BeO"/>
+                            <constraint firstItem="Ue0-Qp-DVo" firstAttribute="top" secondItem="bFU-bj-mwU" secondAttribute="top" id="b4h-GW-EFU"/>
+                            <constraint firstItem="Tpa-R9-RXB" firstAttribute="centerX" secondItem="F0F-R6-CEw" secondAttribute="centerX" id="hWj-ce-NcD"/>
+                            <constraint firstItem="TOd-wv-wl2" firstAttribute="top" secondItem="F0F-R6-CEw" secondAttribute="bottom" constant="9" id="tgc-AF-YIt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="Ue0-Qp-DVo" id="Wg9-Q6-ctI"/>
+                        <outlet property="mapViewHeightConstraint" destination="YXl-Wx-9qC" id="LGD-XV-cdm"/>
+                        <outlet property="pickerView" destination="Hjp-aU-JRk" id="IiW-Rt-Xs0"/>
+                        <outlet property="selectedPharmacyLabel" destination="Lbx-Hn-T2Z" id="4CB-w7-aPd"/>
+                        <outlet property="skipButton" destination="F0F-R6-CEw" id="ETM-2a-bIB"/>
+                        <segue destination="7JG-NL-FII" kind="show" identifier="showCalendarView" id="apD-co-e7f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OTe-hY-Yw2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1065" y="-487"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="appointments" width="128" height="128"/>
+    </resources>
+</document>

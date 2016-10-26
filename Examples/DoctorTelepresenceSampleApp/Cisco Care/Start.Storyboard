@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="k6n-qK-9UP">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--PageContentViewController-->
+        <scene sceneID="ETS-dz-pmP">
+            <objects>
+                <viewController storyboardIdentifier="PageContentViewController" title="PageContentViewController" id="M0s-ts-cag" customClass="CHCPageContentViewController" customModule="Cisco_Care" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vJ0-bw-rb7"/>
+                        <viewControllerLayoutGuide type="bottom" id="Bps-d2-FnU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MXo-a7-T79">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Onboarding" translatesAutoresizingMaskIntoConstraints="NO" id="qpi-Z2-W5m">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lvf-kE-17m" userLabel="Signin Button View">
+                                <rect key="frame" x="20" y="472" width="560" height="75"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LT5-Ms-mKm">
+                                        <rect key="frame" x="4" y="0.0" width="552" height="75"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
+                                        <state key="normal" title="Sign In with Cisco Spark">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="signupButtonTouchUpInside:" destination="M0s-ts-cag" eventType="touchUpInside" id="yK9-8I-YYm"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="026-n4-ppJ"/>
+                                    <constraint firstItem="LT5-Ms-mKm" firstAttribute="leading" secondItem="Lvf-kE-17m" secondAttribute="leading" constant="4" id="Cbr-eM-k80"/>
+                                    <constraint firstItem="LT5-Ms-mKm" firstAttribute="centerX" secondItem="Lvf-kE-17m" secondAttribute="centerX" id="TPV-9k-enL"/>
+                                    <constraint firstAttribute="bottom" secondItem="LT5-Ms-mKm" secondAttribute="bottom" id="Zt8-Bp-xyD"/>
+                                    <constraint firstItem="LT5-Ms-mKm" firstAttribute="top" secondItem="Lvf-kE-17m" secondAttribute="top" id="hBD-mH-jc0"/>
+                                </constraints>
+                            </view>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="cPJ-kv-Mif">
+                                <rect key="frame" x="20" y="555" width="560" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="xDg-VD-RUq"/>
+                                </constraints>
+                                <color key="pageIndicatorTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </pageControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PageContent Title Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uWc-P4-RT9">
+                                <rect key="frame" x="20" y="20" width="560" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="6zd-gS-UGm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uWc-P4-RT9" firstAttribute="trailing" secondItem="Lvf-kE-17m" secondAttribute="trailing" id="0yi-cO-gPQ"/>
+                            <constraint firstItem="Lvf-kE-17m" firstAttribute="leading" secondItem="MXo-a7-T79" secondAttribute="leadingMargin" id="5f4-Ft-Lbv"/>
+                            <constraint firstItem="Lvf-kE-17m" firstAttribute="leading" secondItem="cPJ-kv-Mif" secondAttribute="leading" id="BB3-H5-Xji"/>
+                            <constraint firstAttribute="trailing" secondItem="qpi-Z2-W5m" secondAttribute="trailing" id="G9S-1y-WS2"/>
+                            <constraint firstItem="uWc-P4-RT9" firstAttribute="leading" secondItem="Lvf-kE-17m" secondAttribute="leading" id="GZ8-Ga-hM5"/>
+                            <constraint firstItem="qpi-Z2-W5m" firstAttribute="centerX" secondItem="cPJ-kv-Mif" secondAttribute="centerX" id="TAd-q8-clL"/>
+                            <constraint firstItem="qpi-Z2-W5m" firstAttribute="top" secondItem="MXo-a7-T79" secondAttribute="top" id="YeA-TT-D5l"/>
+                            <constraint firstItem="Lvf-kE-17m" firstAttribute="trailing" secondItem="cPJ-kv-Mif" secondAttribute="trailing" id="bn2-b0-dHQ"/>
+                            <constraint firstItem="uWc-P4-RT9" firstAttribute="top" secondItem="qpi-Z2-W5m" secondAttribute="top" constant="20" id="cP0-hL-AZo"/>
+                            <constraint firstItem="qpi-Z2-W5m" firstAttribute="bottom" secondItem="Bps-d2-FnU" secondAttribute="top" id="iNb-7z-td3"/>
+                            <constraint firstItem="qpi-Z2-W5m" firstAttribute="leading" secondItem="MXo-a7-T79" secondAttribute="leading" id="jMj-V3-qqi"/>
+                            <constraint firstItem="Bps-d2-FnU" firstAttribute="top" secondItem="cPJ-kv-Mif" secondAttribute="bottom" constant="8" symbolic="YES" id="pg4-OT-e1K"/>
+                            <constraint firstItem="cPJ-kv-Mif" firstAttribute="top" secondItem="Lvf-kE-17m" secondAttribute="bottom" constant="8" id="wnl-IZ-XWB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="onboardContentImageView" destination="qpi-Z2-W5m" id="8Pc-mh-Jg4"/>
+                        <outlet property="pageControl" destination="cPJ-kv-Mif" id="usa-PK-mvr"/>
+                        <outlet property="signupButton" destination="LT5-Ms-mKm" id="4V3-t3-PZp"/>
+                        <outlet property="titleLabel" destination="uWc-P4-RT9" id="ehU-ad-IdR"/>
+                        <segue destination="Jja-Hl-td0" kind="show" identifier="showMainTabBarController" id="UbW-cm-q1W"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xtw-Sf-iTo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="329" y="12"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="MsK-sz-kty">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="Jja-Hl-td0" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RaH-Sy-hgs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="895.5" y="12"/>
+        </scene>
+        <!--PageViewController-->
+        <scene sceneID="hfC-7b-Fsl">
+            <objects>
+                <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" title="PageViewController" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="k6n-qK-9UP" customClass="CHCPageViewController" customModule="Cisco_Care" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o6O-sS-gcc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="329" y="666"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Onboarding" width="750" height="1334"/>
+    </resources>
+</document>

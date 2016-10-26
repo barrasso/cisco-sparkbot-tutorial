@@ -1,0 +1,34 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'Cisco Care' do
+
+  # Pods for Cisco Care
+  pod 'SwiftForms'
+  pod 'STZPopupView'
+  pod 'FontAwesome.swift'
+  pod 'WWCalendarTimeSelector'
+  pod 'KeychainSwift', '~> 3.0'
+
+
+  target 'Cisco CareTests' do
+    inherit! :search_paths
+    # Pods for testing
+    pod 'SwiftForms'
+    pod 'STZPopupView'
+    pod 'WWCalendarTimeSelector'
+    pod 'KeychainSwift', '~> 3.0'
+    pod 'FontAwesome.swift'
+  end
+
+  target 'Cisco CareUITests' do
+    inherit! :search_paths
+    # Pods for testing
+    pod 'SwiftForms'
+    pod 'STZPopupView'
+    pod 'WWCalendarTimeSelector'
+    pod 'KeychainSwift', '~> 3.0'
+    pod 'FontAwesome.swift'
+  end
+
+end

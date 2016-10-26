@@ -1,0 +1,952 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D71B1AEBD4E7C454AD86A18 /* Pods_Cisco_Care.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0274D2359E9F3834FB59EBD6 /* Pods_Cisco_Care.framework */; };
+		432905A653C94675B46810C3 /* Pods_Cisco_CareTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C682E506D20D9ACB62802DB8 /* Pods_Cisco_CareTests.framework */; };
+		A1034ECB1D622AF200CF2CC2 /* Booking.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1034ECA1D622AF200CF2CC2 /* Booking.storyboard */; };
+		A12927911D6234BB004F2D8F /* CHCBookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12927901D6234BB004F2D8F /* CHCBookingViewController.swift */; };
+		A14939ED1D42A0DF0038F114 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14939EC1D42A0DF0038F114 /* AppDelegate.swift */; };
+		A14939F21D42A0DF0038F114 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14939F01D42A0DF0038F114 /* Main.storyboard */; };
+		A14939F41D42A0DF0038F114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14939F31D42A0DF0038F114 /* Assets.xcassets */; };
+		A14939F71D42A0DF0038F114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14939F51D42A0DF0038F114 /* LaunchScreen.storyboard */; };
+		A1493A021D42A0DF0038F114 /* Cisco_CareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1493A011D42A0DF0038F114 /* Cisco_CareTests.swift */; };
+		A1493A0D1D42A0DF0038F114 /* Cisco_CareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1493A0C1D42A0DF0038F114 /* Cisco_CareUITests.swift */; };
+		A1493A211D42CB950038F114 /* Start.Storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1493A201D42CB950038F114 /* Start.Storyboard */; };
+		A1493A251D42D1580038F114 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1493A241D42D1580038F114 /* UIColor+Extension.swift */; };
+		A1493A271D42D2930038F114 /* CHCPageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1493A261D42D2930038F114 /* CHCPageContentViewController.swift */; };
+		A1493A2C1D42D37F0038F114 /* CHCPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1493A2B1D42D37F0038F114 /* CHCPageViewController.swift */; };
+		A191C4781D4AAE890094BDCA /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A191C4771D4AAE890094BDCA /* KeychainSwift.framework */; };
+		A1AB67521D6266C600B0BEB5 /* CHCMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AB67511D6266C600B0BEB5 /* CHCMapViewController.swift */; };
+		A1BA2CA71D64EA5E00D02584 /* CHCCalendarSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BA2CA61D64EA5E00D02584 /* CHCCalendarSelectorViewController.swift */; };
+		A1C566BB1D4FB572007ED93F /* CHCMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C566BA1D4FB572007ED93F /* CHCMainTabBarController.swift */; };
+		A1E80F281D67BC2000E93AE0 /* CHCBookingPaymentFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E80F271D67BC2000E93AE0 /* CHCBookingPaymentFormViewController.swift */; };
+		A1FA9A4D1D4FCA1F002B1B1F /* CHCProvidersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA9A4C1D4FCA1F002B1B1F /* CHCProvidersViewController.swift */; };
+		A1FA9A4F1D4FD0D9002B1B1F /* CHCSparkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA9A4E1D4FD0D9002B1B1F /* CHCSparkHandler.swift */; };
+		A1FA9A511D511D41002B1B1F /* CHCAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA9A501D511D41002B1B1F /* CHCAccountViewController.swift */; };
+		A1FA9A531D514856002B1B1F /* CHCAccountOptionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA9A521D514856002B1B1F /* CHCAccountOptionsTableViewController.swift */; };
+		A1FA9A551D526FD7002B1B1F /* CHCHealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA9A541D526FD7002B1B1F /* CHCHealthViewController.swift */; };
+		A1FA9A571D5280B1002B1B1F /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA9A561D5280B1002B1B1F /* UIImage+Extension.swift */; };
+		A1FA9A591D5292DB002B1B1F /* CHCMedicalHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA9A581D5292DB002B1B1F /* CHCMedicalHistoryTableViewController.swift */; };
+		A1FA9A5B1D52A280002B1B1F /* CHCAppointmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA9A5A1D52A280002B1B1F /* CHCAppointmentsViewController.swift */; };
+		A1FA9A621D52A630002B1B1F /* CHCUpcomingAppointmentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA9A611D52A630002B1B1F /* CHCUpcomingAppointmentsTableViewController.swift */; };
+		A1FA9A641D52A642002B1B1F /* CHCPastAppointmentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA9A631D52A642002B1B1F /* CHCPastAppointmentsTableViewController.swift */; };
+		A1FA9A661D52A7E5002B1B1F /* CHCHealthReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA9A651D52A7E5002B1B1F /* CHCHealthReportViewController.swift */; };
+		A1FA9A681D53AC01002B1B1F /* CHCMessageCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA9A671D53AC01002B1B1F /* CHCMessageCenterViewController.swift */; };
+		A1FA9A6A1D53ADA6002B1B1F /* CHCMessagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA9A691D53ADA6002B1B1F /* CHCMessagesTableViewController.swift */; };
+		A1FA9A6D1D53AEE2002B1B1F /* CHCMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA9A6C1D53AEE2002B1B1F /* CHCMessageTableViewCell.swift */; };
+		A1FA9A6F1D53DBF9002B1B1F /* CHCProviderListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA9A6E1D53DBF9002B1B1F /* CHCProviderListTableViewController.swift */; };
+		A1FA9A711D58EFE4002B1B1F /* CHCProviderSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA9A701D58EFE4002B1B1F /* CHCProviderSession.swift */; };
+		A1FA9A731D58F019002B1B1F /* CHCProviderHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA9A721D58F019002B1B1F /* CHCProviderHandler.swift */; };
+		A1FA9A751D59355E002B1B1F /* CHCProviderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA9A741D59355E002B1B1F /* CHCProviderTableViewCell.swift */; };
+		A1FA9A771D593EBE002B1B1F /* CHCProviderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA9A761D593EBE002B1B1F /* CHCProviderDetailViewController.swift */; };
+		A1FA9A791D5BA533002B1B1F /* CHCProviderDetailContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA9A781D5BA533002B1B1F /* CHCProviderDetailContainerViewController.swift */; };
+		F3E1DF83E2AEA4590434BABC /* Pods_Cisco_CareUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D6B015D35F522912FA94C4 /* Pods_Cisco_CareUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A14939FE1D42A0DF0038F114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A14939E11D42A0DF0038F114 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A14939E81D42A0DF0038F114;
+			remoteInfo = "Cisco Care";
+		};
+		A1493A091D42A0DF0038F114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A14939E11D42A0DF0038F114 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A14939E81D42A0DF0038F114;
+			remoteInfo = "Cisco Care";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0274D2359E9F3834FB59EBD6 /* Pods_Cisco_Care.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cisco_Care.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D6B015D35F522912FA94C4 /* Pods_Cisco_CareUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cisco_CareUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6A6041F1E5CF8EC59915E5 /* Pods-Cisco CareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cisco CareUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cisco CareUITests/Pods-Cisco CareUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4091D53D0B987A53D580FC57 /* Pods-Cisco Care.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cisco Care.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cisco Care/Pods-Cisco Care.release.xcconfig"; sourceTree = "<group>"; };
+		5577A5CCB572DDC04F3AE85B /* Pods-Cisco CareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cisco CareUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cisco CareUITests/Pods-Cisco CareUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		61A74C765DDC8B0B93B6E231 /* Pods-Cisco Care.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cisco Care.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cisco Care/Pods-Cisco Care.debug.xcconfig"; sourceTree = "<group>"; };
+		A1034ECA1D622AF200CF2CC2 /* Booking.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Booking.storyboard; sourceTree = "<group>"; };
+		A12927901D6234BB004F2D8F /* CHCBookingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCBookingViewController.swift; sourceTree = "<group>"; };
+		A14939E91D42A0DF0038F114 /* Cisco Care.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cisco Care.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14939EC1D42A0DF0038F114 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A14939F11D42A0DF0038F114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A14939F31D42A0DF0038F114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A14939F61D42A0DF0038F114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A14939F81D42A0DF0038F114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A14939FD1D42A0DF0038F114 /* Cisco CareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cisco CareTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1493A011D42A0DF0038F114 /* Cisco_CareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cisco_CareTests.swift; sourceTree = "<group>"; };
+		A1493A031D42A0DF0038F114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1493A081D42A0DF0038F114 /* Cisco CareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cisco CareUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1493A0C1D42A0DF0038F114 /* Cisco_CareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cisco_CareUITests.swift; sourceTree = "<group>"; };
+		A1493A0E1D42A0DF0038F114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1493A201D42CB950038F114 /* Start.Storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Start.Storyboard; sourceTree = "<group>"; };
+		A1493A241D42D1580038F114 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		A1493A261D42D2930038F114 /* CHCPageContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCPageContentViewController.swift; sourceTree = "<group>"; };
+		A1493A2B1D42D37F0038F114 /* CHCPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCPageViewController.swift; sourceTree = "<group>"; };
+		A191C4771D4AAE890094BDCA /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/Cisco_Care-exiznyzavheitvgbknbrizvxjhop/Build/Products/Debug-iphoneos/KeychainSwift/KeychainSwift.framework"; sourceTree = "<group>"; };
+		A1AB67511D6266C600B0BEB5 /* CHCMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCMapViewController.swift; sourceTree = "<group>"; };
+		A1BA2CA61D64EA5E00D02584 /* CHCCalendarSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCCalendarSelectorViewController.swift; sourceTree = "<group>"; };
+		A1C566BA1D4FB572007ED93F /* CHCMainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCMainTabBarController.swift; sourceTree = "<group>"; };
+		A1E80F271D67BC2000E93AE0 /* CHCBookingPaymentFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCBookingPaymentFormViewController.swift; sourceTree = "<group>"; };
+		A1FA9A4C1D4FCA1F002B1B1F /* CHCProvidersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCProvidersViewController.swift; sourceTree = "<group>"; };
+		A1FA9A4E1D4FD0D9002B1B1F /* CHCSparkHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCSparkHandler.swift; sourceTree = "<group>"; };
+		A1FA9A501D511D41002B1B1F /* CHCAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCAccountViewController.swift; sourceTree = "<group>"; };
+		A1FA9A521D514856002B1B1F /* CHCAccountOptionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCAccountOptionsTableViewController.swift; sourceTree = "<group>"; };
+		A1FA9A541D526FD7002B1B1F /* CHCHealthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCHealthViewController.swift; sourceTree = "<group>"; };
+		A1FA9A561D5280B1002B1B1F /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		A1FA9A581D5292DB002B1B1F /* CHCMedicalHistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCMedicalHistoryTableViewController.swift; sourceTree = "<group>"; };
+		A1FA9A5A1D52A280002B1B1F /* CHCAppointmentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCAppointmentsViewController.swift; sourceTree = "<group>"; };
+		A1FA9A611D52A630002B1B1F /* CHCUpcomingAppointmentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCUpcomingAppointmentsTableViewController.swift; sourceTree = "<group>"; };
+		A1FA9A631D52A642002B1B1F /* CHCPastAppointmentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCPastAppointmentsTableViewController.swift; sourceTree = "<group>"; };
+		A1FA9A651D52A7E5002B1B1F /* CHCHealthReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCHealthReportViewController.swift; sourceTree = "<group>"; };
+		A1FA9A671D53AC01002B1B1F /* CHCMessageCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCMessageCenterViewController.swift; sourceTree = "<group>"; };
+		A1FA9A691D53ADA6002B1B1F /* CHCMessagesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCMessagesTableViewController.swift; sourceTree = "<group>"; };
+		A1FA9A6C1D53AEE2002B1B1F /* CHCMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCMessageTableViewCell.swift; sourceTree = "<group>"; };
+		A1FA9A6E1D53DBF9002B1B1F /* CHCProviderListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCProviderListTableViewController.swift; sourceTree = "<group>"; };
+		A1FA9A701D58EFE4002B1B1F /* CHCProviderSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCProviderSession.swift; sourceTree = "<group>"; };
+		A1FA9A721D58F019002B1B1F /* CHCProviderHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCProviderHandler.swift; sourceTree = "<group>"; };
+		A1FA9A741D59355E002B1B1F /* CHCProviderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCProviderTableViewCell.swift; sourceTree = "<group>"; };
+		A1FA9A761D593EBE002B1B1F /* CHCProviderDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCProviderDetailViewController.swift; sourceTree = "<group>"; };
+		A1FA9A781D5BA533002B1B1F /* CHCProviderDetailContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCProviderDetailContainerViewController.swift; sourceTree = "<group>"; };
+		B12AD9E49BFC046449424AC2 /* Pods-Cisco CareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cisco CareTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cisco CareTests/Pods-Cisco CareTests.release.xcconfig"; sourceTree = "<group>"; };
+		C682E506D20D9ACB62802DB8 /* Pods_Cisco_CareTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cisco_CareTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D47E8D7CC44C8CC64B4B4A64 /* Pods-Cisco CareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cisco CareTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cisco CareTests/Pods-Cisco CareTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A14939E61D42A0DF0038F114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A191C4781D4AAE890094BDCA /* KeychainSwift.framework in Frameworks */,
+				0D71B1AEBD4E7C454AD86A18 /* Pods_Cisco_Care.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14939FA1D42A0DF0038F114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432905A653C94675B46810C3 /* Pods_Cisco_CareTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1493A051D42A0DF0038F114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E1DF83E2AEA4590434BABC /* Pods_Cisco_CareUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		952AAB0D4EA73634C2B58879 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A191C4771D4AAE890094BDCA /* KeychainSwift.framework */,
+				0274D2359E9F3834FB59EBD6 /* Pods_Cisco_Care.framework */,
+				C682E506D20D9ACB62802DB8 /* Pods_Cisco_CareTests.framework */,
+				25D6B015D35F522912FA94C4 /* Pods_Cisco_CareUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A129278F1D6232D7004F2D8F /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				A12927901D6234BB004F2D8F /* CHCBookingViewController.swift */,
+				A1AB67511D6266C600B0BEB5 /* CHCMapViewController.swift */,
+				A1BA2CA61D64EA5E00D02584 /* CHCCalendarSelectorViewController.swift */,
+				A1E80F271D67BC2000E93AE0 /* CHCBookingPaymentFormViewController.swift */,
+			);
+			name = Booking;
+			sourceTree = "<group>";
+		};
+		A14939E01D42A0DF0038F114 = {
+			isa = PBXGroup;
+			children = (
+				A14939EB1D42A0DF0038F114 /* Cisco Care */,
+				A1493A001D42A0DF0038F114 /* Cisco CareTests */,
+				A1493A0B1D42A0DF0038F114 /* Cisco CareUITests */,
+				A14939EA1D42A0DF0038F114 /* Products */,
+				A7D6C4FDCA7B79AC99D12BF6 /* Pods */,
+				952AAB0D4EA73634C2B58879 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A14939EA1D42A0DF0038F114 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A14939E91D42A0DF0038F114 /* Cisco Care.app */,
+				A14939FD1D42A0DF0038F114 /* Cisco CareTests.xctest */,
+				A1493A081D42A0DF0038F114 /* Cisco CareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A14939EB1D42A0DF0038F114 /* Cisco Care */ = {
+			isa = PBXGroup;
+			children = (
+				A1493A1E1D42A1C20038F114 /* Assets */,
+				A1493A1D1D42A1BD0038F114 /* Controllers */,
+				A1493A2A1D42D3020038F114 /* Delegate */,
+				A1493A1F1D42A2440038F114 /* Extensions */,
+				A1493A1C1D42A1B80038F114 /* Models */,
+				A1493A1B1D42A1AF0038F114 /* Storyboards */,
+				A1493A1A1D42A1A90038F114 /* Views */,
+			);
+			path = "Cisco Care";
+			sourceTree = "<group>";
+		};
+		A1493A001D42A0DF0038F114 /* Cisco CareTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1493A011D42A0DF0038F114 /* Cisco_CareTests.swift */,
+				A1493A031D42A0DF0038F114 /* Info.plist */,
+			);
+			path = "Cisco CareTests";
+			sourceTree = "<group>";
+		};
+		A1493A0B1D42A0DF0038F114 /* Cisco CareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1493A0C1D42A0DF0038F114 /* Cisco_CareUITests.swift */,
+				A1493A0E1D42A0DF0038F114 /* Info.plist */,
+			);
+			path = "Cisco CareUITests";
+			sourceTree = "<group>";
+		};
+		A1493A1A1D42A1A90038F114 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1FA9A6B1D53AEC5002B1B1F /* Custom Cells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A1493A1B1D42A1AF0038F114 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A14939F01D42A0DF0038F114 /* Main.storyboard */,
+				A1493A201D42CB950038F114 /* Start.Storyboard */,
+				A14939F51D42A0DF0038F114 /* LaunchScreen.storyboard */,
+				A1034ECA1D622AF200CF2CC2 /* Booking.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		A1493A1C1D42A1B80038F114 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1FA9A4E1D4FD0D9002B1B1F /* CHCSparkHandler.swift */,
+				A1FA9A721D58F019002B1B1F /* CHCProviderHandler.swift */,
+				A1FA9A701D58EFE4002B1B1F /* CHCProviderSession.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A1493A1D1D42A1BD0038F114 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A1493A281D42D2DE0038F114 /* Main */,
+				A1493A291D42D2E70038F114 /* Start */,
+				A129278F1D6232D7004F2D8F /* Booking */,
+				A1C566B91D4FB4EB007ED93F /* Navigation */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A1493A1E1D42A1C20038F114 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A14939F81D42A0DF0038F114 /* Info.plist */,
+				A14939F31D42A0DF0038F114 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		A1493A1F1D42A2440038F114 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A1493A241D42D1580038F114 /* UIColor+Extension.swift */,
+				A1FA9A561D5280B1002B1B1F /* UIImage+Extension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		A1493A281D42D2DE0038F114 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A1FA9A5C1D52A5A0002B1B1F /* Account */,
+				A1FA9A601D52A5C9002B1B1F /* Appointments */,
+				A1FA9A5F1D52A5BE002B1B1F /* Messages */,
+				A1FA9A5E1D52A5B1002B1B1F /* My Health */,
+				A1FA9A5D1D52A5A9002B1B1F /* Providers */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		A1493A291D42D2E70038F114 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				A1493A2B1D42D37F0038F114 /* CHCPageViewController.swift */,
+				A1493A261D42D2930038F114 /* CHCPageContentViewController.swift */,
+			);
+			name = Start;
+			sourceTree = "<group>";
+		};
+		A1493A2A1D42D3020038F114 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				A14939EC1D42A0DF0038F114 /* AppDelegate.swift */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		A1C566B91D4FB4EB007ED93F /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				A1C566BA1D4FB572007ED93F /* CHCMainTabBarController.swift */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		A1FA9A5C1D52A5A0002B1B1F /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				A1FA9A501D511D41002B1B1F /* CHCAccountViewController.swift */,
+				A1FA9A521D514856002B1B1F /* CHCAccountOptionsTableViewController.swift */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		A1FA9A5D1D52A5A9002B1B1F /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				A1FA9A4C1D4FCA1F002B1B1F /* CHCProvidersViewController.swift */,
+				A1FA9A6E1D53DBF9002B1B1F /* CHCProviderListTableViewController.swift */,
+				A1FA9A761D593EBE002B1B1F /* CHCProviderDetailViewController.swift */,
+				A1FA9A781D5BA533002B1B1F /* CHCProviderDetailContainerViewController.swift */,
+			);
+			name = Providers;
+			sourceTree = "<group>";
+		};
+		A1FA9A5E1D52A5B1002B1B1F /* My Health */ = {
+			isa = PBXGroup;
+			children = (
+				A1FA9A541D526FD7002B1B1F /* CHCHealthViewController.swift */,
+				A1FA9A651D52A7E5002B1B1F /* CHCHealthReportViewController.swift */,
+				A1FA9A581D5292DB002B1B1F /* CHCMedicalHistoryTableViewController.swift */,
+			);
+			name = "My Health";
+			sourceTree = "<group>";
+		};
+		A1FA9A5F1D52A5BE002B1B1F /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				A1FA9A671D53AC01002B1B1F /* CHCMessageCenterViewController.swift */,
+				A1FA9A691D53ADA6002B1B1F /* CHCMessagesTableViewController.swift */,
+			);
+			name = Messages;
+			sourceTree = "<group>";
+		};
+		A1FA9A601D52A5C9002B1B1F /* Appointments */ = {
+			isa = PBXGroup;
+			children = (
+				A1FA9A5A1D52A280002B1B1F /* CHCAppointmentsViewController.swift */,
+				A1FA9A631D52A642002B1B1F /* CHCPastAppointmentsTableViewController.swift */,
+				A1FA9A611D52A630002B1B1F /* CHCUpcomingAppointmentsTableViewController.swift */,
+			);
+			name = Appointments;
+			sourceTree = "<group>";
+		};
+		A1FA9A6B1D53AEC5002B1B1F /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A1FA9A6C1D53AEE2002B1B1F /* CHCMessageTableViewCell.swift */,
+				A1FA9A741D59355E002B1B1F /* CHCProviderTableViewCell.swift */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		A7D6C4FDCA7B79AC99D12BF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61A74C765DDC8B0B93B6E231 /* Pods-Cisco Care.debug.xcconfig */,
+				4091D53D0B987A53D580FC57 /* Pods-Cisco Care.release.xcconfig */,
+				D47E8D7CC44C8CC64B4B4A64 /* Pods-Cisco CareTests.debug.xcconfig */,
+				B12AD9E49BFC046449424AC2 /* Pods-Cisco CareTests.release.xcconfig */,
+				5577A5CCB572DDC04F3AE85B /* Pods-Cisco CareUITests.debug.xcconfig */,
+				3B6A6041F1E5CF8EC59915E5 /* Pods-Cisco CareUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A14939E81D42A0DF0038F114 /* Cisco Care */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1493A111D42A0DF0038F114 /* Build configuration list for PBXNativeTarget "Cisco Care" */;
+			buildPhases = (
+				701B160DF749FCB7DD0AA6CE /* [CP] Check Pods Manifest.lock */,
+				A14939E51D42A0DF0038F114 /* Sources */,
+				A14939E61D42A0DF0038F114 /* Frameworks */,
+				A14939E71D42A0DF0038F114 /* Resources */,
+				37D7EB5078972028387556D4 /* [CP] Embed Pods Frameworks */,
+				A298414E87853833A9C96654 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cisco Care";
+			productName = "Cisco Care";
+			productReference = A14939E91D42A0DF0038F114 /* Cisco Care.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A14939FC1D42A0DF0038F114 /* Cisco CareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1493A141D42A0DF0038F114 /* Build configuration list for PBXNativeTarget "Cisco CareTests" */;
+			buildPhases = (
+				166313B50D0DE44F8ED90729 /* [CP] Check Pods Manifest.lock */,
+				A14939F91D42A0DF0038F114 /* Sources */,
+				A14939FA1D42A0DF0038F114 /* Frameworks */,
+				A14939FB1D42A0DF0038F114 /* Resources */,
+				95AD756B9DD4AB76176394D4 /* [CP] Embed Pods Frameworks */,
+				E146ADDC5ECEFD84FAF4371A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A14939FF1D42A0DF0038F114 /* PBXTargetDependency */,
+			);
+			name = "Cisco CareTests";
+			productName = "Cisco CareTests";
+			productReference = A14939FD1D42A0DF0038F114 /* Cisco CareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1493A071D42A0DF0038F114 /* Cisco CareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1493A171D42A0DF0038F114 /* Build configuration list for PBXNativeTarget "Cisco CareUITests" */;
+			buildPhases = (
+				E14FCF76C3C2926D2F1F9A88 /* [CP] Check Pods Manifest.lock */,
+				A1493A041D42A0DF0038F114 /* Sources */,
+				A1493A051D42A0DF0038F114 /* Frameworks */,
+				A1493A061D42A0DF0038F114 /* Resources */,
+				2CD36373EC1E0EA51A15A3E1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1493A0A1D42A0DF0038F114 /* PBXTargetDependency */,
+			);
+			name = "Cisco CareUITests";
+			productName = "Cisco CareUITests";
+			productReference = A1493A081D42A0DF0038F114 /* Cisco CareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A14939E11D42A0DF0038F114 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = cisco;
+				TargetAttributes = {
+					A14939E81D42A0DF0038F114 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3GBQ2H4QX7;
+					};
+					A14939FC1D42A0DF0038F114 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A14939E81D42A0DF0038F114;
+					};
+					A1493A071D42A0DF0038F114 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A14939E81D42A0DF0038F114;
+					};
+				};
+			};
+			buildConfigurationList = A14939E41D42A0DF0038F114 /* Build configuration list for PBXProject "Cisco Care" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A14939E01D42A0DF0038F114;
+			productRefGroup = A14939EA1D42A0DF0038F114 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A14939E81D42A0DF0038F114 /* Cisco Care */,
+				A14939FC1D42A0DF0038F114 /* Cisco CareTests */,
+				A1493A071D42A0DF0038F114 /* Cisco CareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A14939E71D42A0DF0038F114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1034ECB1D622AF200CF2CC2 /* Booking.storyboard in Resources */,
+				A14939F71D42A0DF0038F114 /* LaunchScreen.storyboard in Resources */,
+				A1493A211D42CB950038F114 /* Start.Storyboard in Resources */,
+				A14939F41D42A0DF0038F114 /* Assets.xcassets in Resources */,
+				A14939F21D42A0DF0038F114 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14939FB1D42A0DF0038F114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1493A061D42A0DF0038F114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		166313B50D0DE44F8ED90729 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2CD36373EC1E0EA51A15A3E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cisco CareUITests/Pods-Cisco CareUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37D7EB5078972028387556D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cisco Care/Pods-Cisco Care-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		701B160DF749FCB7DD0AA6CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95AD756B9DD4AB76176394D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cisco CareTests/Pods-Cisco CareTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A298414E87853833A9C96654 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cisco Care/Pods-Cisco Care-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E146ADDC5ECEFD84FAF4371A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cisco CareTests/Pods-Cisco CareTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E14FCF76C3C2926D2F1F9A88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A14939E51D42A0DF0038F114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1493A2C1D42D37F0038F114 /* CHCPageViewController.swift in Sources */,
+				A1493A251D42D1580038F114 /* UIColor+Extension.swift in Sources */,
+				A1AB67521D6266C600B0BEB5 /* CHCMapViewController.swift in Sources */,
+				A1FA9A6A1D53ADA6002B1B1F /* CHCMessagesTableViewController.swift in Sources */,
+				A1FA9A771D593EBE002B1B1F /* CHCProviderDetailViewController.swift in Sources */,
+				A1FA9A711D58EFE4002B1B1F /* CHCProviderSession.swift in Sources */,
+				A1FA9A4F1D4FD0D9002B1B1F /* CHCSparkHandler.swift in Sources */,
+				A1FA9A591D5292DB002B1B1F /* CHCMedicalHistoryTableViewController.swift in Sources */,
+				A12927911D6234BB004F2D8F /* CHCBookingViewController.swift in Sources */,
+				A1FA9A641D52A642002B1B1F /* CHCPastAppointmentsTableViewController.swift in Sources */,
+				A1FA9A661D52A7E5002B1B1F /* CHCHealthReportViewController.swift in Sources */,
+				A1FA9A791D5BA533002B1B1F /* CHCProviderDetailContainerViewController.swift in Sources */,
+				A1FA9A681D53AC01002B1B1F /* CHCMessageCenterViewController.swift in Sources */,
+				A1FA9A5B1D52A280002B1B1F /* CHCAppointmentsViewController.swift in Sources */,
+				A1FA9A551D526FD7002B1B1F /* CHCHealthViewController.swift in Sources */,
+				A1FA9A511D511D41002B1B1F /* CHCAccountViewController.swift in Sources */,
+				A1FA9A6F1D53DBF9002B1B1F /* CHCProviderListTableViewController.swift in Sources */,
+				A1FA9A531D514856002B1B1F /* CHCAccountOptionsTableViewController.swift in Sources */,
+				A1FA9A751D59355E002B1B1F /* CHCProviderTableViewCell.swift in Sources */,
+				A1FA9A731D58F019002B1B1F /* CHCProviderHandler.swift in Sources */,
+				A1C566BB1D4FB572007ED93F /* CHCMainTabBarController.swift in Sources */,
+				A1493A271D42D2930038F114 /* CHCPageContentViewController.swift in Sources */,
+				A1BA2CA71D64EA5E00D02584 /* CHCCalendarSelectorViewController.swift in Sources */,
+				A1FA9A621D52A630002B1B1F /* CHCUpcomingAppointmentsTableViewController.swift in Sources */,
+				A1FA9A4D1D4FCA1F002B1B1F /* CHCProvidersViewController.swift in Sources */,
+				A1E80F281D67BC2000E93AE0 /* CHCBookingPaymentFormViewController.swift in Sources */,
+				A1FA9A571D5280B1002B1B1F /* UIImage+Extension.swift in Sources */,
+				A14939ED1D42A0DF0038F114 /* AppDelegate.swift in Sources */,
+				A1FA9A6D1D53AEE2002B1B1F /* CHCMessageTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14939F91D42A0DF0038F114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1493A021D42A0DF0038F114 /* Cisco_CareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1493A041D42A0DF0038F114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1493A0D1D42A0DF0038F114 /* Cisco_CareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A14939FF1D42A0DF0038F114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A14939E81D42A0DF0038F114 /* Cisco Care */;
+			targetProxy = A14939FE1D42A0DF0038F114 /* PBXContainerItemProxy */;
+		};
+		A1493A0A1D42A0DF0038F114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A14939E81D42A0DF0038F114 /* Cisco Care */;
+			targetProxy = A1493A091D42A0DF0038F114 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A14939F01D42A0DF0038F114 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A14939F11D42A0DF0038F114 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A14939F51D42A0DF0038F114 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A14939F61D42A0DF0038F114 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1493A0F1D42A0DF0038F114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1493A101D42A0DF0038F114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1493A121D42A0DF0038F114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61A74C765DDC8B0B93B6E231 /* Pods-Cisco Care.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Cisco Care/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cisco.Cisco-Care";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A1493A131D42A0DF0038F114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4091D53D0B987A53D580FC57 /* Pods-Cisco Care.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Cisco Care/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cisco.Cisco-Care";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A1493A151D42A0DF0038F114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D47E8D7CC44C8CC64B4B4A64 /* Pods-Cisco CareTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cisco CareTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cisco.Cisco-CareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cisco Care.app/Cisco Care";
+			};
+			name = Debug;
+		};
+		A1493A161D42A0DF0038F114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B12AD9E49BFC046449424AC2 /* Pods-Cisco CareTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cisco CareTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cisco.Cisco-CareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cisco Care.app/Cisco Care";
+			};
+			name = Release;
+		};
+		A1493A181D42A0DF0038F114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5577A5CCB572DDC04F3AE85B /* Pods-Cisco CareUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Cisco CareUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cisco.Cisco-CareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_TARGET_NAME = "Cisco Care";
+			};
+			name = Debug;
+		};
+		A1493A191D42A0DF0038F114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B6A6041F1E5CF8EC59915E5 /* Pods-Cisco CareUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Cisco CareUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cisco.Cisco-CareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_TARGET_NAME = "Cisco Care";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A14939E41D42A0DF0038F114 /* Build configuration list for PBXProject "Cisco Care" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1493A0F1D42A0DF0038F114 /* Debug */,
+				A1493A101D42A0DF0038F114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1493A111D42A0DF0038F114 /* Build configuration list for PBXNativeTarget "Cisco Care" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1493A121D42A0DF0038F114 /* Debug */,
+				A1493A131D42A0DF0038F114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1493A141D42A0DF0038F114 /* Build configuration list for PBXNativeTarget "Cisco CareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1493A151D42A0DF0038F114 /* Debug */,
+				A1493A161D42A0DF0038F114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1493A171D42A0DF0038F114 /* Build configuration list for PBXNativeTarget "Cisco CareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1493A181D42A0DF0038F114 /* Debug */,
+				A1493A191D42A0DF0038F114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A14939E11D42A0DF0038F114 /* Project object */;
+}

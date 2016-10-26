@@ -1,0 +1,24 @@
+PODS:
+  - FontAwesome.swift (0.8.0)
+  - KeychainSwift (3.0.16)
+  - STZPopupView (1.0.2)
+  - SwiftForms (1.5.4)
+  - WWCalendarTimeSelector (1.2.11)
+
+DEPENDENCIES:
+  - FontAwesome.swift
+  - KeychainSwift (~> 3.0)
+  - STZPopupView
+  - SwiftForms
+  - WWCalendarTimeSelector
+
+SPEC CHECKSUMS:
+  FontAwesome.swift: f8c6cc5c42cbe93bdc04371363bc7b371fb3d3a1
+  KeychainSwift: a5bb85cd498ce2217b55e055ec59e9268d83384c
+  STZPopupView: 4eb11a72c71d2942e23a4444d1bde40e563702e3
+  SwiftForms: 96d408424dcf0ba11b97eaee32385a84624c0063
+  WWCalendarTimeSelector: 9e58e9d81600d836cbb38995349e6764e9e3aa5f
+
+PODFILE CHECKSUM: ba911fec71c5e3edd001b72345db37545676863b
+
+COCOAPODS: 1.0.1

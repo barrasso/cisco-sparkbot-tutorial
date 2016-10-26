@@ -1,0 +1,1994 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		023D9E2B24A050BCE1A35DF8F7EEC1C3 /* TegKeychainConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60496CD0F3C4EFD34CC659A03A0FECB2 /* TegKeychainConstants.swift */; };
+		0459AE604DE684C6BC3FC314BD16BFCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
+		0491A04C9403E6CEC3519FBB38F02863 /* KeychainSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 702BAC39EF714309B31E1B07E5C0ABF6 /* KeychainSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0673DD1EEA0A0B5760F04363FE3A190A /* Pods-Cisco Care-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE413E4B78272AF9C93CD1DA44186A0 /* Pods-Cisco Care-dummy.m */; };
+		08CAD7B9FE5F3CFD24843825AE85789E /* SwiftForms-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BDC2F9CFF1796BA4ABAFAA42001F713 /* SwiftForms-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09FBFFB1A3D4C3B859AE4349600FB0C4 /* FormValueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64D9C5A6E3FE0EE3497E2EB07C3B528 /* FormValueCell.swift */; };
+		0EB9D6EBCD65A38812FF6E188B82F901 /* STZPopupView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA578877193417C04DEAFFBE4F754009 /* STZPopupView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12D1D54665B1EDC301F4E9A900C42DC3 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899DD23C977FAA753E2A0575CAF0AAD4 /* Enum.swift */; };
+		154D33F1A7986DDD39F94EBEEF6B0E79 /* WWCalendarTimeSelector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B704487061AA462E035CEB13E052050A /* WWCalendarTimeSelector-dummy.m */; };
+		1EF30FAF29B0B45F5885BCB14E7499DD /* FormSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F23BE8EB0A6FA960004A34BEA6DB911 /* FormSliderCell.swift */; };
+		1F7C9BC9D98E165D85EC16BEB7B98A6E /* FormSectionDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F27B3BEBDECBABB2501DE5CBAB965F /* FormSectionDescriptor.swift */; };
+		243605482B4A47C9E568185296A69BE4 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA498B953D9F7C74F04E2DF9BADCC0F /* FormViewController.swift */; };
+		27967FFAE1AD1B478141BDE32EF090CF /* FontAwesomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C09C4CB103666098E19ABCF59F6236F /* FontAwesomeView.swift */; };
+		298D8EA481DF2D52EDAE48EBCBD78B5F /* Pods-Cisco CareUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D99F986CD17C1D04F5508256FAFE67 /* Pods-Cisco CareUITests-dummy.m */; };
+		2DFAF9B4DA66F217746684BC0393BD6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
+		332A5D5F1BB426B0C68E74AF77BDEF7F /* UIViewController+STZPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6938E4ACAF28A92A3243284F7019A8CD /* UIViewController+STZPopupView.swift */; };
+		34A2BBB236A26DA759DAA6CF0E37898B /* FormSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780148E869920614720655AE58915D24 /* FormSwitchCell.swift */; };
+		371F9FF4B322F0017BC2370A8DDF094C /* FormDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F73A335991293E84F17036BC345057 /* FormDescriptor.swift */; };
+		3DDE96C1DBE8B94559B5F57A31D4C791 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8D1B573F2C390759EBE994039C45D7 /* FontAwesome.swift */; };
+		4587EE201603ED229C2E0AB291F50DE5 /* FormBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D1D4184738A9AEE81CD5D62B232B1 /* FormBaseCell.swift */; };
+		492296179E9486B49730E294EB0364C9 /* WWCalendarTimeSelector.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D07112AB06F575F29099DC52E4C8D979 /* WWCalendarTimeSelector.storyboard */; };
+		4B4B3BE7758786DBD13AEBDA8493F2F8 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383E654D18BA17B0037D3F5414A78DBD /* Duration.swift */; };
+		4C5B68C9D3C21E43DC96A39DF90ED498 /* KeychainSwiftAccessOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E4C86B99965CD7FFCE5A9DCA27A284 /* KeychainSwiftAccessOptions.swift */; };
+		4FFA6651790C1B6890BC8AF9BCE67AD4 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 47E3ED609D86DB2CA821785F326CA3D9 /* FontAwesome.otf */; };
+		53D61C7ADDA0D962732C15EC9D74471E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E08379A0DC830C1B585DFE85C4E677 /* UIKit.framework */; };
+		6048AE6C529C45C6D109169584C38415 /* FormTextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C6AA214D03BE7945C700EA2DFD7378 /* FormTextViewCell.swift */; };
+		6506FD1E05C82BBBECFA0964237AEAF2 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03400C0CD6ED48B34D5902A1A473F402 /* CoreText.framework */; };
+		6CE0262B771B820E8974FD6286558200 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
+		6DEDDA62E1F3C1DF310DBF68C23DC994 /* WWCalendarTimeSelectorStoryboardBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9251F3CFD978C9DDA08BEC503517B031 /* WWCalendarTimeSelectorStoryboardBundle.bundle */; };
+		6F05B38FFD9A0CEC8DFACE05513C9CDF /* FormButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB5DB44ABF744CDD28F55A3AB7F2535 /* FormButtonCell.swift */; };
+		74D9BC287FBC1CF7A72D31D2A1AB50F4 /* KeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CB970E6A34F7C7C15275FFD8B154C /* KeychainSwift.swift */; };
+		76712B604495F25DECED4E5815DDBB40 /* FormLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC8FA71FEFF0E172DA3703916AF56C5 /* FormLabelCell.swift */; };
+		7B1495069765C079071BA0D58DF97399 /* STZPopupViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802AB62DA3FE8A5337DA05D39AE5047A /* STZPopupViewConfig.swift */; };
+		8EEDE64434F3826648D449AB36D4EDA7 /* FormErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9C6F9322ED0922FAB42FA689E72034 /* FormErrorType.swift */; };
+		8F60935C1607113C4E51565B8F790D73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
+		9310F4B12ED0840040DD866F9247BB2F /* KeychainSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0B26CA934EDFD2E9F9271420757793 /* KeychainSwift-dummy.m */; };
+		9713E887CA796D377AAB1CBE6DFBD128 /* FormStepperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F2129063A6BEE1C70A24600D63B06A /* FormStepperCell.swift */; };
+		977893CD9D5483CEDEC34CC89B83CAA7 /* FontAwesome.swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 57DB06BF90EB4ECAC76E13E4F031905C /* FontAwesome.swift.bundle */; };
+		9BA89E90D08F82EC682B2BC6622669E0 /* FontAwesome.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3B77F7D3D2405F85D7FF52BC2C409B9 /* FontAwesome.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BC7DE15BC509AE03CC6E17A681A4699 /* STZPopupView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFE19F233F0AFF0CC4A6D9F1B47C9E4 /* STZPopupView-dummy.m */; };
+		A017D846E40AE721346C24D1BF9966C6 /* NSDate+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5782692E02E88BAFEAF74B1BF26D74BC /* NSDate+Timepiece.swift */; };
+		A235DC3F556A366BCC4981FED99354E8 /* SwiftForms-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEC55D83A6E8052B90EE7CB4DA4217C /* SwiftForms-dummy.m */; };
+		A23BD2747049755EB5ED5805428B692F /* FormRowDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F597460CFBD5CEFB4AC4D33D5ECF0558 /* FormRowDescriptor.swift */; };
+		A5729E4367090B879436F71A9CFE10B9 /* FormSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B2E0C2DE2A7B3DEB3B30CD0A17ED8C /* FormSelector.swift */; };
+		A601E9F7E857E7FD6F14A4DF2BA0D5C3 /* FormOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE04B9DBC716E4A84AB6FE53588DABD /* FormOptionsViewController.swift */; };
+		A6963591FBE988568EB0652215C7C00C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
+		ADCF950A2B12B3CEF7EC2003BFD171C7 /* String+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A25759187B37B605D3001296AB9D4E /* String+Timepiece.swift */; };
+		B1784FFD93581D70DA312863FDCB7CC1 /* WWCalendarTimeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2C49915C46865DA9E8FA3B9DB17D6E /* WWCalendarTimeSelector.swift */; };
+		B9DD46C17EEF23E1AAB8B622B0B3B3CF /* FormTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0296DF1A0D8107856B68FE8217F0D389 /* FormTextFieldCell.swift */; };
+		BAA4351E569CC317B8A52BD0B55698BF /* FormPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9548E2EF5C2BA5110773F1A4D4745165 /* FormPickerCell.swift */; };
+		BB956EB4FFDF5D6BCE3FBC2093563D15 /* FormSelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF9C5A00D5A53BD640DCA47ACBEF998 /* FormSelectorCell.swift */; };
+		BFE230E567EFFC7DE26275E1A3730A2A /* FormSegmentedControlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C90C8997F517868A519D21FB91B1517 /* FormSegmentedControlCell.swift */; };
+		C74A96E622113A1D4F329BE6A8252D4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
+		C7AB13C6BB85ACA408EC6E0E7179F50A /* Int+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839EBE94F3082382A3098CBA9BA16B37 /* Int+Timepiece.swift */; };
+		CF0F718C9F8E2818B98012CDDA4C6805 /* FontAwesome.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E596710722C5E572A82F1231C30A2B2 /* FontAwesome.swift-dummy.m */; };
+		CFD2201F5441AEAAE318AAA0982B18EB /* FormTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A72007129E77A4E5FE0EC7C4D29C8 /* FormTitleCell.swift */; };
+		D3533E31843982DFFD05CDF05C001B96 /* Pods-Cisco Care-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 659AA05D8CCF0837E8C34CF3C54F0D14 /* Pods-Cisco Care-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D64E4E16A04F35FDE398F01AEF38BBB2 /* Pods-Cisco CareTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50568D4B8AECBDEFBAF34711C26DA62E /* Pods-Cisco CareTests-dummy.m */; };
+		D9EDD05BC89724591A5BDC27286B4369 /* Pods-Cisco CareUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE3934A2BC2E2B0D4465B62FE3CE8130 /* Pods-Cisco CareUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1E198AF9245A0CD7820A87D50C3010D /* FormCheckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072549E58C0C586DA017F63FF38C7611 /* FormCheckCell.swift */; };
+		E5465960D7E41ED1414A4ADC5F10EC5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
+		E9DE6A17137F3276C1C75262E1A8CAB1 /* Pods-Cisco CareTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2701BC7EC853C3F3B637DD9426DA9DAD /* Pods-Cisco CareTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA4FEC8F008FDB6B80137EDA2F93EAEF /* NSCalendar+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = A284ADD0CA9A18FF2069112D47BBBD43 /* NSCalendar+Timepiece.swift */; };
+		F381EC7D2DDF3D58408CCB1BA53C16BA /* FormDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE31CDFE8F45F65F0F12ED451A59F06 /* FormDateCell.swift */; };
+		F42453A87F6458D2572B815A54124491 /* NSDateComponents+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D909D15F2214D3827502CA40B076C1 /* NSDateComponents+Timepiece.swift */; };
+		FFA2C435114E9A66B600F8B742DBA561 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
+		FFCFDB32189EEA61B96B29BB05B9AFBA /* WWCalendarTimeSelector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 986BE1A2CBB77907206551CA57B0825C /* WWCalendarTimeSelector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		056A3DDE5432062EF011261931B83540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C698C648EE4D43C6B8BE0BE1FE91737;
+			remoteInfo = KeychainSwift;
+		};
+		192DAE8239CEDF28426AC10F45C42C62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4F067C2D0E135B80299B089E168BDA;
+			remoteInfo = "FontAwesome.swift-FontAwesome.swift";
+		};
+		2BBEA37127F4CA4B9BAF861D6745B50D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F6A1F067639E97EDA53D884155DE502;
+			remoteInfo = SwiftForms;
+		};
+		459B25DC08B29B1009B75929C97B2473 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C698C648EE4D43C6B8BE0BE1FE91737;
+			remoteInfo = KeychainSwift;
+		};
+		4AB79AA683D5E225E3DAFBE3FC3B3DE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9F9F342E275E28220819E36BB927371;
+			remoteInfo = WWCalendarTimeSelector;
+		};
+		527D26063236C43E80D40D8EBD40A8FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BFD44B49704B7AA5FB5018D7A96B456;
+			remoteInfo = STZPopupView;
+		};
+		79D8DED6B24599D6F1AF2F158CACE8C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C698C648EE4D43C6B8BE0BE1FE91737;
+			remoteInfo = KeychainSwift;
+		};
+		7B5B7A6EC775B534528182FDCF01035C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F6A1F067639E97EDA53D884155DE502;
+			remoteInfo = SwiftForms;
+		};
+		7BCADD297CF083B1CC9534B8D7864280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9F9F342E275E28220819E36BB927371;
+			remoteInfo = WWCalendarTimeSelector;
+		};
+		7D9C13E497A0D3B47E39AD0F2BC12FED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BFD44B49704B7AA5FB5018D7A96B456;
+			remoteInfo = STZPopupView;
+		};
+		B940E52A12FB8006385B923BEFCAB8DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FE2578FF0805299395CF2A0206BB671;
+			remoteInfo = FontAwesome.swift;
+		};
+		BCD0396494E21C2C21FF3FBF0EB9673D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BFD44B49704B7AA5FB5018D7A96B456;
+			remoteInfo = STZPopupView;
+		};
+		CCA5215DE2DCC9171AF31225BB171923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FE2578FF0805299395CF2A0206BB671;
+			remoteInfo = FontAwesome.swift;
+		};
+		F197CA68380B5B530100F7010DDBD6C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19C7981B133F461846458632D3108992;
+			remoteInfo = "WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle";
+		};
+		F8C326D55A89CECD47A600639CAA8630 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FE2578FF0805299395CF2A0206BB671;
+			remoteInfo = FontAwesome.swift;
+		};
+		F8E943C67C4FDC875D42EA2E437ECB23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F6A1F067639E97EDA53D884155DE502;
+			remoteInfo = SwiftForms;
+		};
+		FB0360030C4E7D5FDF47FC95FE5E58C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9F9F342E275E28220819E36BB927371;
+			remoteInfo = WWCalendarTimeSelector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0296DF1A0D8107856B68FE8217F0D389 /* FormTextFieldCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextFieldCell.swift; path = SwiftForms/cells/FormTextFieldCell.swift; sourceTree = "<group>"; };
+		03400C0CD6ED48B34D5902A1A473F402 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		04654AA30D0B78559BCD61FB3959ACCD /* Pods-Cisco CareUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Cisco CareUITests.modulemap"; sourceTree = "<group>"; };
+		05ECD84B5BB5863927A3FEC665FA49B2 /* Pods-Cisco Care.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Cisco Care.modulemap"; sourceTree = "<group>"; };
+		072549E58C0C586DA017F63FF38C7611 /* FormCheckCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormCheckCell.swift; path = SwiftForms/cells/FormCheckCell.swift; sourceTree = "<group>"; };
+		0B1271109EA6FC12EA7C75BC170AD26F /* FontAwesome.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-prefix.pch"; sourceTree = "<group>"; };
+		0CEF893164E24E4A3FA9445DFE5D3B16 /* Pods-Cisco CareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cisco CareUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		10E5FC79F09F6BC82748059FB1D2AF06 /* Pods-Cisco CareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cisco CareTests.release.xcconfig"; sourceTree = "<group>"; };
+		174CB970E6A34F7C7C15275FFD8B154C /* KeychainSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwift.swift; path = KeychainSwift/KeychainSwift.swift; sourceTree = "<group>"; };
+		17C573AB587CA041856524C60901DAE4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E08379A0DC830C1B585DFE85C4E677 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		19F94332685EA3CA35E94D8BBC2EFC33 /* WWCalendarTimeSelector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WWCalendarTimeSelector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFE19F233F0AFF0CC4A6D9F1B47C9E4 /* STZPopupView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "STZPopupView-dummy.m"; sourceTree = "<group>"; };
+		1CE56623996F63FA2F1EA46104CDF342 /* KeychainSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-prefix.pch"; sourceTree = "<group>"; };
+		1ED6346468614801C7E7D0E67A23FEEE /* WWCalendarTimeSelector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WWCalendarTimeSelector.modulemap; sourceTree = "<group>"; };
+		1EEC55D83A6E8052B90EE7CB4DA4217C /* SwiftForms-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftForms-dummy.m"; sourceTree = "<group>"; };
+		20D6D1DFBF9C1C65506F68483DEF1A20 /* Pods-Cisco CareUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cisco CareUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		23D909D15F2214D3827502CA40B076C1 /* NSDateComponents+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDateComponents+Timepiece.swift"; path = "Sources/NSDateComponents+Timepiece.swift"; sourceTree = "<group>"; };
+		2701BC7EC853C3F3B637DD9426DA9DAD /* Pods-Cisco CareTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cisco CareTests-umbrella.h"; sourceTree = "<group>"; };
+		276970B1622A9067063DC17AA1CA7DC9 /* Pods-Cisco CareTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Cisco CareTests.modulemap"; sourceTree = "<group>"; };
+		2905746569A9ABA448EC3024E3FE3F6D /* Pods-Cisco CareUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cisco CareUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2BA7C61C5814E412D7081D698F5B2494 /* Pods-Cisco CareTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cisco CareTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2C1D8C0407315D2DCBFEE411478ABB85 /* Pods-Cisco CareUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cisco CareUITests-resources.sh"; sourceTree = "<group>"; };
+		2C90C8997F517868A519D21FB91B1517 /* FormSegmentedControlCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSegmentedControlCell.swift; path = SwiftForms/cells/FormSegmentedControlCell.swift; sourceTree = "<group>"; };
+		2C939B1FD52A67F603AA2DFE9B3725FF /* STZPopupView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = STZPopupView.xcconfig; sourceTree = "<group>"; };
+		2CF6FC053A7259BE66E461E7A5AF60F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D3776CE5C26D538E79382BAEF70EA75 /* Pods-Cisco Care-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cisco Care-resources.sh"; sourceTree = "<group>"; };
+		2DE413E4B78272AF9C93CD1DA44186A0 /* Pods-Cisco Care-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cisco Care-dummy.m"; sourceTree = "<group>"; };
+		34D99F986CD17C1D04F5508256FAFE67 /* Pods-Cisco CareUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cisco CareUITests-dummy.m"; sourceTree = "<group>"; };
+		36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		36E37BD10BBABE87A56E00436F91DA77 /* KeychainSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KeychainSwift.modulemap; sourceTree = "<group>"; };
+		383E654D18BA17B0037D3F5414A78DBD /* Duration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Duration.swift; path = Sources/Duration.swift; sourceTree = "<group>"; };
+		3C206B510F093B33744920704F1FE9D0 /* Pods-Cisco CareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cisco CareTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E56F28E356302648EDC9475473A013C /* Pods_Cisco_CareUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cisco_CareUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		477D8B7611F9ECC75D0A7B59E3C4364D /* SwiftForms.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftForms.xcconfig; sourceTree = "<group>"; };
+		47E3ED609D86DB2CA821785F326CA3D9 /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome.otf; path = FontAwesome/FontAwesome.otf; sourceTree = "<group>"; };
+		4A616CF0085A3B0889AF2A8707F214A2 /* Pods-Cisco CareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cisco CareUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4BDC2F9CFF1796BA4ABAFAA42001F713 /* SwiftForms-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftForms-umbrella.h"; sourceTree = "<group>"; };
+		4F9C6F9322ED0922FAB42FA689E72034 /* FormErrorType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormErrorType.swift; path = SwiftForms/FormErrorType.swift; sourceTree = "<group>"; };
+		50568D4B8AECBDEFBAF34711C26DA62E /* Pods-Cisco CareTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cisco CareTests-dummy.m"; sourceTree = "<group>"; };
+		50A27CBC468939F3A4CCCEDCAF4F3032 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5782692E02E88BAFEAF74B1BF26D74BC /* NSDate+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDate+Timepiece.swift"; path = "Sources/NSDate+Timepiece.swift"; sourceTree = "<group>"; };
+		57DB06BF90EB4ECAC76E13E4F031905C /* FontAwesome.swift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAwesome.swift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F13BB2C4A322BF72DAD0E1BD3CA527 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B90A41B5BAE1B73D68846FC0A2745DE /* STZPopupView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STZPopupView-prefix.pch"; sourceTree = "<group>"; };
+		5D0CDF756D18D39BBB3162B519D98A42 /* SwiftForms.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftForms.modulemap; sourceTree = "<group>"; };
+		5DE302BC07E4C5AD9FD673F9CE0E0A36 /* STZPopupView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = STZPopupView.modulemap; sourceTree = "<group>"; };
+		5DF8BC5489BDB24A92005AA91CAC93F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EE31CDFE8F45F65F0F12ED451A59F06 /* FormDateCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormDateCell.swift; path = SwiftForms/cells/FormDateCell.swift; sourceTree = "<group>"; };
+		60496CD0F3C4EFD34CC659A03A0FECB2 /* TegKeychainConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TegKeychainConstants.swift; path = KeychainSwift/TegKeychainConstants.swift; sourceTree = "<group>"; };
+		6104FC707DD8C7B9B88F67255BE086C0 /* FontAwesome.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesome.swift.xcconfig; sourceTree = "<group>"; };
+		61529B754DAFFACF69B56DC057A2F578 /* Pods-Cisco CareTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cisco CareTests-resources.sh"; sourceTree = "<group>"; };
+		63C46690D388B691909C2DAC351DA027 /* Pods-Cisco Care-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cisco Care-frameworks.sh"; sourceTree = "<group>"; };
+		63CB49D3CBD472C0D249E8E39ED6A1E9 /* SwiftForms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftForms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		659AA05D8CCF0837E8C34CF3C54F0D14 /* Pods-Cisco Care-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cisco Care-umbrella.h"; sourceTree = "<group>"; };
+		67B551A896D47DD7435C7E7D8BD5A8B6 /* WWCalendarTimeSelector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WWCalendarTimeSelector.xcconfig; sourceTree = "<group>"; };
+		6938E4ACAF28A92A3243284F7019A8CD /* UIViewController+STZPopupView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+STZPopupView.swift"; path = "Source/UIViewController+STZPopupView.swift"; sourceTree = "<group>"; };
+		69C6AA214D03BE7945C700EA2DFD7378 /* FormTextViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextViewCell.swift; path = SwiftForms/cells/FormTextViewCell.swift; sourceTree = "<group>"; };
+		6E774A8EF3F988847B7C7C7521ED123C /* Pods-Cisco CareTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cisco CareTests-frameworks.sh"; sourceTree = "<group>"; };
+		702BAC39EF714309B31E1B07E5C0ABF6 /* KeychainSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-umbrella.h"; sourceTree = "<group>"; };
+		75222FEA32E86FFCB21FCB3EDCBCDE1C /* KeychainSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainSwift.xcconfig; sourceTree = "<group>"; };
+		780148E869920614720655AE58915D24 /* FormSwitchCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSwitchCell.swift; path = SwiftForms/cells/FormSwitchCell.swift; sourceTree = "<group>"; };
+		7B8A72007129E77A4E5FE0EC7C4D29C8 /* FormTitleCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTitleCell.swift; path = SwiftForms/cells/base/FormTitleCell.swift; sourceTree = "<group>"; };
+		7C09C4CB103666098E19ABCF59F6236F /* FontAwesomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeView.swift; path = FontAwesome/FontAwesomeView.swift; sourceTree = "<group>"; };
+		7DDA5A16E20E9D36879FDA5E0068A678 /* Pods-Cisco Care.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cisco Care.release.xcconfig"; sourceTree = "<group>"; };
+		802AB62DA3FE8A5337DA05D39AE5047A /* STZPopupViewConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STZPopupViewConfig.swift; path = Source/STZPopupViewConfig.swift; sourceTree = "<group>"; };
+		802E36D880604543409B448562E38698 /* STZPopupView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STZPopupView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A25759187B37B605D3001296AB9D4E /* String+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Timepiece.swift"; path = "Sources/String+Timepiece.swift"; sourceTree = "<group>"; };
+		81B62B8CF47E6CB2BD450E86FAD7D419 /* Pods-Cisco Care.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cisco Care.debug.xcconfig"; sourceTree = "<group>"; };
+		83437E2DE2F2190E67BA7F14075B8F1B /* ResourceBundle-FontAwesome.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FontAwesome.swift-Info.plist"; sourceTree = "<group>"; };
+		8367145309F0C7BBAFAD669773711A56 /* WWCalendarTimeSelector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WWCalendarTimeSelector-prefix.pch"; sourceTree = "<group>"; };
+		839EBE94F3082382A3098CBA9BA16B37 /* Int+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Timepiece.swift"; path = "Sources/Int+Timepiece.swift"; sourceTree = "<group>"; };
+		899DD23C977FAA753E2A0575CAF0AAD4 /* Enum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enum.swift; path = FontAwesome/Enum.swift; sourceTree = "<group>"; };
+		8CE04B9DBC716E4A84AB6FE53588DABD /* FormOptionsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormOptionsViewController.swift; path = SwiftForms/controllers/FormOptionsViewController.swift; sourceTree = "<group>"; };
+		8E596710722C5E572A82F1231C30A2B2 /* FontAwesome.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesome.swift-dummy.m"; sourceTree = "<group>"; };
+		8F1CA97EC58B51B7C2E5B2CAA001EA57 /* ResourceBundle-WWCalendarTimeSelectorStoryboardBundle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WWCalendarTimeSelectorStoryboardBundle-Info.plist"; sourceTree = "<group>"; };
+		8F23BE8EB0A6FA960004A34BEA6DB911 /* FormSliderCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSliderCell.swift; path = SwiftForms/cells/FormSliderCell.swift; sourceTree = "<group>"; };
+		8FC8FA71FEFF0E172DA3703916AF56C5 /* FormLabelCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormLabelCell.swift; path = SwiftForms/cells/FormLabelCell.swift; sourceTree = "<group>"; };
+		9212DFC8E77E95484C9812A60F5B711B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9251F3CFD978C9DDA08BEC503517B031 /* WWCalendarTimeSelectorStoryboardBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWCalendarTimeSelectorStoryboardBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9548E2EF5C2BA5110773F1A4D4745165 /* FormPickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormPickerCell.swift; path = SwiftForms/cells/FormPickerCell.swift; sourceTree = "<group>"; };
+		986BE1A2CBB77907206551CA57B0825C /* WWCalendarTimeSelector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WWCalendarTimeSelector-umbrella.h"; sourceTree = "<group>"; };
+		99AD7E546E16D0A8C202FDB136921333 /* Pods-Cisco Care-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cisco Care-acknowledgements.plist"; sourceTree = "<group>"; };
+		9EB5DB44ABF744CDD28F55A3AB7F2535 /* FormButtonCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormButtonCell.swift; path = SwiftForms/cells/FormButtonCell.swift; sourceTree = "<group>"; };
+		A000A1BEA5BC9C20A6457F87A7876F16 /* Pods-Cisco CareUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cisco CareUITests-frameworks.sh"; sourceTree = "<group>"; };
+		A0F27B3BEBDECBABB2501DE5CBAB965F /* FormSectionDescriptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSectionDescriptor.swift; path = SwiftForms/descriptors/FormSectionDescriptor.swift; sourceTree = "<group>"; };
+		A284ADD0CA9A18FF2069112D47BBBD43 /* NSCalendar+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSCalendar+Timepiece.swift"; path = "Sources/NSCalendar+Timepiece.swift"; sourceTree = "<group>"; };
+		A4F73A335991293E84F17036BC345057 /* FormDescriptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormDescriptor.swift; path = SwiftForms/descriptors/FormDescriptor.swift; sourceTree = "<group>"; };
+		A6E4C86B99965CD7FFCE5A9DCA27A284 /* KeychainSwiftAccessOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwiftAccessOptions.swift; path = KeychainSwift/KeychainSwiftAccessOptions.swift; sourceTree = "<group>"; };
+		A87BC78E21C97BE3A4DD35DFAF82539F /* Pods_Cisco_Care.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cisco_Care.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF9C5A00D5A53BD640DCA47ACBEF998 /* FormSelectorCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSelectorCell.swift; path = SwiftForms/cells/FormSelectorCell.swift; sourceTree = "<group>"; };
+		AE2C49915C46865DA9E8FA3B9DB17D6E /* WWCalendarTimeSelector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WWCalendarTimeSelector.swift; path = Sources/WWCalendarTimeSelector.swift; sourceTree = "<group>"; };
+		AE7864EB88974356028C584B91E9A5A2 /* KeychainSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeychainSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE8D1B573F2C390759EBE994039C45D7 /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = FontAwesome/FontAwesome.swift; sourceTree = "<group>"; };
+		AEDA91EBFDC35CF74C761E3199F88902 /* Pods_Cisco_CareTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cisco_CareTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F2129063A6BEE1C70A24600D63B06A /* FormStepperCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormStepperCell.swift; path = SwiftForms/cells/FormStepperCell.swift; sourceTree = "<group>"; };
+		B704487061AA462E035CEB13E052050A /* WWCalendarTimeSelector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WWCalendarTimeSelector-dummy.m"; sourceTree = "<group>"; };
+		B94A044066E8B80B3624EB8EC926DB58 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0B26CA934EDFD2E9F9271420757793 /* KeychainSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainSwift-dummy.m"; sourceTree = "<group>"; };
+		C1ADC5C93ACD4B5949F4E9FFB98AFDA2 /* Pods-Cisco Care-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cisco Care-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C7B2E0C2DE2A7B3DEB3B30CD0A17ED8C /* FormSelector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSelector.swift; path = SwiftForms/controllers/FormSelector.swift; sourceTree = "<group>"; };
+		C8A41A85574DD916F423C886B3B059E1 /* FontAwesome.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FontAwesome.swift.modulemap; sourceTree = "<group>"; };
+		CA578877193417C04DEAFFBE4F754009 /* STZPopupView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STZPopupView-umbrella.h"; sourceTree = "<group>"; };
+		CC9B763D67FABCEDB07102EE753B61BC /* Pods-Cisco CareTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cisco CareTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D06D1D4184738A9AEE81CD5D62B232B1 /* FormBaseCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormBaseCell.swift; path = SwiftForms/cells/base/FormBaseCell.swift; sourceTree = "<group>"; };
+		D07112AB06F575F29099DC52E4C8D979 /* WWCalendarTimeSelector.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = WWCalendarTimeSelector.storyboard; path = Sources/WWCalendarTimeSelector.storyboard; sourceTree = "<group>"; };
+		D0C9173FFC9BE2C6C059C04C1DDE20CE /* SwiftForms-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftForms-prefix.pch"; sourceTree = "<group>"; };
+		D3B77F7D3D2405F85D7FF52BC2C409B9 /* FontAwesome.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-umbrella.h"; sourceTree = "<group>"; };
+		E64D9C5A6E3FE0EE3497E2EB07C3B528 /* FormValueCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormValueCell.swift; path = SwiftForms/cells/base/FormValueCell.swift; sourceTree = "<group>"; };
+		EBC6864BF7C43CB966A5AF4D1578EC88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE3934A2BC2E2B0D4465B62FE3CE8130 /* Pods-Cisco CareUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cisco CareUITests-umbrella.h"; sourceTree = "<group>"; };
+		EEA498B953D9F7C74F04E2DF9BADCC0F /* FormViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormViewController.swift; path = SwiftForms/controllers/FormViewController.swift; sourceTree = "<group>"; };
+		F597460CFBD5CEFB4AC4D33D5ECF0558 /* FormRowDescriptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormRowDescriptor.swift; path = SwiftForms/descriptors/FormRowDescriptor.swift; sourceTree = "<group>"; };
+		F7C65AA9358C16C5EC15806A0F733F93 /* FontAwesome_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesome_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3144E758FF7C8F0B8B8354FCDA7ED503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE0262B771B820E8974FD6286558200 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36E2A1B0C7CB7BADD71A91B06F95A6D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6963591FBE988568EB0652215C7C00C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5578ABFFBCB65D3EBF4D0CD1D5A77EB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812F833A128D514A74C09E6506B3B885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0459AE604DE684C6BC3FC314BD16BFCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86EBEB7A5BC84E3C24D67ADD82B00EA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6506FD1E05C82BBBECFA0964237AEAF2 /* CoreText.framework in Frameworks */,
+				8F60935C1607113C4E51565B8F790D73 /* Foundation.framework in Frameworks */,
+				53D61C7ADDA0D962732C15EC9D74471E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC50694A240D8563507E2A555EB6233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74A96E622113A1D4F329BE6A8252D4C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A398D8583DC063E5FF56605580164B17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5465960D7E41ED1414A4ADC5F10EC5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E3A09898014271D6E60062FF8189C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA2C435114E9A66B600F8B742DBA561 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA76DAB2421C9D23B8AEA0F11176C528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DFAF9B4DA66F217746684BC0393BD6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96E48C57E669644254EF9CBED68F0C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FCB3589CCFA894648157E1692DEC81B /* Pods-Cisco Care */ = {
+			isa = PBXGroup;
+			children = (
+				5DF8BC5489BDB24A92005AA91CAC93F4 /* Info.plist */,
+				05ECD84B5BB5863927A3FEC665FA49B2 /* Pods-Cisco Care.modulemap */,
+				C1ADC5C93ACD4B5949F4E9FFB98AFDA2 /* Pods-Cisco Care-acknowledgements.markdown */,
+				99AD7E546E16D0A8C202FDB136921333 /* Pods-Cisco Care-acknowledgements.plist */,
+				2DE413E4B78272AF9C93CD1DA44186A0 /* Pods-Cisco Care-dummy.m */,
+				63C46690D388B691909C2DAC351DA027 /* Pods-Cisco Care-frameworks.sh */,
+				2D3776CE5C26D538E79382BAEF70EA75 /* Pods-Cisco Care-resources.sh */,
+				659AA05D8CCF0837E8C34CF3C54F0D14 /* Pods-Cisco Care-umbrella.h */,
+				81B62B8CF47E6CB2BD450E86FAD7D419 /* Pods-Cisco Care.debug.xcconfig */,
+				7DDA5A16E20E9D36879FDA5E0068A678 /* Pods-Cisco Care.release.xcconfig */,
+			);
+			name = "Pods-Cisco Care";
+			path = "Target Support Files/Pods-Cisco Care";
+			sourceTree = "<group>";
+		};
+		1181BFCBD165C10D7E103BCD4E2449A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D07112AB06F575F29099DC52E4C8D979 /* WWCalendarTimeSelector.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		119D7D439DFEA95D5C6B2E6AB322724A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				03400C0CD6ED48B34D5902A1A473F402 /* CoreText.framework */,
+				36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */,
+				17E08379A0DC830C1B585DFE85C4E677 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				119D7D439DFEA95D5C6B2E6AB322724A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26F402774E247234C56F4092B1E433AF /* FontAwesome.swift */ = {
+			isa = PBXGroup;
+			children = (
+				899DD23C977FAA753E2A0575CAF0AAD4 /* Enum.swift */,
+				AE8D1B573F2C390759EBE994039C45D7 /* FontAwesome.swift */,
+				7C09C4CB103666098E19ABCF59F6236F /* FontAwesomeView.swift */,
+				9ED9B5F3DFC620E4009C833ED975E096 /* Resources */,
+				8C8907950B4E290E1ACE7B187FE8F66F /* Support Files */,
+			);
+			path = FontAwesome.swift;
+			sourceTree = "<group>";
+		};
+		554EEE656E30B44762C09A52B5129324 /* Pods-Cisco CareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57F13BB2C4A322BF72DAD0E1BD3CA527 /* Info.plist */,
+				04654AA30D0B78559BCD61FB3959ACCD /* Pods-Cisco CareUITests.modulemap */,
+				20D6D1DFBF9C1C65506F68483DEF1A20 /* Pods-Cisco CareUITests-acknowledgements.markdown */,
+				2905746569A9ABA448EC3024E3FE3F6D /* Pods-Cisco CareUITests-acknowledgements.plist */,
+				34D99F986CD17C1D04F5508256FAFE67 /* Pods-Cisco CareUITests-dummy.m */,
+				A000A1BEA5BC9C20A6457F87A7876F16 /* Pods-Cisco CareUITests-frameworks.sh */,
+				2C1D8C0407315D2DCBFEE411478ABB85 /* Pods-Cisco CareUITests-resources.sh */,
+				EE3934A2BC2E2B0D4465B62FE3CE8130 /* Pods-Cisco CareUITests-umbrella.h */,
+				0CEF893164E24E4A3FA9445DFE5D3B16 /* Pods-Cisco CareUITests.debug.xcconfig */,
+				4A616CF0085A3B0889AF2A8707F214A2 /* Pods-Cisco CareUITests.release.xcconfig */,
+			);
+			name = "Pods-Cisco CareUITests";
+			path = "Target Support Files/Pods-Cisco CareUITests";
+			sourceTree = "<group>";
+		};
+		5C72CB659D6B27B265CF5BC3988B04D0 /* Pods-Cisco CareTests */ = {
+			isa = PBXGroup;
+			children = (
+				17C573AB587CA041856524C60901DAE4 /* Info.plist */,
+				276970B1622A9067063DC17AA1CA7DC9 /* Pods-Cisco CareTests.modulemap */,
+				2BA7C61C5814E412D7081D698F5B2494 /* Pods-Cisco CareTests-acknowledgements.markdown */,
+				CC9B763D67FABCEDB07102EE753B61BC /* Pods-Cisco CareTests-acknowledgements.plist */,
+				50568D4B8AECBDEFBAF34711C26DA62E /* Pods-Cisco CareTests-dummy.m */,
+				6E774A8EF3F988847B7C7C7521ED123C /* Pods-Cisco CareTests-frameworks.sh */,
+				61529B754DAFFACF69B56DC057A2F578 /* Pods-Cisco CareTests-resources.sh */,
+				2701BC7EC853C3F3B637DD9426DA9DAD /* Pods-Cisco CareTests-umbrella.h */,
+				3C206B510F093B33744920704F1FE9D0 /* Pods-Cisco CareTests.debug.xcconfig */,
+				10E5FC79F09F6BC82748059FB1D2AF06 /* Pods-Cisco CareTests.release.xcconfig */,
+			);
+			name = "Pods-Cisco CareTests";
+			path = "Target Support Files/Pods-Cisco CareTests";
+			sourceTree = "<group>";
+		};
+		5C83F857178A0CDAE43472F543591FC7 /* WWCalendarTimeSelector */ = {
+			isa = PBXGroup;
+			children = (
+				383E654D18BA17B0037D3F5414A78DBD /* Duration.swift */,
+				839EBE94F3082382A3098CBA9BA16B37 /* Int+Timepiece.swift */,
+				A284ADD0CA9A18FF2069112D47BBBD43 /* NSCalendar+Timepiece.swift */,
+				5782692E02E88BAFEAF74B1BF26D74BC /* NSDate+Timepiece.swift */,
+				23D909D15F2214D3827502CA40B076C1 /* NSDateComponents+Timepiece.swift */,
+				80A25759187B37B605D3001296AB9D4E /* String+Timepiece.swift */,
+				AE2C49915C46865DA9E8FA3B9DB17D6E /* WWCalendarTimeSelector.swift */,
+				1181BFCBD165C10D7E103BCD4E2449A7 /* Resources */,
+				FC19486900951CADBD4C7540EE161B7A /* Support Files */,
+			);
+			path = WWCalendarTimeSelector;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				AEAF1590553CB56BEAFCC28DAFED186C /* Pods */,
+				DE44FEF4BD8DCFDD7D6F03C5846060A7 /* Products */,
+				B4479F5A71ADB903F9EC8F87B5A0E439 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8C8907950B4E290E1ACE7B187FE8F66F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8A41A85574DD916F423C886B3B059E1 /* FontAwesome.swift.modulemap */,
+				6104FC707DD8C7B9B88F67255BE086C0 /* FontAwesome.swift.xcconfig */,
+				8E596710722C5E572A82F1231C30A2B2 /* FontAwesome.swift-dummy.m */,
+				0B1271109EA6FC12EA7C75BC170AD26F /* FontAwesome.swift-prefix.pch */,
+				D3B77F7D3D2405F85D7FF52BC2C409B9 /* FontAwesome.swift-umbrella.h */,
+				9212DFC8E77E95484C9812A60F5B711B /* Info.plist */,
+				83437E2DE2F2190E67BA7F14075B8F1B /* ResourceBundle-FontAwesome.swift-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FontAwesome.swift";
+			sourceTree = "<group>";
+		};
+		91E8CBCF51870641E4FBB3AA633F70B0 /* STZPopupView */ = {
+			isa = PBXGroup;
+			children = (
+				802AB62DA3FE8A5337DA05D39AE5047A /* STZPopupViewConfig.swift */,
+				6938E4ACAF28A92A3243284F7019A8CD /* UIViewController+STZPopupView.swift */,
+				D06730B72D1B1EA91985969CAAAFCADB /* Support Files */,
+			);
+			path = STZPopupView;
+			sourceTree = "<group>";
+		};
+		9ED9B5F3DFC620E4009C833ED975E096 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				47E3ED609D86DB2CA821785F326CA3D9 /* FontAwesome.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AEAF1590553CB56BEAFCC28DAFED186C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26F402774E247234C56F4092B1E433AF /* FontAwesome.swift */,
+				C5DEB1E24A5C625B1A362F7A704F2AA9 /* KeychainSwift */,
+				91E8CBCF51870641E4FBB3AA633F70B0 /* STZPopupView */,
+				D7F6C3F391F9752DC08893F1D47C2A56 /* SwiftForms */,
+				5C83F857178A0CDAE43472F543591FC7 /* WWCalendarTimeSelector */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B4479F5A71ADB903F9EC8F87B5A0E439 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FCB3589CCFA894648157E1692DEC81B /* Pods-Cisco Care */,
+				5C72CB659D6B27B265CF5BC3988B04D0 /* Pods-Cisco CareTests */,
+				554EEE656E30B44762C09A52B5129324 /* Pods-Cisco CareUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C5DEB1E24A5C625B1A362F7A704F2AA9 /* KeychainSwift */ = {
+			isa = PBXGroup;
+			children = (
+				174CB970E6A34F7C7C15275FFD8B154C /* KeychainSwift.swift */,
+				A6E4C86B99965CD7FFCE5A9DCA27A284 /* KeychainSwiftAccessOptions.swift */,
+				60496CD0F3C4EFD34CC659A03A0FECB2 /* TegKeychainConstants.swift */,
+				D9C89052E33104F1C5B3D0134619B0A6 /* Support Files */,
+			);
+			path = KeychainSwift;
+			sourceTree = "<group>";
+		};
+		D06730B72D1B1EA91985969CAAAFCADB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B94A044066E8B80B3624EB8EC926DB58 /* Info.plist */,
+				5DE302BC07E4C5AD9FD673F9CE0E0A36 /* STZPopupView.modulemap */,
+				2C939B1FD52A67F603AA2DFE9B3725FF /* STZPopupView.xcconfig */,
+				1AFE19F233F0AFF0CC4A6D9F1B47C9E4 /* STZPopupView-dummy.m */,
+				5B90A41B5BAE1B73D68846FC0A2745DE /* STZPopupView-prefix.pch */,
+				CA578877193417C04DEAFFBE4F754009 /* STZPopupView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/STZPopupView";
+			sourceTree = "<group>";
+		};
+		D7F6C3F391F9752DC08893F1D47C2A56 /* SwiftForms */ = {
+			isa = PBXGroup;
+			children = (
+				D06D1D4184738A9AEE81CD5D62B232B1 /* FormBaseCell.swift */,
+				9EB5DB44ABF744CDD28F55A3AB7F2535 /* FormButtonCell.swift */,
+				072549E58C0C586DA017F63FF38C7611 /* FormCheckCell.swift */,
+				5EE31CDFE8F45F65F0F12ED451A59F06 /* FormDateCell.swift */,
+				A4F73A335991293E84F17036BC345057 /* FormDescriptor.swift */,
+				4F9C6F9322ED0922FAB42FA689E72034 /* FormErrorType.swift */,
+				8FC8FA71FEFF0E172DA3703916AF56C5 /* FormLabelCell.swift */,
+				8CE04B9DBC716E4A84AB6FE53588DABD /* FormOptionsViewController.swift */,
+				9548E2EF5C2BA5110773F1A4D4745165 /* FormPickerCell.swift */,
+				F597460CFBD5CEFB4AC4D33D5ECF0558 /* FormRowDescriptor.swift */,
+				A0F27B3BEBDECBABB2501DE5CBAB965F /* FormSectionDescriptor.swift */,
+				2C90C8997F517868A519D21FB91B1517 /* FormSegmentedControlCell.swift */,
+				C7B2E0C2DE2A7B3DEB3B30CD0A17ED8C /* FormSelector.swift */,
+				ABF9C5A00D5A53BD640DCA47ACBEF998 /* FormSelectorCell.swift */,
+				8F23BE8EB0A6FA960004A34BEA6DB911 /* FormSliderCell.swift */,
+				B0F2129063A6BEE1C70A24600D63B06A /* FormStepperCell.swift */,
+				780148E869920614720655AE58915D24 /* FormSwitchCell.swift */,
+				0296DF1A0D8107856B68FE8217F0D389 /* FormTextFieldCell.swift */,
+				69C6AA214D03BE7945C700EA2DFD7378 /* FormTextViewCell.swift */,
+				7B8A72007129E77A4E5FE0EC7C4D29C8 /* FormTitleCell.swift */,
+				E64D9C5A6E3FE0EE3497E2EB07C3B528 /* FormValueCell.swift */,
+				EEA498B953D9F7C74F04E2DF9BADCC0F /* FormViewController.swift */,
+				FAC24D8FB2129C311B5C2F634413C4FC /* Support Files */,
+			);
+			path = SwiftForms;
+			sourceTree = "<group>";
+		};
+		D9C89052E33104F1C5B3D0134619B0A6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CF6FC053A7259BE66E461E7A5AF60F8 /* Info.plist */,
+				36E37BD10BBABE87A56E00436F91DA77 /* KeychainSwift.modulemap */,
+				75222FEA32E86FFCB21FCB3EDCBCDE1C /* KeychainSwift.xcconfig */,
+				BE0B26CA934EDFD2E9F9271420757793 /* KeychainSwift-dummy.m */,
+				1CE56623996F63FA2F1EA46104CDF342 /* KeychainSwift-prefix.pch */,
+				702BAC39EF714309B31E1B07E5C0ABF6 /* KeychainSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KeychainSwift";
+			sourceTree = "<group>";
+		};
+		DE44FEF4BD8DCFDD7D6F03C5846060A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57DB06BF90EB4ECAC76E13E4F031905C /* FontAwesome.swift.bundle */,
+				F7C65AA9358C16C5EC15806A0F733F93 /* FontAwesome_swift.framework */,
+				AE7864EB88974356028C584B91E9A5A2 /* KeychainSwift.framework */,
+				A87BC78E21C97BE3A4DD35DFAF82539F /* Pods_Cisco_Care.framework */,
+				AEDA91EBFDC35CF74C761E3199F88902 /* Pods_Cisco_CareTests.framework */,
+				3E56F28E356302648EDC9475473A013C /* Pods_Cisco_CareUITests.framework */,
+				802E36D880604543409B448562E38698 /* STZPopupView.framework */,
+				63CB49D3CBD472C0D249E8E39ED6A1E9 /* SwiftForms.framework */,
+				19F94332685EA3CA35E94D8BBC2EFC33 /* WWCalendarTimeSelector.framework */,
+				9251F3CFD978C9DDA08BEC503517B031 /* WWCalendarTimeSelectorStoryboardBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC24D8FB2129C311B5C2F634413C4FC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50A27CBC468939F3A4CCCEDCAF4F3032 /* Info.plist */,
+				5D0CDF756D18D39BBB3162B519D98A42 /* SwiftForms.modulemap */,
+				477D8B7611F9ECC75D0A7B59E3C4364D /* SwiftForms.xcconfig */,
+				1EEC55D83A6E8052B90EE7CB4DA4217C /* SwiftForms-dummy.m */,
+				D0C9173FFC9BE2C6C059C04C1DDE20CE /* SwiftForms-prefix.pch */,
+				4BDC2F9CFF1796BA4ABAFAA42001F713 /* SwiftForms-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftForms";
+			sourceTree = "<group>";
+		};
+		FC19486900951CADBD4C7540EE161B7A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBC6864BF7C43CB966A5AF4D1578EC88 /* Info.plist */,
+				8F1CA97EC58B51B7C2E5B2CAA001EA57 /* ResourceBundle-WWCalendarTimeSelectorStoryboardBundle-Info.plist */,
+				1ED6346468614801C7E7D0E67A23FEEE /* WWCalendarTimeSelector.modulemap */,
+				67B551A896D47DD7435C7E7D8BD5A8B6 /* WWCalendarTimeSelector.xcconfig */,
+				B704487061AA462E035CEB13E052050A /* WWCalendarTimeSelector-dummy.m */,
+				8367145309F0C7BBAFAD669773711A56 /* WWCalendarTimeSelector-prefix.pch */,
+				986BE1A2CBB77907206551CA57B0825C /* WWCalendarTimeSelector-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WWCalendarTimeSelector";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13777D85DF4CD6678BD632B70F670E28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA89E90D08F82EC682B2BC6622669E0 /* FontAwesome.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286A03AA9FA17126C3E907EC04548CE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9EDD05BC89724591A5BDC27286B4369 /* Pods-Cisco CareUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FEAB7528803CBF30AF501E511839AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3533E31843982DFFD05CDF05C001B96 /* Pods-Cisco Care-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C3EFE7232CCAD16D34E1677708C111 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08CAD7B9FE5F3CFD24843825AE85789E /* SwiftForms-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C90CB3079D2BD72853EC31521AADE53 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB9D6EBCD65A38812FF6E188B82F901 /* STZPopupView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33480EB38136598407A00A60FA3DDD6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DE6A17137F3276C1C75262E1A8CAB1 /* Pods-Cisco CareTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED376F5A85C7B357D9F22E5CAF095AA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0491A04C9403E6CEC3519FBB38F02863 /* KeychainSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E9124D2CAE203E625B999A93E4F2D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCFDB32189EEA61B96B29BB05B9AFBA /* WWCalendarTimeSelector-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19C7981B133F461846458632D3108992 /* WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DEA558507B7D18DE3A23ABA8A82DAA8 /* Build configuration list for PBXNativeTarget "WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle" */;
+			buildPhases = (
+				09AA83C451ECAB8BF977377A5189D069 /* Sources */,
+				F96E48C57E669644254EF9CBED68F0C6 /* Frameworks */,
+				0E01B6A5E423B0C300739C6344DC2BA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle";
+			productName = "WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle";
+			productReference = 9251F3CFD978C9DDA08BEC503517B031 /* WWCalendarTimeSelectorStoryboardBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		1FE2578FF0805299395CF2A0206BB671 /* FontAwesome.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38BD62EC04F59923F9724EE5CEF993B /* Build configuration list for PBXNativeTarget "FontAwesome.swift" */;
+			buildPhases = (
+				09814B1C51ECFF2DBBA94B61CEAB2E19 /* Sources */,
+				86EBEB7A5BC84E3C24D67ADD82B00EA6 /* Frameworks */,
+				E4D30328F854BCE3F55C358DF822523A /* Resources */,
+				13777D85DF4CD6678BD632B70F670E28 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5044CA3A48D08FC86E1A3B1F860FAE01 /* PBXTargetDependency */,
+			);
+			name = FontAwesome.swift;
+			productName = FontAwesome.swift;
+			productReference = F7C65AA9358C16C5EC15806A0F733F93 /* FontAwesome_swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		255D8B7AF8EBB248DE49BD17C7DD554F /* Pods-Cisco Care */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F06EC5C1497DEF6144B7DE4E333AC4F /* Build configuration list for PBXNativeTarget "Pods-Cisco Care" */;
+			buildPhases = (
+				4735A791F6B5402D979708153C30E025 /* Sources */,
+				8EC50694A240D8563507E2A555EB6233 /* Frameworks */,
+				34FEAB7528803CBF30AF501E511839AB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15C8EF8742008EE3B2648FA89F1B0F5D /* PBXTargetDependency */,
+				5EAE9174E0F5915A25C5F0EEAE66FD2E /* PBXTargetDependency */,
+				672D2FE3AA2FAD351E1EB0E8045FEC62 /* PBXTargetDependency */,
+				ACB9B5FCD252751D55D53E39653F5DD5 /* PBXTargetDependency */,
+				9E4612C7C1BCC32FD84DB7968C2AC3E9 /* PBXTargetDependency */,
+			);
+			name = "Pods-Cisco Care";
+			productName = "Pods-Cisco Care";
+			productReference = A87BC78E21C97BE3A4DD35DFAF82539F /* Pods_Cisco_Care.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2F6A1F067639E97EDA53D884155DE502 /* SwiftForms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9E4F4E810B32A54B7FDB666C24B53C /* Build configuration list for PBXNativeTarget "SwiftForms" */;
+			buildPhases = (
+				FA35889679E2E7A78B359E3A0F9F17A4 /* Sources */,
+				A5E3A09898014271D6E60062FF8189C1 /* Frameworks */,
+				71C3EFE7232CCAD16D34E1677708C111 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftForms;
+			productName = SwiftForms;
+			productReference = 63CB49D3CBD472C0D249E8E39ED6A1E9 /* SwiftForms.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3BFD44B49704B7AA5FB5018D7A96B456 /* STZPopupView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07DE49636AA5C96401A344F7288BE9EB /* Build configuration list for PBXNativeTarget "STZPopupView" */;
+			buildPhases = (
+				133CEB564A5E9D4C0C2BFDE9892536FF /* Sources */,
+				EA76DAB2421C9D23B8AEA0F11176C528 /* Frameworks */,
+				9C90CB3079D2BD72853EC31521AADE53 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STZPopupView;
+			productName = STZPopupView;
+			productReference = 802E36D880604543409B448562E38698 /* STZPopupView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C698C648EE4D43C6B8BE0BE1FE91737 /* KeychainSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6500F09FFD33E2D8329FED17B6822F0 /* Build configuration list for PBXNativeTarget "KeychainSwift" */;
+			buildPhases = (
+				FFEB44C9159E3FC74F18517CDEE49808 /* Sources */,
+				A398D8583DC063E5FF56605580164B17 /* Frameworks */,
+				ED376F5A85C7B357D9F22E5CAF095AA6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeychainSwift;
+			productName = KeychainSwift;
+			productReference = AE7864EB88974356028C584B91E9A5A2 /* KeychainSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		57A1469D033CED0D9B377778C561B038 /* Pods-Cisco CareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1192D47106B2F2CA83C832C5D3DC6CD /* Build configuration list for PBXNativeTarget "Pods-Cisco CareTests" */;
+			buildPhases = (
+				1384579C54EB65407E850406207BEB62 /* Sources */,
+				3144E758FF7C8F0B8B8354FCDA7ED503 /* Frameworks */,
+				D33480EB38136598407A00A60FA3DDD6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B5CAF63534A01A881D27841C0E2335F /* PBXTargetDependency */,
+				DE03B453EF974A46327ADE2D8C73B1B9 /* PBXTargetDependency */,
+				F39CDE5B047BB4FB6CB00AA6FCC80287 /* PBXTargetDependency */,
+				7BF8562B8DEA0F343A04F74DC9432185 /* PBXTargetDependency */,
+				624F9B51407F8649FF544E795D18F012 /* PBXTargetDependency */,
+			);
+			name = "Pods-Cisco CareTests";
+			productName = "Pods-Cisco CareTests";
+			productReference = AEDA91EBFDC35CF74C761E3199F88902 /* Pods_Cisco_CareTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7BCB4D642867A82E16BD7717E96542EC /* Pods-Cisco CareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E71660E66C6ADEB19008C60FF87911D6 /* Build configuration list for PBXNativeTarget "Pods-Cisco CareUITests" */;
+			buildPhases = (
+				B8ADB92EFDB9D3A911C3052F324D45A0 /* Sources */,
+				812F833A128D514A74C09E6506B3B885 /* Frameworks */,
+				286A03AA9FA17126C3E907EC04548CE0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17FD01C543B6AE77C8BC2CFBF75809B9 /* PBXTargetDependency */,
+				D556E7D2CFBB3B589046FB4306391290 /* PBXTargetDependency */,
+				E5ABF60BAA0D1FD517B15D7E1D1D1B9F /* PBXTargetDependency */,
+				8EF19FE833A6D7160648FD23C0859AD2 /* PBXTargetDependency */,
+				70B09D503FCE6650E17C8ACFE3C10967 /* PBXTargetDependency */,
+			);
+			name = "Pods-Cisco CareUITests";
+			productName = "Pods-Cisco CareUITests";
+			productReference = 3E56F28E356302648EDC9475473A013C /* Pods_Cisco_CareUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9F9F342E275E28220819E36BB927371 /* WWCalendarTimeSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629663EDABEB490EE684C0544796F4CD /* Build configuration list for PBXNativeTarget "WWCalendarTimeSelector" */;
+			buildPhases = (
+				ABFECCE26E7C74D620AA05F1DC76C687 /* Sources */,
+				36E2A1B0C7CB7BADD71A91B06F95A6D1 /* Frameworks */,
+				66809B5CC3A7CFD19EA1F9B6684491BC /* Resources */,
+				F5E9124D2CAE203E625B999A93E4F2D4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				178868E5CBB1AFE6E9EFF1A421C472A5 /* PBXTargetDependency */,
+			);
+			name = WWCalendarTimeSelector;
+			productName = WWCalendarTimeSelector;
+			productReference = 19F94332685EA3CA35E94D8BBC2EFC33 /* WWCalendarTimeSelector.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF4F067C2D0E135B80299B089E168BDA /* FontAwesome.swift-FontAwesome.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B375BC6286A9E3DE2F46F4B52CBA3F /* Build configuration list for PBXNativeTarget "FontAwesome.swift-FontAwesome.swift" */;
+			buildPhases = (
+				619EA0F427AF8584A7B03876241916DE /* Sources */,
+				5578ABFFBCB65D3EBF4D0CD1D5A77EB2 /* Frameworks */,
+				56ECBAFBCBB76303F03696DA1E059127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FontAwesome.swift-FontAwesome.swift";
+			productName = "FontAwesome.swift-FontAwesome.swift";
+			productReference = 57DB06BF90EB4ECAC76E13E4F031905C /* FontAwesome.swift.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DE44FEF4BD8DCFDD7D6F03C5846060A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FE2578FF0805299395CF2A0206BB671 /* FontAwesome.swift */,
+				EF4F067C2D0E135B80299B089E168BDA /* FontAwesome.swift-FontAwesome.swift */,
+				4C698C648EE4D43C6B8BE0BE1FE91737 /* KeychainSwift */,
+				255D8B7AF8EBB248DE49BD17C7DD554F /* Pods-Cisco Care */,
+				57A1469D033CED0D9B377778C561B038 /* Pods-Cisco CareTests */,
+				7BCB4D642867A82E16BD7717E96542EC /* Pods-Cisco CareUITests */,
+				3BFD44B49704B7AA5FB5018D7A96B456 /* STZPopupView */,
+				2F6A1F067639E97EDA53D884155DE502 /* SwiftForms */,
+				B9F9F342E275E28220819E36BB927371 /* WWCalendarTimeSelector */,
+				19C7981B133F461846458632D3108992 /* WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E01B6A5E423B0C300739C6344DC2BA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492296179E9486B49730E294EB0364C9 /* WWCalendarTimeSelector.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56ECBAFBCBB76303F03696DA1E059127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFA6651790C1B6890BC8AF9BCE67AD4 /* FontAwesome.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66809B5CC3A7CFD19EA1F9B6684491BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DEDDA62E1F3C1DF310DBF68C23DC994 /* WWCalendarTimeSelectorStoryboardBundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D30328F854BCE3F55C358DF822523A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977893CD9D5483CEDEC34CC89B83CAA7 /* FontAwesome.swift.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09814B1C51ECFF2DBBA94B61CEAB2E19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D1D54665B1EDC301F4E9A900C42DC3 /* Enum.swift in Sources */,
+				3DDE96C1DBE8B94559B5F57A31D4C791 /* FontAwesome.swift in Sources */,
+				CF0F718C9F8E2818B98012CDDA4C6805 /* FontAwesome.swift-dummy.m in Sources */,
+				27967FFAE1AD1B478141BDE32EF090CF /* FontAwesomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09AA83C451ECAB8BF977377A5189D069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133CEB564A5E9D4C0C2BFDE9892536FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC7DE15BC509AE03CC6E17A681A4699 /* STZPopupView-dummy.m in Sources */,
+				7B1495069765C079071BA0D58DF97399 /* STZPopupViewConfig.swift in Sources */,
+				332A5D5F1BB426B0C68E74AF77BDEF7F /* UIViewController+STZPopupView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1384579C54EB65407E850406207BEB62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64E4E16A04F35FDE398F01AEF38BBB2 /* Pods-Cisco CareTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4735A791F6B5402D979708153C30E025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0673DD1EEA0A0B5760F04363FE3A190A /* Pods-Cisco Care-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		619EA0F427AF8584A7B03876241916DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFECCE26E7C74D620AA05F1DC76C687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4B3BE7758786DBD13AEBDA8493F2F8 /* Duration.swift in Sources */,
+				C7AB13C6BB85ACA408EC6E0E7179F50A /* Int+Timepiece.swift in Sources */,
+				EA4FEC8F008FDB6B80137EDA2F93EAEF /* NSCalendar+Timepiece.swift in Sources */,
+				A017D846E40AE721346C24D1BF9966C6 /* NSDate+Timepiece.swift in Sources */,
+				F42453A87F6458D2572B815A54124491 /* NSDateComponents+Timepiece.swift in Sources */,
+				ADCF950A2B12B3CEF7EC2003BFD171C7 /* String+Timepiece.swift in Sources */,
+				154D33F1A7986DDD39F94EBEEF6B0E79 /* WWCalendarTimeSelector-dummy.m in Sources */,
+				B1784FFD93581D70DA312863FDCB7CC1 /* WWCalendarTimeSelector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8ADB92EFDB9D3A911C3052F324D45A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298D8EA481DF2D52EDAE48EBCBD78B5F /* Pods-Cisco CareUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA35889679E2E7A78B359E3A0F9F17A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4587EE201603ED229C2E0AB291F50DE5 /* FormBaseCell.swift in Sources */,
+				6F05B38FFD9A0CEC8DFACE05513C9CDF /* FormButtonCell.swift in Sources */,
+				E1E198AF9245A0CD7820A87D50C3010D /* FormCheckCell.swift in Sources */,
+				F381EC7D2DDF3D58408CCB1BA53C16BA /* FormDateCell.swift in Sources */,
+				371F9FF4B322F0017BC2370A8DDF094C /* FormDescriptor.swift in Sources */,
+				8EEDE64434F3826648D449AB36D4EDA7 /* FormErrorType.swift in Sources */,
+				76712B604495F25DECED4E5815DDBB40 /* FormLabelCell.swift in Sources */,
+				A601E9F7E857E7FD6F14A4DF2BA0D5C3 /* FormOptionsViewController.swift in Sources */,
+				BAA4351E569CC317B8A52BD0B55698BF /* FormPickerCell.swift in Sources */,
+				A23BD2747049755EB5ED5805428B692F /* FormRowDescriptor.swift in Sources */,
+				1F7C9BC9D98E165D85EC16BEB7B98A6E /* FormSectionDescriptor.swift in Sources */,
+				BFE230E567EFFC7DE26275E1A3730A2A /* FormSegmentedControlCell.swift in Sources */,
+				A5729E4367090B879436F71A9CFE10B9 /* FormSelector.swift in Sources */,
+				BB956EB4FFDF5D6BCE3FBC2093563D15 /* FormSelectorCell.swift in Sources */,
+				1EF30FAF29B0B45F5885BCB14E7499DD /* FormSliderCell.swift in Sources */,
+				9713E887CA796D377AAB1CBE6DFBD128 /* FormStepperCell.swift in Sources */,
+				34A2BBB236A26DA759DAA6CF0E37898B /* FormSwitchCell.swift in Sources */,
+				B9DD46C17EEF23E1AAB8B622B0B3B3CF /* FormTextFieldCell.swift in Sources */,
+				6048AE6C529C45C6D109169584C38415 /* FormTextViewCell.swift in Sources */,
+				CFD2201F5441AEAAE318AAA0982B18EB /* FormTitleCell.swift in Sources */,
+				09FBFFB1A3D4C3B859AE4349600FB0C4 /* FormValueCell.swift in Sources */,
+				243605482B4A47C9E568185296A69BE4 /* FormViewController.swift in Sources */,
+				A235DC3F556A366BCC4981FED99354E8 /* SwiftForms-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFEB44C9159E3FC74F18517CDEE49808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9310F4B12ED0840040DD866F9247BB2F /* KeychainSwift-dummy.m in Sources */,
+				74D9BC287FBC1CF7A72D31D2A1AB50F4 /* KeychainSwift.swift in Sources */,
+				4C5B68C9D3C21E43DC96A39DF90ED498 /* KeychainSwiftAccessOptions.swift in Sources */,
+				023D9E2B24A050BCE1A35DF8F7EEC1C3 /* TegKeychainConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B5CAF63534A01A881D27841C0E2335F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FontAwesome.swift;
+			target = 1FE2578FF0805299395CF2A0206BB671 /* FontAwesome.swift */;
+			targetProxy = F8C326D55A89CECD47A600639CAA8630 /* PBXContainerItemProxy */;
+		};
+		15C8EF8742008EE3B2648FA89F1B0F5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FontAwesome.swift;
+			target = 1FE2578FF0805299395CF2A0206BB671 /* FontAwesome.swift */;
+			targetProxy = B940E52A12FB8006385B923BEFCAB8DA /* PBXContainerItemProxy */;
+		};
+		178868E5CBB1AFE6E9EFF1A421C472A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle";
+			target = 19C7981B133F461846458632D3108992 /* WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle */;
+			targetProxy = F197CA68380B5B530100F7010DDBD6C7 /* PBXContainerItemProxy */;
+		};
+		17FD01C543B6AE77C8BC2CFBF75809B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FontAwesome.swift;
+			target = 1FE2578FF0805299395CF2A0206BB671 /* FontAwesome.swift */;
+			targetProxy = CCA5215DE2DCC9171AF31225BB171923 /* PBXContainerItemProxy */;
+		};
+		5044CA3A48D08FC86E1A3B1F860FAE01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FontAwesome.swift-FontAwesome.swift";
+			target = EF4F067C2D0E135B80299B089E168BDA /* FontAwesome.swift-FontAwesome.swift */;
+			targetProxy = 192DAE8239CEDF28426AC10F45C42C62 /* PBXContainerItemProxy */;
+		};
+		5EAE9174E0F5915A25C5F0EEAE66FD2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainSwift;
+			target = 4C698C648EE4D43C6B8BE0BE1FE91737 /* KeychainSwift */;
+			targetProxy = 79D8DED6B24599D6F1AF2F158CACE8C1 /* PBXContainerItemProxy */;
+		};
+		624F9B51407F8649FF544E795D18F012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WWCalendarTimeSelector;
+			target = B9F9F342E275E28220819E36BB927371 /* WWCalendarTimeSelector */;
+			targetProxy = FB0360030C4E7D5FDF47FC95FE5E58C1 /* PBXContainerItemProxy */;
+		};
+		672D2FE3AA2FAD351E1EB0E8045FEC62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = STZPopupView;
+			target = 3BFD44B49704B7AA5FB5018D7A96B456 /* STZPopupView */;
+			targetProxy = 527D26063236C43E80D40D8EBD40A8FD /* PBXContainerItemProxy */;
+		};
+		70B09D503FCE6650E17C8ACFE3C10967 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WWCalendarTimeSelector;
+			target = B9F9F342E275E28220819E36BB927371 /* WWCalendarTimeSelector */;
+			targetProxy = 7BCADD297CF083B1CC9534B8D7864280 /* PBXContainerItemProxy */;
+		};
+		7BF8562B8DEA0F343A04F74DC9432185 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftForms;
+			target = 2F6A1F067639E97EDA53D884155DE502 /* SwiftForms */;
+			targetProxy = 7B5B7A6EC775B534528182FDCF01035C /* PBXContainerItemProxy */;
+		};
+		8EF19FE833A6D7160648FD23C0859AD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftForms;
+			target = 2F6A1F067639E97EDA53D884155DE502 /* SwiftForms */;
+			targetProxy = 2BBEA37127F4CA4B9BAF861D6745B50D /* PBXContainerItemProxy */;
+		};
+		9E4612C7C1BCC32FD84DB7968C2AC3E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WWCalendarTimeSelector;
+			target = B9F9F342E275E28220819E36BB927371 /* WWCalendarTimeSelector */;
+			targetProxy = 4AB79AA683D5E225E3DAFBE3FC3B3DE5 /* PBXContainerItemProxy */;
+		};
+		ACB9B5FCD252751D55D53E39653F5DD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftForms;
+			target = 2F6A1F067639E97EDA53D884155DE502 /* SwiftForms */;
+			targetProxy = F8E943C67C4FDC875D42EA2E437ECB23 /* PBXContainerItemProxy */;
+		};
+		D556E7D2CFBB3B589046FB4306391290 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainSwift;
+			target = 4C698C648EE4D43C6B8BE0BE1FE91737 /* KeychainSwift */;
+			targetProxy = 459B25DC08B29B1009B75929C97B2473 /* PBXContainerItemProxy */;
+		};
+		DE03B453EF974A46327ADE2D8C73B1B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainSwift;
+			target = 4C698C648EE4D43C6B8BE0BE1FE91737 /* KeychainSwift */;
+			targetProxy = 056A3DDE5432062EF011261931B83540 /* PBXContainerItemProxy */;
+		};
+		E5ABF60BAA0D1FD517B15D7E1D1D1B9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = STZPopupView;
+			target = 3BFD44B49704B7AA5FB5018D7A96B456 /* STZPopupView */;
+			targetProxy = 7D9C13E497A0D3B47E39AD0F2BC12FED /* PBXContainerItemProxy */;
+		};
+		F39CDE5B047BB4FB6CB00AA6FCC80287 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = STZPopupView;
+			target = 3BFD44B49704B7AA5FB5018D7A96B456 /* STZPopupView */;
+			targetProxy = BCD0396494E21C2C21FF3FBF0EB9673D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E835B569786222C7DABB06CDE92018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B551A896D47DD7435C7E7D8BD5A8B6 /* WWCalendarTimeSelector.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WWCalendarTimeSelector";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/WWCalendarTimeSelector/ResourceBundle-WWCalendarTimeSelectorStoryboardBundle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WWCalendarTimeSelectorStoryboardBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		08AE51B4BD4305D5DADA67764333691A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 477D8B7611F9ECC75D0A7B59E3C4364D /* SwiftForms.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftForms/SwiftForms-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftForms/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftForms/SwiftForms.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftForms;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		091C8C079E42F2BF1B569D79A7F00C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75222FEA32E86FFCB21FCB3EDCBCDE1C /* KeychainSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KeychainSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0A377CDE9B27653F98E0692049B8DE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6104FC707DD8C7B9B88F67255BE086C0 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesome.swift";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/ResourceBundle-FontAwesome.swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FontAwesome.swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		0AB6776197B878B41507C889EC4A1EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B551A896D47DD7435C7E7D8BD5A8B6 /* WWCalendarTimeSelector.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WWCalendarTimeSelector/WWCalendarTimeSelector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WWCalendarTimeSelector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WWCalendarTimeSelector/WWCalendarTimeSelector.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WWCalendarTimeSelector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0EDE2AE185A922F7CC3AA7247EE14E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B551A896D47DD7435C7E7D8BD5A8B6 /* WWCalendarTimeSelector.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WWCalendarTimeSelector/WWCalendarTimeSelector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WWCalendarTimeSelector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WWCalendarTimeSelector/WWCalendarTimeSelector.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WWCalendarTimeSelector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		163B34E4F2CAECF9BB9842B65D202B37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CEF893164E24E4A3FA9445DFE5D3B16 /* Pods-Cisco CareUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Cisco CareUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cisco CareUITests/Pods-Cisco CareUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Cisco_CareUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1D937649D911EF180CCA31EEB6D09E8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6104FC707DD8C7B9B88F67255BE086C0 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesome.swift/FontAwesome.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FontAwesome.swift/FontAwesome.swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FontAwesome_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		366C2A48230E8F828A86CC50D4DDEB35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6104FC707DD8C7B9B88F67255BE086C0 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesome.swift/FontAwesome.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FontAwesome.swift/FontAwesome.swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FontAwesome_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F5CB1D1E96B683908CB1A3EF2BAF421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B62B8CF47E6CB2BD450E86FAD7D419 /* Pods-Cisco Care.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Cisco Care/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cisco Care/Pods-Cisco Care.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Cisco_Care;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4A259A7B959C73978A39808FAA806F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75222FEA32E86FFCB21FCB3EDCBCDE1C /* KeychainSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KeychainSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55141E9ADA94A86D765D449A87D5118A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A616CF0085A3B0889AF2A8707F214A2 /* Pods-Cisco CareUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Cisco CareUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cisco CareUITests/Pods-Cisco CareUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Cisco_CareUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8919C028FE06D24989DC5D2D69FBC83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C939B1FD52A67F603AA2DFE9B3725FF /* STZPopupView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/STZPopupView/STZPopupView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/STZPopupView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/STZPopupView/STZPopupView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = STZPopupView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8BCE2ABAB1867E8A51C959AC8E0A4B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B551A896D47DD7435C7E7D8BD5A8B6 /* WWCalendarTimeSelector.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WWCalendarTimeSelector";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/WWCalendarTimeSelector/ResourceBundle-WWCalendarTimeSelectorStoryboardBundle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WWCalendarTimeSelectorStoryboardBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9A47578BB8B5A6053A10E34BC04FF43D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C206B510F093B33744920704F1FE9D0 /* Pods-Cisco CareTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Cisco CareTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cisco CareTests/Pods-Cisco CareTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Cisco_CareTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E731B9C76FEE624CC901B553739BFF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C939B1FD52A67F603AA2DFE9B3725FF /* STZPopupView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/STZPopupView/STZPopupView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/STZPopupView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/STZPopupView/STZPopupView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = STZPopupView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5CDEF4896424916421E96580C2BC61F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6104FC707DD8C7B9B88F67255BE086C0 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesome.swift";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/ResourceBundle-FontAwesome.swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FontAwesome.swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDDC3BB2689896ABE457166F9E23E717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10E5FC79F09F6BC82748059FB1D2AF06 /* Pods-Cisco CareTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Cisco CareTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cisco CareTests/Pods-Cisco CareTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Cisco_CareTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE61B2EC235C98C5C48AC7344B638C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 477D8B7611F9ECC75D0A7B59E3C4364D /* SwiftForms.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftForms/SwiftForms-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftForms/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftForms/SwiftForms.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftForms;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF415F0808DD9CB3E8B87105709946BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DDA5A16E20E9D36879FDA5E0068A678 /* Pods-Cisco Care.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Cisco Care/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cisco Care/Pods-Cisco Care.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Cisco_Care;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07DE49636AA5C96401A344F7288BE9EB /* Build configuration list for PBXNativeTarget "STZPopupView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E731B9C76FEE624CC901B553739BFF5 /* Debug */,
+				8919C028FE06D24989DC5D2D69FBC83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F06EC5C1497DEF6144B7DE4E333AC4F /* Build configuration list for PBXNativeTarget "Pods-Cisco Care" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F5CB1D1E96B683908CB1A3EF2BAF421 /* Debug */,
+				EF415F0808DD9CB3E8B87105709946BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		629663EDABEB490EE684C0544796F4CD /* Build configuration list for PBXNativeTarget "WWCalendarTimeSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB6776197B878B41507C889EC4A1EF8 /* Debug */,
+				0EDE2AE185A922F7CC3AA7247EE14E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DEA558507B7D18DE3A23ABA8A82DAA8 /* Build configuration list for PBXNativeTarget "WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BCE2ABAB1867E8A51C959AC8E0A4B21 /* Debug */,
+				00E835B569786222C7DABB06CDE92018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9E4F4E810B32A54B7FDB666C24B53C /* Build configuration list for PBXNativeTarget "SwiftForms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08AE51B4BD4305D5DADA67764333691A /* Debug */,
+				DE61B2EC235C98C5C48AC7344B638C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6500F09FFD33E2D8329FED17B6822F0 /* Build configuration list for PBXNativeTarget "KeychainSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A259A7B959C73978A39808FAA806F12 /* Debug */,
+				091C8C079E42F2BF1B569D79A7F00C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7B375BC6286A9E3DE2F46F4B52CBA3F /* Build configuration list for PBXNativeTarget "FontAwesome.swift-FontAwesome.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5CDEF4896424916421E96580C2BC61F /* Debug */,
+				0A377CDE9B27653F98E0692049B8DE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E71660E66C6ADEB19008C60FF87911D6 /* Build configuration list for PBXNativeTarget "Pods-Cisco CareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163B34E4F2CAECF9BB9842B65D202B37 /* Debug */,
+				55141E9ADA94A86D765D449A87D5118A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1192D47106B2F2CA83C832C5D3DC6CD /* Build configuration list for PBXNativeTarget "Pods-Cisco CareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A47578BB8B5A6053A10E34BC04FF43D /* Debug */,
+				DDDC3BB2689896ABE457166F9E23E717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38BD62EC04F59923F9724EE5CEF993B /* Build configuration list for PBXNativeTarget "FontAwesome.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				366C2A48230E8F828A86CC50D4DDEB35 /* Debug */,
+				1D937649D911EF180CCA31EEB6D09E8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
