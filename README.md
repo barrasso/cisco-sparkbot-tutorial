@@ -6,9 +6,11 @@ Everything you need to start creating apps and bots using Cisco Spark.
 
 ## Contents 
 
-1. [Preresiquites](#preresiquites)
-2. [Overview](#overview)
-3. [Creating a Spark Bot](#creating-a-spark-bot)
+- [Preresiquites](#preresiquites)
+- [Overview](#overview)
+- [Creating a Spark Bot](#creating-a-spark-bot)
+  - [Using Gupshup's IDE to Code Your Bot](#using-gupshups-ide-to-code-your-bot)
+- [Creating a Spark Bot](#creating-a-spark-bot)
 
 ## Preresiquites
 
