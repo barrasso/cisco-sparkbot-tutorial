@@ -15,6 +15,7 @@ Everything you need to start creating apps and bots using Cisco Spark.
   - [Authorizing Your App Integration](#authorizing-your-app-integration)
   - [Handling Access Tokens](#handling-access-tokens)
   - [Invoking the APIs](#invoking-the-apis)
+  - [Using Webhooks](#using-webhooks)
 - [Use Case Examples](#use-case-examples) 
 - [License](#license)
 
@@ -291,6 +292,25 @@ class IncomingCallViewController: UIViewController, PhoneObserver {
 
 Also, be sure to check out the alternative [Spark iOS SDK examples](https://github.com/ciscospark/spark-ios-sdk-example)!
 
+#### Using Webhooks
+
+Webhooks allow your app to be notified via HTTP when a specific event occurs on Spark. For example, your app can register a webhook to be notified when a new message is posted into a specific room.
+
+Events trigger in near real-time allowing, your app and backend IT systems to stay in sync with new content and room activity.
+
+**Here are some of the available webhook resources and events:**
+
+Resource | Event | Trigger | Filters (optional)
+-------- | ----- | ------- | ------------------
+memberships	| created | Someone joined a room that you are in | roomId, personId, personEmail, isModerator
+memberships	| updated	| Someone's membership was updated; primarily used to detect moderator changes | roomId, personId, personEmail, isModerator
+memberships |	deleted |	Someone left or was kicked out of a room that you are in | roomId, personId, personEmail, isModerator
+messages | created |	New message posted into a room | roomId, roomType, personId, personEmail, mentionedPeople, hasFiles
+messages | deleted | A message was deleted | roomId, roomType, personId, personEmail, mentionedPeople, hasFiles
+rooms | created | A new room was created by you or one of your integrations	| type, isLocked
+rooms	| updated	| A room that you are in was updated; primarily used to detect when a room becomes Locked or Unlocked	| type, isLocked
+
+For more on webhooks, visit [Webhooks Explained](https://developer.ciscospark.com/webhooks-explained.html) on the Cisco Spark Developer portal.
 
 ##Use Case Examples
 
@@ -330,6 +350,8 @@ insert spacy.io
 #### 2. GitHub Commit Bot (Python)
 
 This bot listens for commits & comments on a particular repository and posts the details into a Spark room.
+
+You will need to setup webhooks to listen for a specific Github repository. See [creating webhooks on Github](https://developer.github.com/webhooks/creating/).
 
 ```python
 from flask import Flask, request, abort
