@@ -314,6 +314,12 @@ For more on webhooks, visit [Webhooks Explained](https://developer.ciscospark.co
 
 ##Use Case Examples
 
+Need inspiration? Check out some sample apps and bots built using Spark!
+
+Simply, `git clone` this repo, and navigate to the `Examples` directory.  
+
+There you will find the code for the use cases listed below:
+
 #### 1. Virtual Assistant Bot
 
 You can create bots who act as virtual assistants to help users with tasks such as reminding them to take their medicine or scheduling and cancelling appointments.
