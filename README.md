@@ -314,12 +314,14 @@ For more on webhooks, visit [Webhooks Explained](https://developer.ciscospark.co
 
 ##Use Case Examples
 
-#### 1. Virtual Medical Assistant Bot
+#### 1. Virtual Assistant Bot
 
 You can create bots who act as virtual assistants to help users with tasks such as reminding them to take their medicine or scheduling and cancelling appointments.
 
 <img src="https://i.imgur.com/FC82Gc5.png" width="200px"/>
 <img src="https://imgur.com/m8obtqx.png" width="200px"/>
+
+##### Using Medical Data Within Your Bot
 
 To help you test your applications, [Epic](https://open.epic.com/) provides both an online testing harness, for playing sample calls, and a full-fledged instance of Epic, configured according to our recommendations, that you can POST and GET data from.
 
@@ -331,12 +333,14 @@ Accept: application/json
 ```
 or else it will return the data in XML format.
 
-Sample patient data URL:
+**Sample GETs:**
+
+URL to get a patient's medical history:
 ```
 https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB 
 ```
 
-Sample medicine data URL:
+URL to get a list of a patient's medicines:
 ```
 https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/MedicationOrder?patient=Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB
 ```
