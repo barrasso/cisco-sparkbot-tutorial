@@ -316,7 +316,7 @@ For more on webhooks, visit [Webhooks Explained](https://developer.ciscospark.co
 
 Need inspiration? Check out some sample apps and bots built using Spark!
 
-Simply, `git clone` this repo, and navigate to the `Examples` directory.  
+Simply `git clone` this repository, and navigate to the `Examples` directory.  
 
 There you will find the code for the use cases listed below:
 
