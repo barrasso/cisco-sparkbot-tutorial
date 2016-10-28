@@ -6,7 +6,7 @@ Everything you need to start creating apps and bots using Cisco Spark.
 
 ## Contents 
 
-- [Preresiquites](#preresiquites)
+- [Prerequisites](#prerequisites)
 - [Overview](#overview)
 - [Creating a Spark Bot](#creating-a-spark-bot)
   - [Using Gupshup's IDE to Code Your Bot](#using-gupshups-ide-to-code-your-bot)
@@ -20,10 +20,10 @@ Everything you need to start creating apps and bots using Cisco Spark.
 - [License](#license)
 
 
-## Preresiquites
+## Prerequisites
 
-- First, [sign up](https://web.ciscospark.com/#/signin) for a Cisco Spark developer account
-- Second, [create an account](https://www.gupshup.io/developer/home#) on Gupshup 
+- First, [sign up](https://web.ciscospark.com/#/signin) for a Cisco Spark developer account.
+- Second, [create an account](https://www.gupshup.io/developer/home#) on Gupshup. 
 
 ## Overview
 
@@ -268,11 +268,11 @@ do {
 // Make a call
 var outgoingCall =  Spark.phone.dial("coworker@acm.com", option: MediaOption.AudioVideo(local: ..., remote: ...)) { success in
     if !success {
-        print("Failed to dail")
+        print("Failed to dial”)
     }
 }
 
-// Recieve a call
+// Receive a call
 class IncomingCallViewController: UIViewController, PhoneObserver {
     override func viewWillAppear(...) {
         ...
