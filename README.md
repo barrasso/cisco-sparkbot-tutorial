@@ -110,7 +110,7 @@ When you are ready to test, click the `Deploy` button to publish your code and u
 
 Here is another tutorial with more code examples from Gupshup on how to [build & deploy your bot on Cisco Spark](https://www.gupshup.io/developer/docs/bot-platform/guide/build-deploy-bot-on-cisco-spark).
 
-Alternatively, you can also create your own custom bot using the comprehensive [Cisco Spark Bot SDK for NodeJS](https://github.com/nmarus/flint) created by [@nmarus](https://github.com/nmarus).
+Alternatively, you can also create your own custom bot using the comprehensive [Cisco Spark Bot SDK for NodeJS](https://github.com/nmarus/flint) called Flint created by [@nmarus](https://github.com/nmarus).
 
 ## Creating a Spark App Integration
 
