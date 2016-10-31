@@ -53,7 +53,7 @@ You can learn more about what bots can do [here](https://developer.ciscospark.co
 - Click on the plus sign in the upper right corner
 - Select `Create a Bot`
 - Enter in the basic information: e.g. the bot's display name, Spark username, and icon url
-  - *You may choose to use this link: `https://i.imgur.com/H0bCPEm.png` for the icon url* 
+  - *You may choose to use this link: `https://i.imgur.com/KwdBVgD.png` for the icon url* 
 - Once ready, select `Add Bot`
 
 <img src="https://imgur.com/bh0AVpQ.png"/>
