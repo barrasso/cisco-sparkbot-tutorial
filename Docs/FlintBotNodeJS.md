@@ -141,7 +141,7 @@ To update to the latest version of node, follow the instructions below:
       
       ```
       
-      Y2lzY29zcGFyazovL3VzL1dFQkhPT0svZTdiMGM0YTYtYTJmMy00NjIzLTk0NzUtYjlmZjQ3ZjllZjQ1
+      Njk5YzcyOWEtMGI5MS00ZGY3LWI2MGQtYTVhNGM0YTA3NTMxOGU4NTc1N2EtNGEz
 
 
 ### License
