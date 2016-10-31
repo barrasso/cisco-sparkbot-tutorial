@@ -548,6 +548,12 @@ http.createServer(function (req, res) {
 
 ```
 
+
+#### 4. Healthcare History Bot
+
+...
+
+
 ## Links & References
 
 - [Cisco Spark Developer Portal](https://developer.ciscospark.com/)
