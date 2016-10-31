@@ -22,9 +22,9 @@ Everything you need to start creating apps and bots using Cisco Spark.
 
 ## Prerequisites
 
-1. [Create a Cisco Spark account!](https://web.ciscospark.com/#/signin target="_blank")
+1. [Create a Cisco Spark account!](https://web.ciscospark.com/#/signin)
 
-<a href="https://www.gupshup.io/developer/home#" target="_blank">2. Sign up for a Gupshup account</a>
+2. [Sign up for a Gupshup account](https://www.gupshup.io/developer/home#)
 
 ## Overview
 
@@ -42,18 +42,18 @@ Spark also provides the ability to create [bots](https://en.wikipedia.org/wiki/I
 <img src="https://i.imgur.com/NgwaScg.png" alt="Spark Bots" height="333px"/>
 
 
-
-Alternatively, you can learn more about what bots can do [here](https://developer.ciscospark.com/bots.html).
+You can learn more about what bots can do [here](https://developer.ciscospark.com/bots.html).
 
 
 ## Creating a Spark Bot
 
-#####Once you have created an account on [developer.ciscospark.com](developer.ciscospark.com):
+#####Once you have created an account on [developer.ciscospark.com](https://developer.ciscospark.com):
 
 - Navigate to [My Apps](https://developer.ciscospark.com/apps.html) on the Spark developer portal
 - Click on the plus sign in the upper right corner
 - Select `Create a Bot`
 - Enter in the basic information: e.g. the bot's display name, Spark username, and icon url
+  - *P.S. You can use this link: `https://i.imgur.com/H0bCPEm.png` for the icon url* 
 - Once ready, select `Add Bot`
 
 <img src="https://imgur.com/bh0AVpQ.png"/>
