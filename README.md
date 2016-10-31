@@ -113,6 +113,8 @@ Here is another tutorial with more code examples from Gupshup on how to [build &
 
 Alternatively, you can also create your own custom bot using the comprehensive [Cisco Spark Bot SDK for NodeJS](https://github.com/nmarus/flint) called Flint created by [@nmarus](https://github.com/nmarus).
 
+Check out the sample application using Flint [here](https://github.com/barrasso/cisco-spark-dev-guide/blob/master/Docs/FlintBotNodeJS.md).
+
 ## Creating a Spark App Integration
 
 This process is very similar to creating a bot with Cisco Spark. Integrations are a way for your apps to request permission to invoke the Spark APIs on behalf of other Spark users. The process used to request permission is called an OAuth Grant Flow, and is documented in the [Spark Integrations guide](https://developer.ciscospark.com/authentication.html).
