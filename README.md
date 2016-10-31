@@ -22,8 +22,9 @@ Everything you need to start creating apps and bots using Cisco Spark.
 
 ## Prerequisites
 
-- First, [sign up](https://web.ciscospark.com/#/signin) for a Cisco Spark developer account.
-- Second, [create an account](https://www.gupshup.io/developer/home#) on Gupshup. 
+1. [Create a Cisco Spark account](https://web.ciscospark.com/#/signin)
+
+2. [Sign up for a Gupshup account](https://www.gupshup.io/developer/home#)
 
 ## Overview
 
@@ -41,18 +42,18 @@ Spark also provides the ability to create [bots](https://en.wikipedia.org/wiki/I
 <img src="https://i.imgur.com/NgwaScg.png" alt="Spark Bots" height="333px"/>
 
 
-
-Alternatively, you can learn more about what bots can do [here](https://developer.ciscospark.com/bots.html).
+You can learn more about what bots can do [here](https://developer.ciscospark.com/bots.html).
 
 
 ## Creating a Spark Bot
 
-#####Once you have created an account on [developer.ciscospark.com](developer.ciscospark.com):
+#####Once you have created an account on [developer.ciscospark.com](https://developer.ciscospark.com):
 
 - Navigate to [My Apps](https://developer.ciscospark.com/apps.html) on the Spark developer portal
 - Click on the plus sign in the upper right corner
 - Select `Create a Bot`
 - Enter in the basic information: e.g. the bot's display name, Spark username, and icon url
+  - *You may choose to use this link: `https://i.imgur.com/H0bCPEm.png` for the icon url* 
 - Once ready, select `Add Bot`
 
 <img src="https://imgur.com/bh0AVpQ.png"/>
@@ -110,7 +111,7 @@ When you are ready to test, click the `Deploy` button to publish your code and u
 
 Here is another tutorial with more code examples from Gupshup on how to [build & deploy your bot on Cisco Spark](https://www.gupshup.io/developer/docs/bot-platform/guide/build-deploy-bot-on-cisco-spark).
 
-Alternatively, you can also create your own custom bot using the comprehensive [Cisco Spark Bot SDK for NodeJS](https://github.com/nmarus/flint) created by [@nmarus](https://github.com/nmarus).
+Alternatively, you can also create your own custom bot using the comprehensive [Cisco Spark Bot SDK for NodeJS](https://github.com/nmarus/flint) called Flint created by [@nmarus](https://github.com/nmarus).
 
 ## Creating a Spark App Integration
 
