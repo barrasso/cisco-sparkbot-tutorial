@@ -141,8 +141,64 @@ To update to the latest version of node, follow the instructions below:
       
       ```
       
-      Njk5YzcyOWEtMGI5MS00ZGY3LWI2MGQtYTVhNGM0YTA3NTMxOGU4NTc1N2EtNGEz
+### Connecting to Spark
 
+To begin listening for new messages, you must first create a [webhook](https://developer.ciscospark.com/webhooks-explained.html). 
+
+First off, you'll need to create a bot on Spark:
+
+- Navigate to [My Apps](https://developer.ciscospark.com/apps.html) on the Spark developer portal
+- Click on the plus sign in the upper right corner
+- Select `Create a Bot`
+- Enter in the basic information: e.g. the bot's display name, Spark username, and icon url
+  - *You may choose to use this link: `https://i.imgur.com/H0bCPEm.png` for the icon url* 
+- Once ready, select `Add Bot`
+
+<img src="https://imgur.com/bh0AVpQ.png"/>
+
+- Next, open the Spark client app on your phone or desk
+- Search for your newly created bot by username and add it to a room
+- Once you created a new room, navigate to the [Spark developer portal](https://developer.ciscospark.com/endpoint-rooms-get.html) to get the `roomId`
+```
+GET
+https://api.ciscospark.com/v1/rooms
+```
+
+- Using the [get rooms endpoint](https://developer.ciscospark.com/endpoint-rooms-get.html), make sure `Test Mode` is set to ON
+- Scroll down the page and take note of the `Authorization` header (you will need that Bearer token)
+- Click the `Run` button
+- If successful, your response will be displayed on the right side of the screen
+- Copy the `"id"` variable of the respective bot room
+
+### Creating a Webhook
+
+- Navigate to [this resource](https://developer.ciscospark.com/endpoint-webhooks-post.html) to create a webhook
+  - Alternatively, you can perform a POST using Postman to create webhooks
+```
+POST
+https://api.ciscospark.com/v1/webhooks
+```
+- Fill out the required variables: `name`, `targetUrl`, `resource`, `event`, `filter`, and `secret`. 
+- In a production enviroment, you would setup the webhook so that Spark sends the request to your app.  However, you can use [http://requestb.in/](requestb.in) so that you can see how a webhook works without developing an app first.
+  1. Go to [http://requestb.in/](http://requestb.in/)
+  2. Click on `Create a Requestb.in`
+  3. Take note of your new bin URL
+  4. You can stay on this page and refresh it to see incoming POST data from the Spark webhook
+  
+  In `mybot.js` make sure to edit the `webhookUrl` and `token` variables to include your new ` callback URL` and `Bearer Token`:
+  
+```javascript
+// flint options
+var config = {
+  webhookUrl: 'https://<host>/flint',
+  token: '<token>',
+  port: 8080,
+  removeWebhooksOnStart: false,
+  maxConcurrent: 5,
+  minTime: 50
+};
+```
+Once saved, now run your bot using `node mybot.js` and the webhook will begin to POST new messages in the Spark room.
 
 ### License
 
