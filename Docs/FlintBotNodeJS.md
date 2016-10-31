@@ -90,7 +90,7 @@ flint.on('message', function(bot, trigger, id) {
 
 flint.on('initialized', function() {
   flint.debug('initialized %s rooms', flint.bots.length);
-});
+});sudoe
 
 // define express path for incoming webhooks
 app.post('/flint', webhook(flint));
@@ -109,3 +109,45 @@ process.on('SIGINT', function() {
   });
 });
 ```
+
+
+### Running the Sample Bot
+
+
+0. Make sure to install the additional project dependencies by running `npm install`
+
+1. Now, let's run our test bot to make sure it works! 
+
+Run the following command to confirm: 
+
+```
+node mybot.js
+```
+
+**Note: If you experience some error messages due to syntax errors, your Node version may be out of date.**
+
+To update to the latest version of node, follow the instructions below:
+  
+  - Switch to `super user` privileges by running the `su` command and entering in the root pw. (found in VM instructions)
+    
+  - Once successfully authenticated, globally install `n` by running: `sudo npm install -g n`
+    
+  - Next, install the latest stable version of node: `sudo n stable`
+    
+  - Check your node version: `node -v`.
+    
+      ```
+      v7.0.0
+      
+      ```
+      
+      Njk5YzcyOWEtMGI5MS00ZGY3LWI2MGQtYTVhNGM0YTA3NTMxOGU4NTc1N2EtNGEz
+
+
+### License
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License along with this program. If not, see http://www.gnu.org/licenses/.
