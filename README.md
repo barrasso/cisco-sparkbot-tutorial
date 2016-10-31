@@ -22,7 +22,7 @@ Everything you need to start creating apps and bots using Cisco Spark.
 
 ## Prerequisites
 
-1. [Create a Cisco Spark account!](https://web.ciscospark.com/#/signin)
+1. [Create a Cisco Spark account](https://web.ciscospark.com/#/signin)
 
 2. [Sign up for a Gupshup account](https://www.gupshup.io/developer/home#)
 
