@@ -115,7 +115,7 @@ node postgres-example.js
 Your output should look something like this:
 
 
-![Postgres Example Output](http://i.imgur.com/d2BMS0P.png)
+![Postgres Example Output](https://i.imgur.com/d2BMS0P.png)
 
 
 Make sure to change the string in `postgres-example.js` to perform your own custom queries:
@@ -160,7 +160,7 @@ SELECT clm_admsn_dt AS "Inpatient.Admission.Date", prvdr_num AS "Provider.Instit
 
 Output:
 
-![Advanced CMS Query](http://i.imgur.com/kVYAnB4.png)
+![Advanced CMS Query](https://i.imgur.com/kVYAnB4.png)
 
   
 ### License
