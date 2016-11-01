@@ -135,6 +135,10 @@ client.query('SELECT * from prescription_drug_events limit 5;', function (err, r
 - limit 10 query
 
 - advanced query
+
+```sql
+SELECT clm_admsn_dt AS "Inpatient.Admission.Date", prvdr_num AS "Provider.Institution", at_physn_npi AS "Attending.Physician.NPI" FROM inpatient_claims WHERE desynpuf_id = '0007F12A492FD25D';
+```
   
 ### License
 
