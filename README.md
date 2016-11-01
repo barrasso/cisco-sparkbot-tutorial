@@ -133,7 +133,10 @@ This process is very similar to creating a bot with Cisco Spark. Integrations ar
 ### Getting Started with iOS
 
 One way to integrate the `SparkSDK` in your project is with [CocoaPods](https://guides.cocoapods.org/using/getting-started.html#installation). 
-First, make sure that you have CocoaPods installed on your machine.  In Terminal, run the following commands:
+
+First, make sure that you have CocoaPods installed on your machine.  
+
+In Terminal, run the following commands:
 
 ```
 gem install cocoapods
