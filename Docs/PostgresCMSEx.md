@@ -40,19 +40,40 @@ To exit psql, type `CTRL + D`.
 
 ### Postgres Query Sample Code
 
+Instead of accessing the database tables via the command line, we can also query the same data using NodeJS. 
 
-0. 
-2. Install the project dependencies using npm: `npm install ./flint`
+0. Being by creating two files: `package.json` and `postgres-example.js`:
 
-3. Create two files `mybot.js` and `package.json`:
   ```
-  touch mybot.js
   touch package.json
+  
+  touch postgres-example.js
   ```
+
+**package.json**
+``` javascript
+{
+  "name": "pgsql-workspace",
+  "version": "1.0.1",
+  "description": "",
+  "main": "pgtest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "node-flint": "^4.0.1",
+    "pg": "^6.1.0"
+  }
+}
+```  
   
-  ```javascript
-  
-  var pg = require('pg');
+**postgres-example.js**
+```javascript
+var pg = require('pg');
 
 // instantiate a new client
 const connectionString = 'postgres://postgres:archhacks2016@localhost:5432/postgres';
@@ -76,25 +97,7 @@ client.connect(function (err) {
   });
 ```
 
-``` javascript
-{
-  "name": "pgsql-workspace",
-  "version": "1.0.1",
-  "description": "",
-  "main": "pgtest.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "node-flint": "^4.0.1",
-    "pg": "^6.1.0"
-  }
-}
-```
-
+### Query for Healthcare Data Using a Bot
+  
   
   
