@@ -47,7 +47,7 @@ You can learn more about what bots can do [here](https://developer.ciscospark.co
 
 ## Creating a Spark Bot
 
-#####Once you have created an account on [developer.ciscospark.com](https://developer.ciscospark.com):
+#####Once you have created a Spark account:
 
 - Navigate to [My Apps](https://developer.ciscospark.com/apps.html) on the Spark developer portal
 - Click on the plus sign in the upper right corner
