@@ -149,7 +149,8 @@ SELECT * FROM prescription_drug_events;
 ```
 *Warning: running this command will take ALOT of time and may freeze up your VM.*
 
-For more advanced users, you can build more complex queries to search for specific cases:
+
+#####For more advanced users, you can build more complex queries to search for specific cases.
 
 For example, the following query will return hospitalization dates, as well as the corresponding hospital IDs and the attending physician IDs, for one particular patient.
 
