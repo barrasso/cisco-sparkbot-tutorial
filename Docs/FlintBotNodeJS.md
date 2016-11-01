@@ -90,7 +90,7 @@ flint.on('message', function(bot, trigger, id) {
 
 flint.on('initialized', function() {
   flint.debug('initialized %s rooms', flint.bots.length);
-});sudoe
+});
 
 // define express path for incoming webhooks
 app.post('/flint', webhook(flint));
