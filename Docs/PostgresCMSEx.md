@@ -123,22 +123,44 @@ Make sure to change the string in `postgres-example.js` to perform your own cust
 ```javascript
 // execute a query on our database
 client.query('SELECT * from prescription_drug_events limit 5;', function (err, result) {...}
-```
-
-### Query for Healthcare Data Using a Bot
-  
+```  
 
 ### More Sample Queries
 
-- basic query
+Here is an example of a basic query that will return the top ten most recent claim IDs:
 
-- limit 10 query
+```
+SELECT clm_id FROM carrier_claims limit 10;
+```
 
-- advanced query
+Also, dont forget to include a `limit` to your queries. 
+
+Otherwise, it will take forever to output all of the table's data.
+
+**GOOD:**
+
+```sql
+SELECT * FROM prescription_drug_events limit 10;
+```
+
+**BAD:**
+```sql
+SELECT * FROM prescription_drug_events;
+```
+*Warning: running this command will take ALOT of time and may freeze up your VM.*
+
+For more advanced users, you can build more complex queries to search for specific cases:
+
+For example, the following query will return hospitalization dates, as well as the corresponding hospital IDs and the attending physician IDs, for one particular patient.
 
 ```sql
 SELECT clm_admsn_dt AS "Inpatient.Admission.Date", prvdr_num AS "Provider.Institution", at_physn_npi AS "Attending.Physician.NPI" FROM inpatient_claims WHERE desynpuf_id = '0007F12A492FD25D';
 ```
+
+Output:
+
+![Advanced CMS Query](http://i.imgur.com/kVYAnB4.png)
+
   
 ### License
 
