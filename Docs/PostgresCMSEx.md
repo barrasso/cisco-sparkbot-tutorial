@@ -39,17 +39,19 @@ ALTER USER "postgres" WITH PASSWORD 'archhacks2016'
 
 To exit psql, type `CTRL + D`.
 
-### Postgres Query Sample Code
+### Postgres Query Example
 
 Instead of accessing the database tables via the command line, we can also query the same data using NodeJS. 
 
-0. Start by creating two files: `package.json` and `postgres-example.js`:
+0. Start by creating two example files: `package.json` and `postgres-example.js`:
 
 ```
 touch package.json
   
 touch postgres-example.js
 ```
+
+Here is some sample code to get started:
 
 **package.json**
 ``` javascript
@@ -85,7 +87,7 @@ client.connect(function (err) {
   if (err) throw err;
 
   // execute a query on our database
-  client.query('SELECT * from prescription_drug_events limit 5;', function (err, resul$
+  client.query('SELECT * from prescription_drug_events limit 5;', function (err, result) {
     if (err) throw err;
 
     // just print the result to the console
@@ -104,11 +106,35 @@ client.connect(function (err) {
 npm install
 ```
 
+2. Finally, execute the code example:
+
+``` 
+node postgres-example.js
+```
+
+Your output should look something like this:
+
+
+![Postgres Example Output](http://i.imgur.com/d2BMS0P.png)
+
+
+Make sure to change the string in `postgres-example.js` to perform your own custom queries:
+
+```javascript
+// execute a query on our database
+client.query('SELECT * from prescription_drug_events limit 5;', function (err, result) {...}
+```
+
 ### Query for Healthcare Data Using a Bot
   
 
 ### More Sample Queries
 
+- basic query
+
+- limit 10 query
+
+- advanced query
   
 ### License
 
