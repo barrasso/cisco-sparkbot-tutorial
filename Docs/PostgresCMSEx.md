@@ -43,7 +43,7 @@ To exit psql, type `CTRL + D`.
 
 Instead of accessing the database tables via the command line, we can also query the same data using NodeJS. 
 
-0. Being by creating two files: `package.json` and `postgres-example.js`:
+0. Start by creating two files: `package.json` and `postgres-example.js`:
 
 ```
 touch package.json
@@ -98,7 +98,17 @@ client.connect(function (err) {
   });
 ```
 
+1. Next, install the project dependencies:
+
+```
+npm install
+```
+
 ### Query for Healthcare Data Using a Bot
   
+
+### More Sample Queries
+
   
-  
+### License
+
