@@ -136,10 +136,9 @@ To update to the latest version of node, follow the instructions below:
     
   - Check your node version: `node -v`.
     
-      ```
-      v7.0.0
-      
-      ```
+  ```
+  v7.0.0    
+  ```
       
 ### Connecting to Spark
 
