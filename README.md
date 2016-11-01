@@ -24,7 +24,7 @@ Everything you need to start creating apps and bots using Cisco Spark.
 
 1. [Create a Cisco Spark account](https://web.ciscospark.com/#/signin)
 
-2. [Sign up for a Gupshup account](https://www.gupshup.io/developer/home#)
+2. [Log in to your Gupshup account](https://www.gupshup.io/developer/home#) using your Github or Facebook account.
 
 ## Overview
 
@@ -76,7 +76,7 @@ Then, create a bot using the popup wizard in Gupshup:
 
 <img src="https://imgur.com/RBEboPx.png"/>
 
-Fill out the basic bot information:
+Fill out the basic bot information (it does not have to share the same name as your Spark bot):
 
 <img src="https://imgur.com/gvu0gaW.png"/>
 
@@ -125,6 +125,7 @@ This process is very similar to creating a bot with Cisco Spark. Integrations ar
 - Click on the plus sign in the upper right corner
 - Select `Create an Integration`
 - Enter in the basic app information: e.g. the app's name, description, and icon url
+  - *You may choose to use this link: "http://i.imgur.com/KwdBVgD.png" for the icon url* 
 - Enter a `Redirect URI` (This is used for [OAuth2](https://oauth.net/2/) authentication)
 - Next, select your required persmissions from the list of available `Scope` options
 - Once ready, select `Add Integration`
