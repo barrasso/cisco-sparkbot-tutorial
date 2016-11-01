@@ -20,11 +20,26 @@ Once authenticated, run the `psql` command to access postgres via Terminal.
 
 From there, you can run `\dt` to view all of the tables in the current database.
 
-![psql](http://i.imgur.com/YDxpEfy.png)
+*Type `\h` to see a list of all available commands.*
+
+
+![psql](https://i.imgur.com/YDxpEfy.png =300px)
+
+
+**NOTE:** In order to use the postgres database in your own NodeJS app, make sure you change the password.
+
+You can change the postgres password by running the following command in `psql`:
+
+```
+ALTER USER "postgres" WITH PASSWORD 'archhacks2016'
+```
+*(change the password to whatever you like, just make sure to remember it!)*
+
 
 To exit psql, type `CTRL + D`.
 
 ### Postgres Query Sample Code
+
 
 0. 
 2. Install the project dependencies using npm: `npm install ./flint`
