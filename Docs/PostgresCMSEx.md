@@ -35,5 +35,51 @@ To exit psql, type `CTRL + D`.
   touch package.json
   ```
   
+  ```javascript
+  
+  var pg = require('pg');
+
+// instantiate a new client
+const connectionString = 'postgres://postgres:archhacks2016@localhost:5432/postgres';
+var client = new pg.Client(connectionString);
+
+// connect to our database
+client.connect(function (err) {
+  if (err) throw err;
+
+  // execute a query on our database
+  client.query('SELECT * from prescription_drug_events limit 5;', function (err, resul$
+    if (err) throw err;
+
+    // just print the result to the console
+    console.log(result.rows[0]);
+
+    // disconnect the client
+    client.end(function (err) {
+      if (err) throw err;
+    });
+  });
+```
+
+``` javascript
+{
+  "name": "pgsql-workspace",
+  "version": "1.0.1",
+  "description": "",
+  "main": "pgtest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "node-flint": "^4.0.1",
+    "pg": "^6.1.0"
+  }
+}
+```
+
   
   
