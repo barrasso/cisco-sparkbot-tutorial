@@ -56,7 +56,7 @@ Instead of accessing the database tables via the command line, we can also query
   "name": "pgsql-workspace",
   "version": "1.0.1",
   "description": "",
-  "main": "pgtest.js",
+  "main": "postgres-example.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
