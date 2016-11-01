@@ -200,6 +200,8 @@ var config = {
 ```
 Once saved, now run your bot using `node mybot.js` and the webhook will begin to POST new messages in the Spark room.
 
+##### Want to incorporate healthcare data into your bots?  [Check out our example](https://github.com/barrasso/cisco-spark-dev-guide/blob/master/Docs/PostgresCMSEx.md) using Postgres to query a CMS database.
+
 ### License
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
