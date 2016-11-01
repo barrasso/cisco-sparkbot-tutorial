@@ -11,6 +11,7 @@ Let's begin by accessing the database via command line:
 0. Right click the desktop, and `open the Terminal`.
 
 1. Change your user account to gain access to the db:
+
 ```
 sudo -u postgres -i
 ```
@@ -44,11 +45,11 @@ Instead of accessing the database tables via the command line, we can also query
 
 0. Being by creating two files: `package.json` and `postgres-example.js`:
 
-  ```
-  touch package.json
+```
+touch package.json
   
-  touch postgres-example.js
-  ```
+touch postgres-example.js
+```
 
 **package.json**
 ``` javascript
