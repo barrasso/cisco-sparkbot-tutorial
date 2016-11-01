@@ -56,7 +56,9 @@ To begin setting up the environment:
 }
 ```
 **mybot.js**
+
 ```javascript
+
 var Flint = require('node-flint');
 var webhook = require('node-flint/webhook');
 var express = require('express');
@@ -66,8 +68,8 @@ app.use(bodyParser.json());
 
 // flint options
 var config = {
-  webhookUrl: 'https://<host>/flint',
-  token: '<token>',
+  webhookUrl: '<YOUR_WEBHOOK_URL>',
+  token: '<YOUR_TOKEN>',
   port: 8080,
   removeWebhooksOnStart: false,
   maxConcurrent: 5,
@@ -108,6 +110,7 @@ process.on('SIGINT', function() {
     process.exit();
   });
 });
+
 ```
 
 
