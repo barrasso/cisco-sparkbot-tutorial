@@ -171,10 +171,6 @@ First off, you'll need to create a bot on Spark:
 
 - Navigate to [this resource](https://developer.ciscospark.com/endpoint-webhooks-post.html) to create a webhook
   - Alternatively, you can perform a POST using Postman to create webhooks
-```
-POST
-https://api.ciscospark.com/v1/webhooks
-```
 - Fill out the required variables: `name`, `targetUrl`, `resource`, `event`, `filter`, and `secret`. 
 - In a production enviroment, you would setup the webhook so that Spark sends the request to your app.  However, you can use [http://requestb.in/](requestb.in) so that you can see how a webhook works without developing an app first.
   1. Go to [http://requestb.in/](http://requestb.in/)
