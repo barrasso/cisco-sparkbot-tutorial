@@ -1,6 +1,6 @@
-## Using Postgres in NodeJS
+## Example Using Postgres in NodeJS
 
-This example demonstrates how to query your local Postgres database to retrieve sample CMS healthcare data
+Demonstrates how to query your local Postgres database to retrieve sample CMS healthcare data.
 
 **Note: If you are using the virtual machine on the USB we provided, (and have not set it up yet), make sure you follow the step by step tutorial how to setup your VM.  This tutorial is located in the root folder of the 'Get_Started` directory.**
 
