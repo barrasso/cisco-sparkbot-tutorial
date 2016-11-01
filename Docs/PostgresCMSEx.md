@@ -1,6 +1,6 @@
 ## Example Using Postgres in NodeJS
 
-This guide shows how to query your local Postgres database to retrieve sample CMS healthcare data.
+This guide demonstrates how to query your local Postgres database to retrieve sample CMS healthcare data.
 
 **Note: If you are using the virtual machine on the USB we provided, (and have not set it up yet), make sure you follow the step by step tutorial how to setup your VM.  This tutorial is located in the root folder of the 'Get_Started` directory.**
 
@@ -43,7 +43,7 @@ To exit psql, type `CTRL + D`.
 
 Instead of accessing the database tables via the command line, we can also query the same data using NodeJS. 
 
-0. Start by creating two example files: `package.json` and `postgres-example.js`:
+Start by creating two example files: `package.json` and `postgres-example.js`:
 
 ```
 touch package.json
@@ -100,13 +100,13 @@ client.connect(function (err) {
   });
 ```
 
-1. Next, install the project dependencies:
+Next, install the project dependencies:
 
 ```
 npm install
 ```
 
-2. Finally, execute the code example:
+Finally, execute the example code:
 
 ``` 
 node postgres-example.js
