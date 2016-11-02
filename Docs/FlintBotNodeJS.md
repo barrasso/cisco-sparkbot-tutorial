@@ -173,7 +173,7 @@ First off, you'll need to create a bot on Spark:
   - Alternatively, you can perform a POST using Postman to create webhooks
 - Fill out the required variables: `name`, `targetUrl`, `resource`, `event`, `filter`, and `secret`. 
 - In a production enviroment, you would setup the webhook so that Spark sends the request to your app.  However, you can use [http://requestb.in/](requestb.in) so that you can see how a webhook works without developing an app first.
-  1. Go to [http://requestb.in/](http://requestb.in/)
+  1. Go to [RequestB.in/](http://requestb.in/)
   2. Click on `Create a Requestb.in`
   3. Take note of your new bin URL
   4. You can stay on this page and refresh it to see incoming POST data from the Spark webhook
