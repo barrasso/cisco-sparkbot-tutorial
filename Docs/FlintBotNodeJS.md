@@ -15,7 +15,29 @@ To begin setting up the environment:
 2. Make sure `npm` is installed by running `which npm`.
   - Again, your output should look something like this: `/usr/local/bin/npm`
 
-#### Once your bot development environment is setup, we can start coding!
+### Connecting to Spark
+
+To begin listening for new messages, you must first create a [webhook](https://developer.ciscospark.com/webhooks-explained.html). 
+
+First off, you'll need to create a bot on Spark:
+
+- Navigate to [My Apps](https://developer.ciscospark.com/apps.html) on the Spark developer portal
+- Click on the plus sign in the upper right corner
+- Select `Create a Bot`
+- Enter in the basic information: e.g. the bot's display name, Spark username, and icon url
+  - *You may choose to use this link: "https://i.imgur.com/H0bCPEm.png" for the icon url* 
+- Once ready, select `Add Bot`
+
+<img src="https://imgur.com/bh0AVpQ.png"/>
+
+- Next, open the Spark client app on your phone or desk
+- Search for your newly created bot by username and add it to a room
+- Once you created a new room, navigate to the [Spark developer portal](https://developer.ciscospark.com/endpoint-rooms-get.html) to get the `roomId`
+- Using the [get rooms endpoint](https://developer.ciscospark.com/endpoint-rooms-get.html), make sure `Test Mode` is set to ON
+- Scroll down the page and take note of the `Authorization` header (you will need that Bearer token)
+- Click the `Run` button
+- If successful, your response will be displayed on the right side of the screen
+- Copy the `"id"` variable of the respective bot room
 
 ### Getting Started
 
@@ -138,34 +160,10 @@ To update to the latest version of node, follow the instructions below:
   - Next, install the latest stable version of node: `sudo n stable`
     
   - Check your node version: `node -v`.
-    
   ```
   v7.0.0    
   ```
       
-### Connecting to Spark
-
-To begin listening for new messages, you must first create a [webhook](https://developer.ciscospark.com/webhooks-explained.html). 
-
-First off, you'll need to create a bot on Spark:
-
-- Navigate to [My Apps](https://developer.ciscospark.com/apps.html) on the Spark developer portal
-- Click on the plus sign in the upper right corner
-- Select `Create a Bot`
-- Enter in the basic information: e.g. the bot's display name, Spark username, and icon url
-  - *You may choose to use this link: "https://i.imgur.com/H0bCPEm.png" for the icon url* 
-- Once ready, select `Add Bot`
-
-<img src="https://imgur.com/bh0AVpQ.png"/>
-
-- Next, open the Spark client app on your phone or desk
-- Search for your newly created bot by username and add it to a room
-- Once you created a new room, navigate to the [Spark developer portal](https://developer.ciscospark.com/endpoint-rooms-get.html) to get the `roomId`
-- Using the [get rooms endpoint](https://developer.ciscospark.com/endpoint-rooms-get.html), make sure `Test Mode` is set to ON
-- Scroll down the page and take note of the `Authorization` header (you will need that Bearer token)
-- Click the `Run` button
-- If successful, your response will be displayed on the right side of the screen
-- Copy the `"id"` variable of the respective bot room
 
 ### Creating a Webhook
 
