@@ -118,7 +118,7 @@ Check out the sample application using Flint [here](https://github.com/barrasso/
 
 This process is very similar to creating a bot with Cisco Spark. Integrations are a way for your apps to request permission to invoke the Spark APIs on behalf of other Spark users. The process used to request permission is called an OAuth Grant Flow, and is documented in the [Spark Integrations guide](https://developer.ciscospark.com/authentication.html).
 
-#####Once you have created an account on [developer.ciscospark.com](developer.ciscospark.com):
+#####Once you have created an account on [developer.ciscospark.com](https://developer.ciscospark.com):
 
 - Navigate to [My Apps](https://developer.ciscospark.com/apps.html) on the Spark developer portal
 - Click on the plus sign in the upper right corner
@@ -160,7 +160,7 @@ Edit the `Podfile` to include `SparkSDK`.
 ```
 source 'https://github.com/CocoaPods/Specs.git'
 
-platform :ios, '8.0'
+platform :ios, '9.0'
 use_frameworks!
 
 target 'YourApp' do
